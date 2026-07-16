@@ -1,0 +1,37 @@
+# 基础
+torch==2.3.1
+transformers==4.42.4
+accelerate==0.31.0
+peft==0.11.1
+bitsandbytes==0.43.1
+datasets==2.19.1
+trl==0.8.6
+
+# 文档解析
+pdfplumber
+python-docx
+markdown
+
+# 向量检索
+faiss-cpu
+rank_bm25
+sentence-transformers
+FlagEmbedding
+#bge-reranker 包含在 ‌FlagEmbedding‌ 库中
+
+# 语音ASR
+openai-whisper
+librosa
+soundfile
+
+# 前端&服务
+gradio==4.36.1
+fastapi
+uvicorn
+
+# 工具
+tqdm
+jsonlines
+numpy
+pandas
+jieba

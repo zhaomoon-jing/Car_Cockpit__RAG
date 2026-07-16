@@ -1,0 +1,73 @@
+{"text": "奥迪A6的型号是什么？", "label": 0, "intent": "车辆信息查询", "car_model": "奥迪A6", "template": "{}的型号是什么？"}
+{"text": "大众帕萨特的型号是什么？", "label": 0, "intent": "车辆信息查询", "car_model": "大众帕萨特", "template": "{}的型号是什么？"}
+{"text": "蔚来ES6的型号是什么？", "label": 0, "intent": "车辆信息查询", "car_model": "蔚来ES6", "template": "{}的型号是什么？"}
+{"text": "理想ONE的生产日期是哪一年？", "label": 0, "intent": "车辆信息查询", "car_model": "理想ONE", "template": "{}的生产日期是哪一年？"}
+{"text": "奥迪A6的配置有哪些？", "label": 0, "intent": "车辆信息查询", "car_model": "奥迪A6", "template": "{}的配置有哪些？"}
+{"text": "奥迪A6的车辆识别码是多少？", "label": 0, "intent": "车辆信息查询", "car_model": "奥迪A6", "template": "{}的车辆识别码是多少？"}
+{"text": "本田雅阁的车辆识别码是多少？", "label": 0, "intent": "车辆信息查询", "car_model": "本田雅阁", "template": "{}的车辆识别码是多少？"}
+{"text": "奥迪A6的发动机型号是什么？", "label": 0, "intent": "车辆信息查询", "car_model": "奥迪A6", "template": "{}的发动机型号是什么？"}
+{"text": "如何打开宝马X5的空调？", "label": 1, "intent": "操作指南", "car_model": "宝马X5", "template": "如何打开{}的空调？"}
+{"text": "如何打开理想ONE的空调？", "label": 1, "intent": "操作指南", "car_model": "理想ONE", "template": "如何打开{}的空调？"}
+{"text": "奥迪A6的灯光怎么调节？", "label": 1, "intent": "操作指南", "car_model": "奥迪A6", "template": "{}的灯光怎么调节？"}
+{"text": "理想ONE的灯光怎么调节？", "label": 1, "intent": "操作指南", "car_model": "理想ONE", "template": "{}的灯光怎么调节？"}
+{"text": "如何设置奔驰E级的座椅记忆？", "label": 1, "intent": "操作指南", "car_model": "奔驰E级", "template": "如何设置{}的座椅记忆？"}
+{"text": "如何设置本田雅阁的座椅记忆？", "label": 1, "intent": "操作指南", "car_model": "本田雅阁", "template": "如何设置{}的座椅记忆？"}
+{"text": "如何设置大众帕萨特的座椅记忆？", "label": 1, "intent": "操作指南", "car_model": "大众帕萨特", "template": "如何设置{}的座椅记忆？"}
+{"text": "如何设置蔚来ES6的座椅记忆？", "label": 1, "intent": "操作指南", "car_model": "蔚来ES6", "template": "如何设置{}的座椅记忆？"}
+{"text": "宝马X5的雨刷器怎么使用？", "label": 1, "intent": "操作指南", "car_model": "宝马X5", "template": "{}的雨刷器怎么使用？"}
+{"text": "奔驰E级的雨刷器怎么使用？", "label": 1, "intent": "操作指南", "car_model": "奔驰E级", "template": "{}的雨刷器怎么使用？"}
+{"text": "奥迪A6的雨刷器怎么使用？", "label": 1, "intent": "操作指南", "car_model": "奥迪A6", "template": "{}的雨刷器怎么使用？"}
+{"text": "如何连接宝马X5的蓝牙？", "label": 1, "intent": "操作指南", "car_model": "宝马X5", "template": "如何连接{}的蓝牙？"}
+{"text": "如何连接奔驰E级的蓝牙？", "label": 1, "intent": "操作指南", "car_model": "奔驰E级", "template": "如何连接{}的蓝牙？"}
+{"text": "宝马X5启动不了怎么办？", "label": 2, "intent": "故障诊断", "car_model": "宝马X5", "template": "{}启动不了怎么办？"}
+{"text": "本田雅阁启动不了怎么办？", "label": 2, "intent": "故障诊断", "car_model": "本田雅阁", "template": "{}启动不了怎么办？"}
+{"text": "理想ONE的发动机故障灯亮了", "label": 2, "intent": "故障诊断", "car_model": "理想ONE", "template": "{}的发动机故障灯亮了"}
+{"text": "特斯拉Model 3的刹车有异响", "label": 2, "intent": "故障诊断", "car_model": "特斯拉Model 3", "template": "{}的刹车有异响"}
+{"text": "大众帕萨特的刹车有异响", "label": 2, "intent": "故障诊断", "car_model": "大众帕萨特", "template": "{}的刹车有异响"}
+{"text": "本田雅阁的空调不制冷", "label": 2, "intent": "故障诊断", "car_model": "本田雅阁", "template": "{}的空调不制冷"}
+{"text": "蔚来ES6的空调不制冷", "label": 2, "intent": "故障诊断", "car_model": "蔚来ES6", "template": "{}的空调不制冷"}
+{"text": "特斯拉Model 3的电池充不进电", "label": 2, "intent": "故障诊断", "car_model": "特斯拉Model 3", "template": "{}的电池充不进电"}
+{"text": "宝马X5的电池充不进电", "label": 2, "intent": "故障诊断", "car_model": "宝马X5", "template": "{}的电池充不进电"}
+{"text": "比亚迪汉的电池充不进电", "label": 2, "intent": "故障诊断", "car_model": "比亚迪汉", "template": "{}的电池充不进电"}
+{"text": "蔚来ES6的电池充不进电", "label": 2, "intent": "故障诊断", "car_model": "蔚来ES6", "template": "{}的电池充不进电"}
+{"text": "蔚来ES6多久需要保养一次？", "label": 3, "intent": "保养维护", "car_model": "蔚来ES6", "template": "{}多久需要保养一次？"}
+{"text": "宝马X5的轮胎多久更换？", "label": 3, "intent": "保养维护", "car_model": "宝马X5", "template": "{}的轮胎多久更换？"}
+{"text": "特斯拉Model 3的刹车片磨损标准", "label": 3, "intent": "保养维护", "car_model": "特斯拉Model 3", "template": "{}的刹车片磨损标准"}
+{"text": "特斯拉Model 3的空调滤芯更换周期", "label": 3, "intent": "保养维护", "car_model": "特斯拉Model 3", "template": "{}的空调滤芯更换周期"}
+{"text": "丰田凯美瑞的空调滤芯更换周期", "label": 3, "intent": "保养维护", "car_model": "丰田凯美瑞", "template": "{}的空调滤芯更换周期"}
+{"text": "蔚来ES6的空调滤芯更换周期", "label": 3, "intent": "保养维护", "car_model": "蔚来ES6", "template": "{}的空调滤芯更换周期"}
+{"text": "奔驰E级的胎压报警", "label": 4, "intent": "安全警告", "car_model": "奔驰E级", "template": "{}的胎压报警"}
+{"text": "丰田凯美瑞的ABS故障警告", "label": 4, "intent": "安全警告", "car_model": "丰田凯美瑞", "template": "{}的ABS故障警告"}
+{"text": "本田雅阁的ABS故障警告", "label": 4, "intent": "安全警告", "car_model": "本田雅阁", "template": "{}的ABS故障警告"}
+{"text": "奔驰E级的最大扭矩是多少？", "label": 5, "intent": "技术规格", "car_model": "奔驰E级", "template": "{}的最大扭矩是多少？"}
+{"text": "大众帕萨特的油耗是多少？", "label": 5, "intent": "技术规格", "car_model": "大众帕萨特", "template": "{}的油耗是多少？"}
+{"text": "比亚迪汉的油耗是多少？", "label": 5, "intent": "技术规格", "car_model": "比亚迪汉", "template": "{}的油耗是多少？"}
+{"text": "奥迪A6的电池容量", "label": 5, "intent": "技术规格", "car_model": "奥迪A6", "template": "{}的电池容量"}
+{"text": "比亚迪汉的电池容量", "label": 5, "intent": "技术规格", "car_model": "比亚迪汉", "template": "{}的电池容量"}
+{"text": "比亚迪汉的续航里程", "label": 5, "intent": "技术规格", "car_model": "比亚迪汉", "template": "{}的续航里程"}
+{"text": "特斯拉Model 3怎么充电？", "label": 6, "intent": "电池充电", "car_model": "特斯拉Model 3", "template": "{}怎么充电？"}
+{"text": "本田雅阁的充电时间要多久？", "label": 6, "intent": "电池充电", "car_model": "本田雅阁", "template": "{}的充电时间要多久？"}
+{"text": "丰田凯美瑞的快充功率", "label": 6, "intent": "电池充电", "car_model": "丰田凯美瑞", "template": "{}的快充功率"}
+{"text": "比亚迪汉的电池保修政策", "label": 6, "intent": "电池充电", "car_model": "比亚迪汉", "template": "{}的电池保修政策"}
+{"text": "理想ONE的电池保修政策", "label": 6, "intent": "电池充电", "car_model": "理想ONE", "template": "{}的电池保修政策"}
+{"text": "本田雅阁的电池衰减标准", "label": 6, "intent": "电池充电", "car_model": "本田雅阁", "template": "{}的电池衰减标准"}
+{"text": "奔驰E级的导航系统使用", "label": 7, "intent": "娱乐系统", "car_model": "奔驰E级", "template": "{}的导航系统使用"}
+{"text": "大众帕萨特的导航系统使用", "label": 7, "intent": "娱乐系统", "car_model": "大众帕萨特", "template": "{}的导航系统使用"}
+{"text": "丰田凯美瑞的车载娱乐功能", "label": 7, "intent": "娱乐系统", "car_model": "丰田凯美瑞", "template": "{}的车载娱乐功能"}
+{"text": "比亚迪汉的车载娱乐功能", "label": 7, "intent": "娱乐系统", "car_model": "比亚迪汉", "template": "{}的车载娱乐功能"}
+{"text": "宝马X5的屏幕显示设置", "label": 7, "intent": "娱乐系统", "car_model": "宝马X5", "template": "{}的屏幕显示设置"}
+{"text": "本田雅阁的屏幕显示设置", "label": 7, "intent": "娱乐系统", "car_model": "本田雅阁", "template": "{}的屏幕显示设置"}
+{"text": "大众帕萨特的屏幕显示设置", "label": 7, "intent": "娱乐系统", "car_model": "大众帕萨特", "template": "{}的屏幕显示设置"}
+{"text": "特斯拉Model 3的自适应巡航怎么用？", "label": 8, "intent": "驾驶辅助", "car_model": "特斯拉Model 3", "template": "{}的自适应巡航怎么用？"}
+{"text": "宝马X5的自适应巡航怎么用？", "label": 8, "intent": "驾驶辅助", "car_model": "宝马X5", "template": "{}的自适应巡航怎么用？"}
+{"text": "比亚迪汉的自适应巡航怎么用？", "label": 8, "intent": "驾驶辅助", "car_model": "比亚迪汉", "template": "{}的自适应巡航怎么用？"}
+{"text": "奥迪A6的自动泊车功能", "label": 8, "intent": "驾驶辅助", "car_model": "奥迪A6", "template": "{}的自动泊车功能"}
+{"text": "大众帕萨特的自动泊车功能", "label": 8, "intent": "驾驶辅助", "car_model": "大众帕萨特", "template": "{}的自动泊车功能"}
+{"text": "理想ONE的自动泊车功能", "label": 8, "intent": "驾驶辅助", "car_model": "理想ONE", "template": "{}的自动泊车功能"}
+{"text": "特斯拉Model 3的车道保持辅助", "label": 8, "intent": "驾驶辅助", "car_model": "特斯拉Model 3", "template": "{}的车道保持辅助"}
+{"text": "奔驰E级的盲点监测", "label": 8, "intent": "驾驶辅助", "car_model": "奔驰E级", "template": "{}的盲点监测"}
+{"text": "特斯拉Model 3的购车优惠", "label": 9, "intent": "其他问题", "car_model": "特斯拉Model 3", "template": "{}的购车优惠"}
+{"text": "宝马X5的保险怎么买？", "label": 9, "intent": "其他问题", "car_model": "宝马X5", "template": "{}的保险怎么买？"}
+{"text": "丰田凯美瑞的改装建议", "label": 9, "intent": "其他问题", "car_model": "丰田凯美瑞", "template": "{}的改装建议"}
+{"text": "本田雅阁的改装建议", "label": 9, "intent": "其他问题", "car_model": "本田雅阁", "template": "{}的改装建议"}
+{"text": "奥迪A6的驾驶感受", "label": 9, "intent": "其他问题", "car_model": "奥迪A6", "template": "{}的驾驶感受"}

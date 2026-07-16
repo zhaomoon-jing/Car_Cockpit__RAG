@@ -1,0 +1,57 @@
+car_cockpit_rag/
+├── config.py                 # 全局配置
+├── requirements.txt
+├── main.py                   # 一键启动Gradio
+├── data/
+│   ├── raw/                  # 放车辆手册pdf/txt
+│   ├── chunks/               # 分块后json
+│   └── qa_train/             # LoRA微调QA数据集
+├── data_process/
+│   ├── parse_pdf.py
+│   ├── clean_chunk.py
+│   └── build_chunk.py
+├── vector_store/
+│   ├── faiss_index/          # 向量库持久化文件
+│   └── build_faiss.py
+├── speech_asr/
+│   └── whisper_asr.py
+├── intent_cls/
+│   ├── train_intent.py
+│   └── infer_intent.py
+├── retriever/
+│   ├── bm25_retriever.py
+│   ├── dense_retriever.py
+│   └── rerank.py
+├── llm_infer/
+│   ├── train_lora.py         # LoRA微调脚本
+│   └── rag_llm.py            # LLM RAG推理
+└── gradio_web/
+    └── app.py                # 可视化页面car_cockpit_rag/
+├── config.py                 # 全局配置
+├── requirements.txt
+├── main.py                   # 一键启动Gradio
+├── data/
+│   ├── raw/                  # 放车辆手册pdf/txt
+│   ├── chunks/               # 分块后json
+│   └── qa_train/             # LoRA微调QA数据集
+├── data_process/
+│   ├── parse_pdf.py
+│   ├── clean_chunk.py
+│   └── build_chunk.py
+├── vector_store/
+│   ├── faiss_index/          # 向量库持久化文件
+│   └── build_faiss.py
+├── speech_asr/
+│   └── whisper_asr.py
+├── intent_cls/
+│   ├── train_intent.py
+│   └── infer_intent.py
+├── retriever/
+│   ├── bm25_retriever.py
+│   ├── dense_retriever.py
+│   └── rerank.py
+├── llm_infer/
+│   ├── train_lora.py         # LoRA微调脚本
+│   └── rag_llm.py            # LLM RAG推理
+└── gradio_web/
+    └── app.py                # 可视化页面

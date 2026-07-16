@@ -1,0 +1,69 @@
+{"text": "宝马X5的生产日期是哪一年？", "label": 0, "intent": "车辆信息查询", "car_model": "宝马X5", "template": "{}的生产日期是哪一年？"}
+{"text": "奔驰E级的生产日期是哪一年？", "label": 0, "intent": "车辆信息查询", "car_model": "奔驰E级", "template": "{}的生产日期是哪一年？"}
+{"text": "奥迪A6的生产日期是哪一年？", "label": 0, "intent": "车辆信息查询", "car_model": "奥迪A6", "template": "{}的生产日期是哪一年？"}
+{"text": "蔚来ES6的生产日期是哪一年？", "label": 0, "intent": "车辆信息查询", "car_model": "蔚来ES6", "template": "{}的生产日期是哪一年？"}
+{"text": "丰田凯美瑞的配置有哪些？", "label": 0, "intent": "车辆信息查询", "car_model": "丰田凯美瑞", "template": "{}的配置有哪些？"}
+{"text": "理想ONE的配置有哪些？", "label": 0, "intent": "车辆信息查询", "car_model": "理想ONE", "template": "{}的配置有哪些？"}
+{"text": "奔驰E级的车辆识别码是多少？", "label": 0, "intent": "车辆信息查询", "car_model": "奔驰E级", "template": "{}的车辆识别码是多少？"}
+{"text": "丰田凯美瑞的车辆识别码是多少？", "label": 0, "intent": "车辆信息查询", "car_model": "丰田凯美瑞", "template": "{}的车辆识别码是多少？"}
+{"text": "理想ONE的车辆识别码是多少？", "label": 0, "intent": "车辆信息查询", "car_model": "理想ONE", "template": "{}的车辆识别码是多少？"}
+{"text": "奔驰E级的发动机型号是什么？", "label": 0, "intent": "车辆信息查询", "car_model": "奔驰E级", "template": "{}的发动机型号是什么？"}
+{"text": "丰田凯美瑞的发动机型号是什么？", "label": 0, "intent": "车辆信息查询", "car_model": "丰田凯美瑞", "template": "{}的发动机型号是什么？"}
+{"text": "如何打开本田雅阁的空调？", "label": 1, "intent": "操作指南", "car_model": "本田雅阁", "template": "如何打开{}的空调？"}
+{"text": "宝马X5的灯光怎么调节？", "label": 1, "intent": "操作指南", "car_model": "宝马X5", "template": "{}的灯光怎么调节？"}
+{"text": "蔚来ES6的灯光怎么调节？", "label": 1, "intent": "操作指南", "car_model": "蔚来ES6", "template": "{}的灯光怎么调节？"}
+{"text": "如何连接特斯拉Model 3的蓝牙？", "label": 1, "intent": "操作指南", "car_model": "特斯拉Model 3", "template": "如何连接{}的蓝牙？"}
+{"text": "如何连接奥迪A6的蓝牙？", "label": 1, "intent": "操作指南", "car_model": "奥迪A6", "template": "如何连接{}的蓝牙？"}
+{"text": "如何连接丰田凯美瑞的蓝牙？", "label": 1, "intent": "操作指南", "car_model": "丰田凯美瑞", "template": "如何连接{}的蓝牙？"}
+{"text": "宝马X5的发动机故障灯亮了", "label": 2, "intent": "故障诊断", "car_model": "宝马X5", "template": "{}的发动机故障灯亮了"}
+{"text": "比亚迪汉的发动机故障灯亮了", "label": 2, "intent": "故障诊断", "car_model": "比亚迪汉", "template": "{}的发动机故障灯亮了"}
+{"text": "本田雅阁的刹车有异响", "label": 2, "intent": "故障诊断", "car_model": "本田雅阁", "template": "{}的刹车有异响"}
+{"text": "特斯拉Model 3的空调不制冷", "label": 2, "intent": "故障诊断", "car_model": "特斯拉Model 3", "template": "{}的空调不制冷"}
+{"text": "奔驰E级的空调不制冷", "label": 2, "intent": "故障诊断", "car_model": "奔驰E级", "template": "{}的空调不制冷"}
+{"text": "本田雅阁的电池充不进电", "label": 2, "intent": "故障诊断", "car_model": "本田雅阁", "template": "{}的电池充不进电"}
+{"text": "比亚迪汉多久需要保养一次？", "label": 3, "intent": "保养维护", "car_model": "比亚迪汉", "template": "{}多久需要保养一次？"}
+{"text": "理想ONE的机油怎么更换？", "label": 3, "intent": "保养维护", "car_model": "理想ONE", "template": "{}的机油怎么更换？"}
+{"text": "比亚迪汉的刹车片磨损标准", "label": 3, "intent": "保养维护", "car_model": "比亚迪汉", "template": "{}的刹车片磨损标准"}
+{"text": "奥迪A6的安全带提示", "label": 4, "intent": "安全警告", "car_model": "奥迪A6", "template": "{}的安全带提示"}
+{"text": "丰田凯美瑞的胎压报警", "label": 4, "intent": "安全警告", "car_model": "丰田凯美瑞", "template": "{}的胎压报警"}
+{"text": "奔驰E级的ABS故障警告", "label": 4, "intent": "安全警告", "car_model": "奔驰E级", "template": "{}的ABS故障警告"}
+{"text": "理想ONE的ABS故障警告", "label": 4, "intent": "安全警告", "car_model": "理想ONE", "template": "{}的ABS故障警告"}
+{"text": "特斯拉Model 3的安全气囊注意事项", "label": 4, "intent": "安全警告", "car_model": "特斯拉Model 3", "template": "{}的安全气囊注意事项"}
+{"text": "大众帕萨特的安全气囊注意事项", "label": 4, "intent": "安全警告", "car_model": "大众帕萨特", "template": "{}的安全气囊注意事项"}
+{"text": "奔驰E级的儿童锁使用", "label": 4, "intent": "安全警告", "car_model": "奔驰E级", "template": "{}的儿童锁使用"}
+{"text": "理想ONE的儿童锁使用", "label": 4, "intent": "安全警告", "car_model": "理想ONE", "template": "{}的儿童锁使用"}
+{"text": "本田雅阁的百公里加速时间", "label": 5, "intent": "技术规格", "car_model": "本田雅阁", "template": "{}的百公里加速时间"}
+{"text": "蔚来ES6的百公里加速时间", "label": 5, "intent": "技术规格", "car_model": "蔚来ES6", "template": "{}的百公里加速时间"}
+{"text": "特斯拉Model 3的油耗是多少？", "label": 5, "intent": "技术规格", "car_model": "特斯拉Model 3", "template": "{}的油耗是多少？"}
+{"text": "宝马X5的油耗是多少？", "label": 5, "intent": "技术规格", "car_model": "宝马X5", "template": "{}的油耗是多少？"}
+{"text": "奔驰E级的油耗是多少？", "label": 5, "intent": "技术规格", "car_model": "奔驰E级", "template": "{}的油耗是多少？"}
+{"text": "奥迪A6的油耗是多少？", "label": 5, "intent": "技术规格", "car_model": "奥迪A6", "template": "{}的油耗是多少？"}
+{"text": "蔚来ES6的油耗是多少？", "label": 5, "intent": "技术规格", "car_model": "蔚来ES6", "template": "{}的油耗是多少？"}
+{"text": "丰田凯美瑞的电池容量", "label": 5, "intent": "技术规格", "car_model": "丰田凯美瑞", "template": "{}的电池容量"}
+{"text": "奥迪A6怎么充电？", "label": 6, "intent": "电池充电", "car_model": "奥迪A6", "template": "{}怎么充电？"}
+{"text": "丰田凯美瑞怎么充电？", "label": 6, "intent": "电池充电", "car_model": "丰田凯美瑞", "template": "{}怎么充电？"}
+{"text": "丰田凯美瑞的充电时间要多久？", "label": 6, "intent": "电池充电", "car_model": "丰田凯美瑞", "template": "{}的充电时间要多久？"}
+{"text": "丰田凯美瑞的电池保修政策", "label": 6, "intent": "电池充电", "car_model": "丰田凯美瑞", "template": "{}的电池保修政策"}
+{"text": "丰田凯美瑞的电池衰减标准", "label": 6, "intent": "电池充电", "car_model": "丰田凯美瑞", "template": "{}的电池衰减标准"}
+{"text": "宝马X5的音响怎么调节？", "label": 7, "intent": "娱乐系统", "car_model": "宝马X5", "template": "{}的音响怎么调节？"}
+{"text": "奔驰E级的音响怎么调节？", "label": 7, "intent": "娱乐系统", "car_model": "奔驰E级", "template": "{}的音响怎么调节？"}
+{"text": "奥迪A6的车载娱乐功能", "label": 7, "intent": "娱乐系统", "car_model": "奥迪A6", "template": "{}的车载娱乐功能"}
+{"text": "大众帕萨特的车载娱乐功能", "label": 7, "intent": "娱乐系统", "car_model": "大众帕萨特", "template": "{}的车载娱乐功能"}
+{"text": "蔚来ES6的车载娱乐功能", "label": 7, "intent": "娱乐系统", "car_model": "蔚来ES6", "template": "{}的车载娱乐功能"}
+{"text": "理想ONE的车载娱乐功能", "label": 7, "intent": "娱乐系统", "car_model": "理想ONE", "template": "{}的车载娱乐功能"}
+{"text": "特斯拉Model 3的语音助手怎么用？", "label": 7, "intent": "娱乐系统", "car_model": "特斯拉Model 3", "template": "{}的语音助手怎么用？"}
+{"text": "奥迪A6的语音助手怎么用？", "label": 7, "intent": "娱乐系统", "car_model": "奥迪A6", "template": "{}的语音助手怎么用？"}
+{"text": "奥迪A6的自适应巡航怎么用？", "label": 8, "intent": "驾驶辅助", "car_model": "奥迪A6", "template": "{}的自适应巡航怎么用？"}
+{"text": "丰田凯美瑞的自适应巡航怎么用？", "label": 8, "intent": "驾驶辅助", "car_model": "丰田凯美瑞", "template": "{}的自适应巡航怎么用？"}
+{"text": "理想ONE的车道保持辅助", "label": 8, "intent": "驾驶辅助", "car_model": "理想ONE", "template": "{}的车道保持辅助"}
+{"text": "特斯拉Model 3的盲点监测", "label": 8, "intent": "驾驶辅助", "car_model": "特斯拉Model 3", "template": "{}的盲点监测"}
+{"text": "宝马X5的购车优惠", "label": 9, "intent": "其他问题", "car_model": "宝马X5", "template": "{}的购车优惠"}
+{"text": "奔驰E级的购车优惠", "label": 9, "intent": "其他问题", "car_model": "奔驰E级", "template": "{}的购车优惠"}
+{"text": "大众帕萨特的保险怎么买？", "label": 9, "intent": "其他问题", "car_model": "大众帕萨特", "template": "{}的保险怎么买？"}
+{"text": "理想ONE的保险怎么买？", "label": 9, "intent": "其他问题", "car_model": "理想ONE", "template": "{}的保险怎么买？"}
+{"text": "特斯拉Model 3的二手车价格", "label": 9, "intent": "其他问题", "car_model": "特斯拉Model 3", "template": "{}的二手车价格"}
+{"text": "奥迪A6的二手车价格", "label": 9, "intent": "其他问题", "car_model": "奥迪A6", "template": "{}的二手车价格"}
+{"text": "本田雅阁的二手车价格", "label": 9, "intent": "其他问题", "car_model": "本田雅阁", "template": "{}的二手车价格"}
+{"text": "理想ONE的二手车价格", "label": 9, "intent": "其他问题", "car_model": "理想ONE", "template": "{}的二手车价格"}
+{"text": "奔驰E级的驾驶感受", "label": 9, "intent": "其他问题", "car_model": "奔驰E级", "template": "{}的驾驶感受"}
+{"text": "本田雅阁的驾驶感受", "label": 9, "intent": "其他问题", "car_model": "本田雅阁", "template": "{}的驾驶感受"}

@@ -1,0 +1,4533 @@
+{
+  "source": "熊猫用户手册.pdf",
+  "original_pages": 200,
+  "cleaned_pages": 195,
+  "total_chunks": 238,
+  "chunk_size": 512,
+  "chunk_overlap": 50,
+  "chunks": [
+    {
+      "text": "前言 尊敬的用户 感谢您对全球鹰汽车的信任, 选择了具有优良安全性、舒适性、动力性和经济性的全球鹰汽车, 我们期待着以优质的产品和服务为您的工作和生活带来乐趣 首次使用前请阅读并遵守本手册的内容, 将帮助您更好的了解、使用全球鹰汽车, 使您的新车在 今后使用中技术状况良好, 始终保持最佳性能 您对您的车辆了解的越多, 就越能享受到驾驶该车辆 的安全性和趣味性 若您在使用过程中发现一些问题, 请就近与本公司授权的全球鹰品牌服务站联系, 服务站将在保 养、维修方面向您提供优质的服务, 请您务必按本手册中的保养规定按期完成保养工作 wwwcarobookcom 本手册提供了所有车型的相关信息, 由于车型配置不同, 本手册的说明与您所购车辆的实际配置 可能会有差别, 请以实际接收的车辆为准 本手册属于整车的一个组成部分, 出售或出借本车时, 请将本手册转交给新车主 本手册中的所有资料均为出版时的最新资料, 今后如有改动, 恕不另行通知 祝您快乐人生, 吉利相伴 浙江吉利控股集团汽车销售公司 2013年07月 版权所有 如未经吉利控股集团汽车销售公司书面同意, 不得转载或复印本手册的任何内容 I",
+      "length": 500,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 1,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "前言 本 手 册 中 的 重 要 说 明 《车辆使用说明书 与《保修保养手册 是本公司 安全和车辆损坏警告 与用户之间就有关产品的正确使用、质量保证责任、售 本使用说明书中, 具有安全警告和车辆损坏警告, 必须 后服务等方面的约定, 请务必在使用本公司产品前认真 小心根据警告的内容来避免受伤或损坏的可能性 阅读 若您的汽车或零部件因为过度使用、不正确使 用、不按规定的里程时间间隔进行保养或擅自进行车 不得擅自进行车辆改装, 否则将会影响车辆的性能、安 辆改装而导致故障, 您将丧失相应的索赔权利和保修权 全和使用期限, 甚至可能触犯政府法规, 因改装引起的 利 直接或间接车辆问题均不在保修范围之内 wwwcarobookcom 本使用说明书中的93号无铅汽油适用于除北京地区 本书中警示类型的表示和使用方法等说明如下 以外区域, 北京地区根据环保要求使用92号无铅汽油 警 告 如果这项警告被忽略, 将导致人员受伤 为了减少自 己和他人受伤的可能性, 提示驾驶员, 必须做什么或不 准做什么 注 意 如果这项警告被忽略, 将有可能导致车辆或其设备受 到损坏",
+      "length": 481,
+      "sentence_count": 10,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 2,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "注 意 如果这项警告被忽略, 将有可能导致车辆或其设备受 到损坏 为了避免或减少车辆及其设备受到损坏的可能 性, 提示驾驶员必须做什么和不做什么 II",
+      "length": 75,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 2,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "前言 安全符号 该符号涉及环境保护的措施 该符号标记的装备仅批量用于一定的车型结构上, 仅作为几种车型的选装件 wwwcarobookcom LC0001 当看到上图所示的安全标记时, 则表示禁止 禁止这样做或者禁止让这种情况发生 III",
+      "length": 119,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 3,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "综述 重要信息 仪表板 1出风口 2组合仪表 3遮阳板 4室内灯 5乘员侧安全气囊 6杂物箱 7驻车制动操纵杆装饰板 8驻车制动操纵杆 wwwcarobookcom 9手动或自动变速操纵杆手柄 10驾驶员侧安全气囊 11发动机罩锁操纵拉手 12电动窗开关 LC0002 1",
+      "length": 136,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 9,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "综述 重要信息 1AC开关 2危险报警灯开关 3乘员侧安全带指示灯 4音响系统 5空调控制面板 6点烟器 7点火开关 wwwcarobookcom LC0003 2",
+      "length": 82,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 10,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "综述 重要信息 组合仪表 1转速表 2车速表 3指示灯和警告灯 4燃油表 5里程表及自动档档位显示 6水温表 wwwcarobookcom EPS LC0004 3",
+      "length": 82,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 11,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "综述 重要信息 指示标记 制动系统故障警告灯 位置指示灯 驾驶座安全带未系警告灯 左右转向指示灯 充放电警告灯 远光指示灯 发动机油压力警告灯 后雾灯指示灯 wwwcarobookcom 发动机故障警告灯 发动机冷却液警告灯 低燃油警告灯 后除霜指示灯 制动防抱死系统警告灯 前雾灯指示灯 EPS 车门未关警告灯 电动助力转向指示灯 安全气囊警告灯 防盗报警指示灯 4",
+      "length": 184,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 12,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "综述 重要信息 当下列指示器或指示灯亮时请参考表格后面的说明并按表中提供的方式进行处理 如果指示灯发亮 处理方式 （a 停车并通知全球鹰品牌服务站 （b 系上安全带 （c 停车和检查 （d 停车和检查 wwwcarobookcom （e 点火开关非连续关闭3次后, 发动机故障指示灯仍然点亮, 需将车辆送到全球鹰品牌服务站 （f 添加燃油 （g 将车辆送到全球鹰品牌服务站 （h 关上所有车门 （i 将车辆开到全球鹰品牌服务站 5",
+      "length": 215,
+      "sentence_count": 10,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 13,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "综述 重要信息 a制动系统故障警告灯 警 告 当点火开关转至ON时, 在下列情况此警告灯会亮 如果发生下列任何一种情形, 立即将车辆停在安全的地 起 方并与全球鹰品牌服务站联系 拉起驻车制动拉杆时 发动机运转中, 即使释放了驻车制动器, 指示灯也不 钥匙转至ON时, 即使驻车制动拉杆已释放, 此灯也 会熄灭 在这种场合, 制动器可能工作不正常, 停车距 会亮起几秒钟 离将变长 用力踩制动踏板使车辆紧急停止 制动液液位过低时 具有防抱死制动系统的车辆 警 告 ABS警告灯发亮的同时, 制动系统警告灯仍然发亮 wwwcarobookcom 当制动液过低时, 如果继续正常行驶, 是非常危险 在这种场合, 制动时不但防抱死系统不起作用, 而且 的 车辆在制动时会变得很不稳定 在操作过程中警告灯短暂的点亮不表示有问题 6",
+      "length": 360,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 14,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "综述 重要信息 b驾驶座安全带未系警告灯 注 意 此灯会提醒您将驾驶座安全带系上 当点火开关转至 不要在警告灯点亮的状态下驾驶车辆（即使是一小段 ON或START时, 如果驾驶座安全带未系上, 则此 距离 , 否则将毁坏发动机 灯会点亮 c充放电警告灯 e发动机故障警告灯 此灯警告蓄电池充电不足 如果在驾驶中此灯点亮, 显 此灯亮起表示发动机的电器系统有问题 示充电系统有问题 但发动机点火能够继续进行, 直到 如果行驶中此灯亮起, 请尽早到全球鹰品牌服务站检修 蓄电池放完电为止 此时关闭空调系统、鼓风机、音响 wwwcarobookcom 系统, 将车开至最近的全球鹰品牌服务站进行修理 f低燃油警告灯 当油箱中的燃油接近用完, 此灯点亮, 需尽快将油箱添 d发动机油压力警告灯 加适量燃油 此灯警告发动机油压力过低 在行驶途中此灯闪烁或持 在斜面或弯道时, 由于油箱中燃油的晃动, 燃油油位过 续点亮, 需将车辆立即开到安全的路边停车并停熄发动 低警告灯可能较通常早些点亮 机 通知全球鹰品牌服务站进行修理 当发动机处于怠速运转时, 此灯可能会偶尔闪亮或在紧 gABS警告灯 急制动后短暂的点亮",
+      "length": 501,
+      "sentence_count": 16,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 15,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "当发动机处于怠速运转时, 此灯可能会偶尔闪亮或在紧 gABS警告灯 急制动后短暂的点亮 当发动机渐渐加速时如果此灯熄 点火开关转至ON时, ABS警告灯会亮起 如果防 灭这表示系统是正常的 抱死制动系统及制动辅助系统作用正常, 则几秒后此灯 当发动机油位非常低时, 此灯也将点亮 此灯不是用于 就会熄灭 之后, 如果此系统发生故障, 则ABS警告 指示低发动机油位的 发动机油位必须用机油标尺进行 灯会亮起 检查 7",
+      "length": 208,
+      "sentence_count": 9,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 15,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "综述 重要信息 当ABS警告灯亮起时（制动故障警告灯熄灭 , 制动 一直亮着 防抱死系统不工作, 但制动系统仍将正常工作 因此, 当行驶时, 此灯亮着或闪烁 在紧急制动或于湿滑路面制动时, 车轮有可能会抱死而 如何检查维修指示灯（油量过低指示灯除外 打滑 1拉起驻车制动拉杆 如果发生下列情形, 代表指示灯系统所监测的组件某些 2打开任一车门 地方有故障 请尽快至全球鹰品牌服务站处检修 车门开指示灯亮起 点火钥匙转至ON时, 此灯不亮或持续发亮 3关闭车门 行驶中, 此灯亮起 车门开指示灯应熄灭 在操作中警告灯短暂的点亮不表示有问题 wwwcarobookcom 4点火开关转至ON, 但不要发动发动机, 除了车门 未关警告灯以外, 所有指示灯均应亮起 ABS警告灯 h车门未关警告灯 应在几秒钟后熄灭 安全气囊指示灯应亮起6秒钟然后熄 此灯将持续点亮, 直到所有车门关好为止 灭 如果有任何维修指示灯未如上述作用, 请尽早将车交给 i安全气囊警告灯 全球鹰品牌服务站为您检修 当点火开关钥匙在ON的位置, 此灯会亮起约6秒钟后 熄灭 此情况表示气囊系统作用正常",
+      "length": 483,
+      "sentence_count": 23,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 16,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "当点火开关钥匙在ON的位置, 此灯会亮起约6秒钟后 熄灭 此情况表示气囊系统作用正常 如果发生下列情况中的任何一种情况, 表示由警告灯系 统监控的部件中发生故障, 须尽快联系全球鹰品牌服务 站检查车辆 当点火开关转到ON位置时, 指示灯没有亮起, 或 8",
+      "length": 127,
+      "sentence_count": 4,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 16,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "综述 重要信息 燃油表 当点火开关处于ON时（未启动 , 燃油表指示油箱中大概剩余的油 量 加满时, 显示在\"F\" 当燃油表显示在红色区域内需立即加油 燃油保持在油箱的14以上是合理的 wwwcarobookcom LC0005 转速表 转速表指示发动机每分钟转速 驾驶中用它来选择正确的换档时间来防止 发动机加载减速和超速运转 发动机运转过快的状态下驾驶车辆, 将导致发动机过度磨损并浪费燃油 注 意 不要让指针进入红色区域, 这可能会使发动机受到严重损坏 LC0006 9",
+      "length": 238,
+      "sentence_count": 10,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 17,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "综述 重要信息 水温表 当点火开关转到ON时, 水温表就会指示发动机冷却液的温度, 发动机 的工作温度将随着天气和发动机负荷的变化而变化 如打开点火开关时发动机冷却液温度低, 冷却液温度表显示在第一格的位 置, 当发动机完全热后仍然显示在第一格的位置, 需立刻和全球鹰品牌服 务站联系检查车辆 如果发动机冷却液高温警告灯点亮, 同时发动机冷却液温度表闪烁, 表示 发动机太热 如果车辆过热, 须停车并让发动机冷却 在下列工作条件下, 发动机就有可能产生过热的现象, 例如 wwwcarobookcom 在炎热的天气进行长途爬坡 LC0007 在高速行车后降低车速或停车 在停停走走的交通状态, 打开空调的同时让发动机长时间空转 拖有尾车时 注 意 不要取下发动机冷却系统中的节温器, 它是用来控制冷却液流量, 使 发动机的温度保持在规定的范围以内 过热的发动机, 不得进行持续行驶 在正常行驶环境下, 若发动机过热, 则需立刻和全球鹰品牌服务站联 系检查车辆 10",
+      "length": 432,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 18,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "综述 重要信息 里程表 1里程表按钮 当A和B都不显示时, 3中显示行驶总里程数 当A或B显示时, 3中显示A或B的行驶里程数 要将A或B里程表清零时, 按住该钮直至仪表被设定为零为止 2档位显示（如装备自动档变速器 自动档车型档位显示区域 P 停车档 R 倒车档 wwwcarobookcom N 空档 D 驾驶档 2 这也是正常行驶位置, 但与D档相比有较大的动力和较差的燃油经济 性, 一般用在丘陵、弯曲和下陡峭山坡时 L 这个位置动力很大, 适用于非常陡峭的山坡、深雪和泥泞路上行驶 LC0008 11",
+      "length": 255,
+      "sentence_count": 14,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 19,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 钥匙 随车配备的钥匙适用该车上任何一把锁 wwwcarobookcom LC0009 钥匙号码板 如果钥匙遗失或需要一个备用钥匙时, 可以利用钥匙号码板来委托全球鹰 品牌服务站来复制钥匙 建议记下钥匙的号码, 并将号码板存放在一个安全的地方 LC0010 12",
+      "length": 139,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 20,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 无线遥控器 1、闭锁键 2、开锁键 3、指示灯 4、后背门开锁键 点火开关关闭时 当门锁处于闭锁状态时, 在遥控距离范围内（一般10m , 按一下遥控发 射器的开锁键, 可开启左前车门门锁, 同时车辆转向灯闪烁一次 在2s内 wwwcarobookcom 连续按开锁键, 可开启其它车门门锁, 同时车辆转向灯闪烁一次 用户也 LC0011 可以在全锁闭的状态, 连续按开锁键两次, 可同时开启四个车门门锁, 同 时车辆转向灯闪烁两次 在任何状态下, 按住遥控后背门开锁键1秒, 后背车门闭锁器开锁 按下遥控发射器的闭锁按键, 可锁止所有车门门锁及后背车门门锁, 车辆 两侧转向灯闪烁两次 13",
+      "length": 305,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 21,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 点火开关处于ON档时 背门锁自动上锁功能 按遥控开锁键, 打开四个车门闭锁器 按遥控闭锁键, 在设防状态下, 按后背门开锁键开启后背门锁, 30s后 关闭四个车门闭锁器及后背门闭锁器 无论后背门开启与否, 背门锁电机执行自动上锁动作一 次 注 意 两段式解除设防 如四个车门未全部关闭按下闭锁键时, 有短促的三声 当系统处于被触发状态, 按遥控器上任一键均能停止警 喇叭提示声和三次转向灯闪烁, 提醒您关好车门 报声, 但系统仍处于设防状态, 且车门仍然上锁 若系 当操作开关时, 缓慢而稳固地按动开关 指示灯将闪烁 统继续接受到入侵信号, 则警报在短暂停下后再度响 wwwcarobookcom 一次 如果不闪烁, 则电池电量可能已耗尽, 须尽快更 起 欲完全解除设防则需第一次解除报警后再立刻按开 换电池 锁键一次 14",
+      "length": 371,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 22,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 遥控器是一个电子零件, 请遵守下列的说明事项, 以免 更换遥控器电池 损坏遥控器 要更换时, 请使用CR2032锂基电池 不可将遥控器放置于高温处, 例如 仪表板上 注 意 不可分解遥控器 不可敲击或掉落 更换电池时, 要小心不要遗失其零件 避免沾到水 只可更换相同型号或全球鹰品牌服务站所建议的同级 若遥控器无法在正常距离遥控门锁或操作时, 或遥控器 电池 上的指示灯暗或不亮时 请依法处理使用过的电池 确认是否接近电波发射区, 例如 电波发射站或机 wwwcarobookcom 场, 因为遥控器的性能易受电磁和噪声干扰 警 告 检查遥控器内电池电量是否足够 更换电池时, 请参 要特别小心, 不要让儿童（本说明书中儿童是指 阅更换遥控器电池的说明 未满18周岁的未成年人 吞下所拆下来的遥控器电池或 如果遥控器遗失, 请尽快到全球鹰品牌服务站处理, 以 零件 免车辆失窃 15",
+      "length": 400,
+      "sentence_count": 19,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 23,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 请依下列程序更换遥控器电池 使用平口塑料起子或类似物品打开遥控器外壳 wwwcarobookcom LC0012 如图所示, 压下电池边缘, 取出电池 注 意 不可弯曲端子 LC0013 16",
+      "length": 105,
+      "sentence_count": 5,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 24,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 将新电池正极朝上装入定位 紧密的装回遥控器外壳 注 意 电池的正极和负极侧务必朝正确方向装入 小心不可弄弯电池的电极接触片, 且遥控器外壳上不可沾有灰尘或油 脂 遥控器外壳必须紧密的装回 手湿时, 不可更换电池, 否则, 可能造成生锈、漏电 不可接触或移动遥控器内的任何组件, 否则, 可能影响遥控器的性 LC0014wwwcarobookcom 能 在换好电池后, 请检查遥控器功能是否正常, 如果不正常, 则请至全球鹰 品牌服务站处检修 用空的电池必须进行环保处理 17",
+      "length": 246,
+      "sentence_count": 10,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 25,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 电子防盗系统 电子防盗系统是一种电子码辨识系统, 当您将钥匙插入点火开关时, 在钥 匙头内的转发器会传送出电子码至车上, 而只有在电子码与车上的辨识码 相同时, 发动机才可以起动 当钥匙被拔出点火开关时, 电子防盗系统会自动设定 将原车所配之钥匙插入点火开关, 则可自动解除电子防盗系统, 让发动机 得以起动 帝豪品牌服务站需要您原车钥匙的号码才可以为您复制另一附有转发器的 钥匙, 但是, 复制数量有限 wwwcarobookcom 如果您自行复制钥匙, 您将无法起动发动机 LC0186 注 意 不可修改、拆卸或分解电子防盗系统 如果您未经授权而变更或修改 系统, 则我们无法确保此系统可以正常使用 18",
+      "length": 313,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 26,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 车门 使用钥匙上锁和开锁 将钥匙插入钥匙孔内并转动它 上锁 将钥匙向车前方向转动 开锁 将钥匙向车后方向转动 具有电动车门锁定系统的车辆所有的车门与驾驶员的车门同时锁定或开 锁 wwwcarobookcom LC0015 使用内开启手柄锁钮上锁和开锁 推动锁钮 上锁 将锁钮向前推 开锁 将锁钮向后拉 如果您想要由车外不用钥匙来锁住车门, 只要在关闭车门前, 将锁钮在锁 住位置 然后在关闭车门时, 将车门外把手往上拉并同时关上车门即可 务必小心以免您的钥匙锁在车内 LC0016 19",
+      "length": 252,
+      "sentence_count": 15,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 27,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 后车门儿童保护装置 如图所示, 将锁杆移到LOCK位置 这个功能可以锁定后车门, 使它只能从外部才能打开, 而不能从车厢内部 打开 只要有儿童在车中时, 建议使用这个功能 警 告 驾驶之前, 须确认车门已锁定 当有儿童坐在车中的后座位时, 必须使用儿童保护装置来防止车辆在 行驶中由于不小心而从内侧打开车门 wwwcarobookcom 在驾驶中, 如果车门未被锁定, 在发生意外事故时, 车门很容易从外 LC0017 侧被打开 20",
+      "length": 226,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 28,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 电动车窗 驾驶员侧车窗的操作 此开关用来控制左前门和右前门的玻璃升降器 当要控制左前门的玻璃升降器, 就调节左边的开关 压下开关按钮, 玻璃 下降 拉起开关按钮, 玻璃上升 当要控制右前门的玻璃升降器, 就调节右边的开关 压下开关按钮, 玻璃 下降 拉起开关按钮, 玻璃上升 wwwcarobookcom LC0018 驾驶员侧车窗的操作 此开关用来控制左前门、右前门、左后门、右后门的玻璃升降器 压下开 关按钮, 玻璃下降 拉起开关按钮, 玻璃上升 当压下车窗锁止开关, 乘员侧车门的开关将无法控制车窗的升降 当拉起 车窗锁止开关, 乘员侧车门的开关将能够控制车窗的升降 1控制右前门的玻璃升降器 2控制右后门的玻璃升降器 3控制左前门的玻璃升降器 4控制左后门的玻璃升降器 LC0019 5车窗锁止开关 21",
+      "length": 365,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 29,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 乘员侧车窗的操作 使用各自乘员车门上的开关, 只要按住开关, 车窗就移动 打开 将开关轻轻压下 关闭 将开关轻轻向上拉起 警 告 为避免造成人员伤害, 必须遵守下列事项 LC0020 www 当关c闭a车r窗o时b, o请o勿k让您c或o乘m员的头、手和身体的其他部位伸出车 外 假如有人的颈部、头或手被车窗夹住, 将可能导致严重的伤害 当乘 员关闭车窗时, 确认他们是否安全地操作 当有儿童在车上时, 绝对不可让儿童在未经监督下使用电动窗开关 当您离开车辆时, 要确定有取下钥匙 绝对不可将儿童单独留在车内, 尤其是钥匙仍插在点火开关时, 他们 可能使用电动窗开关而被车窗夹到, 不小心可能会发生严重的意外伤害 22",
+      "length": 318,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 30,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 后车窗侧开 打开车窗 开启后车窗玻璃时, 手往后拉玻璃上的铰链 wwwcarobookcom LC0021 按箭头方向, 则打开玻璃车窗 LC0022 23",
+      "length": 87,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 31,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 关闭车窗 按图示方向先往外拉铰链, 再往回压即关上车窗 LC0023 wwwcarobookcom 警 告 不要将手放在铰链中, 以免被夹住 LC0024 24",
+      "length": 89,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 32,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 背门 要打开背门, 先按遥控器上的后背门开锁键, 再按下背门下方的开启按 钮, 扳动背门上的外拉手 要关闭背门, 将其拉下并向下按 关闭背门之后, 试着向上拉以确认被紧 紧关闭 背门锁止需按遥控器上的闭锁钮 警 告 在驾驶中, 须保持后背门的关闭, 这样不但可以防止行李被甩出, 还 可以防止废气进入车辆 wwwcarobookcom 请不要同时按遥控器上的后背门开锁键和背门开启按扭 LC0025 25",
+      "length": 211,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 33,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 装载行李注意事项 警 告 当装载行李或货物到车上时, 请遵守下列事项 不可放置任何东西在后座椅靠背上方的行李箱隔板 尽可能将行李或货物置于行李箱内, 并确认各项物品 上, 以避免紧急制动或意外事件时, 这些东西抛出而伤 放置稳固 及人员 勿超载并尽可能保持车身平稳, 货物尽可能向前放, 开车时, 不可将物品放置在仪表板上 因为可能会遮 以帮助维持车身平衡 挡驾驶者的视野, 或在加速或转弯时, 物品的移动会影 减少不必要的负重车辆较省油 响驾驶者的操控 而在意外事故时, 它们也可能伤害车 内的乘员 wwwcarobo o为避k免c行o李m或包裹于踩制动时向前滑动, 在行李箱内 堆放的物品高度不可超过椅背, 应尽量将行李或包裹放 低, 且尽可能接近车底板 绝不可让任何人乘坐于行李箱内 因为它并非设计给 乘员使用 乘员应坐在座椅上, 并正确地系上安全带, 否则, 在突然制动或撞击的情况下更容易遭受到严重伤 害 26",
+      "length": 419,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 34,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 发动机罩 请依照下列步骤将发动机罩打开 将发动机罩锁操纵拉手拉起, 此时发动机罩会稍微往上弹起 警 告 驾驶前, 请务必确认发动机罩已关闭且固定良好 否则, 行驶时发动 机罩可能突然打开而发生事故 wwwcarobookcom LC0026 在机盖前端中部, 开启罩锁开启手柄并提起发动机罩 LC0027 27",
+      "length": 164,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 35,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 打开、关闭 打开发动机罩后, 从支撑杆固定卡扣上取下支撑杆, 转动支撑杆, 使支撑 杆撑头撑在发动机舱左减振器支架上的方孔内 警 告 将支撑杆插入槽中后, 须确认支撑杆将发动机罩牢牢支撑, 防止发动 机罩掉落造成事故 注 意 LC0028 ww w 在 关 c 闭 a 发 r 动 o 机 b 罩 o 之 o 前 k , 须 c 确 o 认 m 将支撑杆放入原来的夹子里 支撑杆活 动的情况下关闭发动机罩, 将会造成发动机罩变形 28",
+      "length": 220,
+      "sentence_count": 5,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 36,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 座椅 车辆行驶中, 所有乘员应使座椅靠背竖直, 背靠座椅靠 前排座椅 背并正确系好座位安全带 调节座椅的注意事项 调节驾驶员座椅至适当位置, 使驾驶者能轻易地控制脚 警 告 踏板、转向盘和仪表板的控制开关 只有在乘员正确入座后才可驾驶车辆 不允许乘员坐 警 告 在折叠的座椅靠背上或行李箱内 在车辆紧急制动或发 生碰撞时, 坐姿不当或没有系好安全带的乘员会受到严 不要在车辆行驶时调节座椅, 因为座椅会意外移动 重伤害 而使驾驶员对车辆失去控制 wwwcarobookcom 车辆行驶时, 不允许乘员站立或在座椅间移动 否则 调节座椅时, 注意不要使座椅撞及乘员或行李 在紧急制动或发生碰撞时会受到严重伤害 座椅位置调节完毕后, 应松开调节杆并试着前后滑 动座椅, 确保座椅锁定在合适位置 座椅靠背调节完毕后, 将身体向后倚靠座椅靠背, 确保座椅靠背锁定在合适位置 不要在座椅下面放置物品 否则, 会影响座椅锁定 机械装置或意外地向上推动座椅位置调节杆, 座椅可能 会突然移动, 导致驾驶员对车辆失去控制 调节座椅时, 不要将手放在座椅下面或靠近移动的 部件 否则, 手或手指可能会被夹伤 29",
+      "length": 503,
+      "sentence_count": 17,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 37,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 调节前排座椅手动座椅 1座椅位置调节杆 握住座椅位置调节杆的中部并向上拉, 然后身体轻靠座椅靠背, 将座椅滑 动至所需位置, 松开座椅位置调节杆 2座椅靠背角度调节杆 背部离开靠背并将座椅靠背调节手柄向后旋转一定角度, 然后将背部回靠 靠背并向后倾斜至所需的角度, 松开调节手柄即可 警 告 wwwcarobookcom 避免将座椅靠背倾斜过度 只有在驾驶员和前排乘员坐直、背靠座椅 LC0029 靠背时, 座位安全带才能提供最大限度的保护 如果斜靠在座椅上, 腰部 安全带可能会滑过臀部, 而直接向腹部施加压力, 或者颈部会碰到肩部安 全带 在发生前方碰撞事故时, 座椅过度倾斜会增加人员受伤或死亡的危 险性 30",
+      "length": 314,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 38,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 后排座椅 后排座椅的安全注意事项 警 告 不要在车辆行驶时调节座椅靠背 座椅靠背恢复至初始位置时, 需遵循下列预防措施以防止车辆在发生碰撞 或紧急制动时造成人员受伤 向前或向后推座椅靠背的上部, 以确保座椅靠背牢固锁定 否则会防 碍座位安全带的正常操作 www 确c保a座ro位安b全o带o没k有扭c曲o或m夹在座椅下面, 而是放置在适当的位置以 备使用 调节后排座椅 后排座椅靠背可以向前折叠, 以便充分利用行李箱 1取下头部保护装置 2将座椅靠背开锁, 并向下折叠 分离式座椅靠背可以根据需要分别单独折叠 LC0030 31",
+      "length": 270,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 39,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 头部保护装置 为了安全和舒适, 驾驶车辆前须调节好头部保护装置 提升 向上拉头部保护装置 降低 在按住锁定释放钮的同时向下按头部保护装置 头部保护装置越靠近头部时, 保护效果就越佳 因此, 不提倡在座椅靠背 上使用衬垫 警 告 www 调节c头a部r保o护b装o置o的k高度c, o使m其中心与耳朵的上部齐平 调节头部保护装置后, 确保它锁定在其位置上 不要驾驶未装有头部保护装置的车辆 LC0031 32",
+      "length": 209,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 40,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 灯光系统 外部照明及信号系统位于汽车外部 为汽车夜间行驶提 注 意 供照明, 向其它汽车及行人提供信号 维修时必须断开蓄电池搭铁线 外部照明及信号系统的开关操作见本说明书灯光控制 在更换灯泡前关闭灯光开关并使灯泡冷却 开关部分 在安装新灯泡时, 必须带棉手套进行, 不要让裸露的 外部照明及信号系统的接通指示灯见本说明书仪表系 手碰到玻璃泡 统部分 当卤素灯泡（大灯和前雾灯 表面被发动机油弄脏 不要将其拆卸, 如需更换请与当地全球鹰品牌服务站 后, 在灯泡打开发热时, 它的工作寿命会缩短 联系 wwwcaroboo k由于c卤o素m灯泡（大灯和前雾灯 内部的压力很高, 要 前组合灯更换近、远光灯泡后, 必须与当地全球鹰品 小心操作, 一旦灯泡掉落会造成爆炸, 玻璃碎片会飞溅 牌服务站联系, 请专业人员调整光束照射位置 起来 车辆在雨天行驶时或洗车后灯罩被弄湿时, 前照灯之 更换时, 始终采用相同功率及型号的灯泡 类的外部车灯的灯罩内侧会暂时起雾 就如在雨天风挡 安装好灯泡以后, 插好插座 玻璃会起雾一样, 这种起雾是由于灯罩内侧和外侧的温 差引起的, 因此不是故障",
+      "length": 494,
+      "sentence_count": 17,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 41,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "玻璃会起雾一样, 这种起雾是由于灯罩内侧和外侧的温 差引起的, 因此不是故障 但是, 如果在灯罩内侧有较 大的水滴或在灯的内侧有积水时, 请与全球鹰品牌服务 站联系 33",
+      "length": 85,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 41,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 1前位灯 2前转向信号灯 3远近光灯 4前雾灯 5侧转向信号灯 6高位制动灯 7制动灯后位灯 8倒车灯 9后转向灯 10后雾灯后回复反射器 11牌照灯 灯泡 型号 功率数量 备注 远近光灯 H4 6055W2 卤素灯泡 LC0032 wwwcarobookcom 前组合灯 前位灯 W5W 5W2 转向信号灯 PY21W 21W2 前雾灯 H3 55W2 卤素灯泡 制动后位灯 P215W 215W2 后组合灯 倒车灯 P21W 21W2 转向信号灯 PY21W 21W2 侧转向灯 WY5W 5W2 高位制动灯 W5W 5W4 牌照灯 W5W 5W2 后雾灯 P21W 21W2 LC0033 室内顶灯 C5W 5W1 34",
+      "length": 319,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 42,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 大灯 打开下列灯光 转动大灯转向信号灯杠钮 停车灯、尾灯、牌照灯和仪表盘照明灯点亮 大灯和上述所有的灯 当这些灯都点亮时, 仪表盘上的指示灯亮 注 意 为了防止蓄电池放电, 在发动机没有运转时, 不要长时间点灯 LC0034wwwcarobookcom 型式A 大灯 打开下列灯光 转动大灯转向信号灯杠钮 停车灯、尾灯、牌照灯和仪表盘照明灯点亮 大灯和上述所有的灯 当这些灯都点亮时, 仪表盘上的指示灯亮 注 意 为了防止蓄电池放电, 在发动机没有运转时, 不要长时间点灯 LC0035 型式B 35",
+      "length": 256,
+      "sentence_count": 9,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 43,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 远光、近光灯 使用远光时, 打开大灯并把杆向下压 仪表安装板上的大灯远光指示灯 （蓝色 指示远光处于打开的状态 使用近光时, 把杆向上提 若要使远光灯闪烁, 将转向信号杆轻轻拉回, 然后松开即可, 此时, 远光 灯就会间歇地闪烁 无论前大灯开关处于哪一位置, 如果往回拉住转向信号杆不放, 则拉住多 久, 远光灯就会点亮多久 LC0036 wwwcarobookcom 型式A 远光、近光灯 使用远光时, 打开大灯并把杆向下压（位置3 使用近光时, 把杆向上提 （位置2 大灯远光闪烁（位置1 把杆全部向上提 当把杆释放, 大灯远光关 闭 将旋钮转到OFF也可以使大灯远光闪烁 LC0037 型式B 36",
+      "length": 308,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 44,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 转向信号灯 要发出转向信号灯, 把大灯转向信号灯杆向上或向下拉 钥匙必须在ON位置 车辆转弯以后此杆将自动恢复原位, 但在变换车道以后, 需用手将杆恢复 原位 发出变换车道信号时, 把杆向上或向下拉至压力点并将其保持 LC0038wwwcarobookcom 型式A 转向信号灯 要发出转向信号灯, 把大灯转向信号灯杆向外推或拉回 钥匙必须在ON位置 车辆转弯以后此杆将自动恢复原位, 但在变换车道以后, 需要手将杆恢复 原位 发出变换车道信号时, 把杆向外推或拉回至压力点（位置2 并将其保持 LC0039 型式B 37",
+      "length": 267,
+      "sentence_count": 10,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 45,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 要打开下述灯光时, 在小灯或大灯点亮的情况下转动大灯转向信号灯开关 杆上的环钮 前雾灯 前雾灯和后雾灯 仪表安装板上的后雾灯指示灯将指示后雾灯处于打开或关闭的状态 关闭其他所有的灯光时, 前雾灯和后雾灯将自动熄灭 要重新打开后雾灯时, 在上述情况下重新将大灯转向信号灯开关杆上的环 钮转到后雾灯的位置 LC0040 wwwcarobookcom 型式A 前雾灯和后雾灯 将旋钮旋转到 位置时, 前雾灯打开 将旋钮旋转到 位置时, 后雾灯打开 LC0041 型式B 38",
+      "length": 240,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 46,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 后雾灯 将旋钮旋转到 位置时, 后雾灯打开 LC0156wwwcarobookcom 型式C 39",
+      "length": 55,
+      "sentence_count": 2,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 47,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 1大灯高度调节开关 此开关用来调节大灯的高度 可以旋转旋钮来调节大灯的高度 2除霜开关 除霜装置可除去后挡风玻璃上的雾、霜及薄冰 按下除霜按钮, 可以打开 或关闭除霜装置 按钮内的灯点亮, 表示除霜装置处于工作状态 3防盗警示灯 当车子设定了防盗功能以后, 防盗警示灯就会不停的闪烁, 用来提示车子 已经启动防盗 LC0042 wwwcarobookcom 1乘员侧安全带指示灯 当乘员没有系安全带时, 此指示灯会被点亮, 提示乘员需要系上安全带, 起到提示警告作用 2危险报警灯开关 要打开危险报警灯时, 按下此开关, 所有转向信号灯都闪烁发亮 要关闭 时, 再按一下开关即可 车辆不得不停在可能会引起交通事故的地点时, 须点亮危险报警灯来警告 其他驾驶员注意 尽可能将车停在远离道路的地方 当危险报警灯点亮时, 转向信号灯开关不起作用 LC0043 40",
+      "length": 385,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 48,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 室内后顶灯 拨动开关即可打开室内顶灯 室内后顶灯开关有下列3个位置 ON室内顶灯一直亮着 OFF室内顶灯关闭 DOOR只要有任何一车门开启, 室内顶灯即会亮起 当所有车门关 闭时, 室内顶灯即会熄灭 进入照明系统 wwwcarobookcom 当开关位于DOOR位置时, 如果打开任一车门, 则会点亮室内顶灯 但 LC0044 是, 在下列状况下, 室内顶灯会立刻熄灭 点火开关在ON位置, 将所有车门关闭时 所有车门均关闭并使用遥控器上锁时 41",
+      "length": 230,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 49,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 风窗刮水器和洗涤器 此控制杆用来控制风挡玻璃刮水器和洗涤器 此杆共分为5个档位 MIST 点动模式 OFF 停 INT 间歇 LO 低速刮水 HI 高速刮水 若欲选择档位, 上推或下压控制杆即可 在间歇档位时, 刮水器每隔数秒 钟刮水一次 在低速与高速档位时, 刮水器连续刮水 wwwcarobookcom 要喷射清洁液, 把杆向上提 LC0045 型式A 后雨刮器 开关旋钮向上旋转至 位置, 后雨刮连续刮刷 开关旋钮再向上旋转至 位置, 后洗涤工作 在结冰的天气, 使用清洁器之前先用除霜器对后挡风玻璃进行加温 这样 可以防止清洁液冻在挡风玻璃上而影响视线 42",
+      "length": 289,
+      "sentence_count": 17,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 50,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 前风窗刮水器 要打开挡风玻璃刮水器时, 将杆移至所需要的设定位置 钥匙必须在ON位置 开关位置 作用 位置1 INT 位置2 低速 位置3 高速 位置4 点动 LC0046wwwcaro 位 b 置 o 5 okcom 风窗洗涤（自由状态为关闭 型式B 仅对挡风玻璃作一次刮扫时, 把杆向上推并释放 实现点动功能要喷射清 洁液, 把杆拉向自己（位置5 后风窗刮水器 要打开后风窗刮水器时, 将旋钮打到ON档, 后雨刮连续刮刷 若打到 , 后洗涤工作 43",
+      "length": 233,
+      "sentence_count": 10,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 51,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 注 意 转动时, 应立即关闭雨刮开关, 应行驶到当地服务站进 挡风玻璃在干燥的状态时, 不得使用刮水器, 否则会刮 行维修或更换 伤玻璃 雨刮器正常工作时, 关闭雨刮开关, 雨刮器刮片应 定期检查雨刮器刮片 若发现刮片脏污时, 应及时 自动回到挡风玻璃下侧后停止 若停止位置不对, 应行 清洗, 否则会影响驾驶员视线 清洗刮片时, 可用蘸有 驶到当地服务站进行调整 酒精清洗剂的棉纱轻轻擦去刮片上的污物 刮片不可用 夏季晴天时, 尽量使车辆停放阴凉处, 避免刮片受 汽油清洗和浸泡, 否则刮片会变形而影响其工作 若发 太阳光照射而过早老化 冬季使用雨刮器时, 若其刮片 现刮片严重磨损时, 应行驶到当地服务站进行更换 被冰冻住或被雪团卡住, 应立即关闭开关, 清除冰块、 检查雨刮器工作是否正常 打开雨刮开w关w之前w, 应carob雪o团o后k方可c继o续m使用, 否则会因刮片阻力过大而烧坏电 先用水润湿挡风玻璃, 否则会刮伤玻璃, 同时由于刮片 机 摩擦阻力大, 可能损伤刮片或烧坏电机 打开雨刮开关 不能随意拆下雨刮器电机",
+      "length": 471,
+      "sentence_count": 14,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 52,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "摩擦阻力大, 可能损伤刮片或烧坏电机 打开雨刮开关 不能随意拆下雨刮器电机 若电机工作不正常, 应 后, 应注意电机有无异响, 若雨刮电机嗡嗡响而不 行驶到当地服务站进行维修或更换 44",
+      "length": 93,
+      "sentence_count": 4,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 52,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 后视镜 将后视镜调整至刚好可以在后视镜中看到车辆的侧边 警 告 车辆行驶中, 不得调节后视镜, 这样会造成驾驶员操控不良, 导致意 外事件发生 wwwcarobookcom LC0047 电动后视镜控制 用此开关来调整外后视镜 当旋钮达到L位置时, 可以调节左外后视镜, 然后可以往上、下、前、 后方向拨动摇杆进行调节 当旋钮达到R位置时, 可以调节右外后视镜, 然后可以往上、下、前、 后方向拨动摇杆进行调节 注 意 如果后视镜被冰冻住, 不要操作控制器或刮后视镜的表面, 须用喷雾 LC0048 或除冰器除去后视镜表面的冰 45",
+      "length": 272,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 53,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 可直接用手去调整后视镜镜片, 使得在镜片中刚好可以在后视镜中看到车 辆的侧边 LC0049 wwwcarobookcom 手动折叠后视镜 在狭窄的地区停车时, 可以把后视镜向后折叠 需要折叠后视镜时, 可将后视镜向后推至听到咔哒声 警 告 不得在后视镜折叠的状态下驾驶车辆, 驾驶之前, 必须将驾驶员和乘 员侧的后视镜展开并进行正确地调节 为避免人员受伤以及后视镜发生故障, 请不要触碰在动作中的后视 镜 LC0050 46",
+      "length": 218,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 54,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 内后视镜 1、防眩目内后视镜 将后视镜调节至刚好可以在后视镜中看到车辆的后部 有以下两种状态 （1 普通状态 （2 防眩目状态 使用说明 镜子处于正常位置向前扳 镜子处于防眩位置向后扳 夜间驾驶时, 为了减少来自后方车辆大灯的炫目照射, 可以操作后视镜使 wwwcarobookcom 其处于防眩目状态 LC0051 2、普通内后视镜 使用方法与防眩目内后视镜的普通状态一致 警 告 车辆在移动中不得调节后视镜, 否则可能使驾驶员错误的操纵车辆, 而造成人员意外伤亡 47",
+      "length": 242,
+      "sentence_count": 9,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 55,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 可调式转向盘 若要改变转向盘的角度, 先握住转向盘再向下推锁定释放杆, 然后调整到 您认为适当的角度后, 再将锁定释放杆完全向上拉至原来位置 警 告 不可于行车中调整转向盘 否则可能造成驾驶员失去车辆的操控而引 发意外事件, 甚至使人员伤亡或严重的伤害 wwwcarobookcom LC0052 48",
+      "length": 157,
+      "sentence_count": 4,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 56,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 空调系统 1风扇转速选择开关 2温度选择开关 3气流选择开关 4AC开关 wwwcarobookcom LC0053 49",
+      "length": 67,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 57,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 温度选择开关 AC开关 转动该钮调节温度向右升温, 向左降温 要打开空调系统时, 按AC钮指示器发亮, 要关闭空 调系统时, 将AC钮再按一次 气流选择开关 转动该钮选择气流通风口 风扇转速选择开关 吹面模式气流主要来自仪表安装板通风口 具有两个功能 1调节空气内外循环 吹面、吹脚模式气流来自地板通风口和仪表板 向右转外循环把外界空气引入车内 通风口 向左内循环使车内的空气进行内部循环 wwwcarobookcom 2调节风速大小从外循环向右转增强风速, 反向则 吹脚模式气流主要来自地板通风口 减慢风速 从内循环向左转增强风速, 反向则减慢风 速 吹脚模式、除霜除雾模式气流主要来自地板通 风口和前挡风玻璃通风口 将进气选择器设定在外循环（外界空气 的同时使 用该位置 除霜除雾模式气流主要来自前挡风玻璃通风 口 将进气选择器设定在外循环（外界空气 的同时使 用该位置 50",
+      "length": 396,
+      "sentence_count": 16,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 58,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 空气流向选择开关设定 操作要领 在烈日下停车后, 为使车内温 度迅速下降, 可打开车窗行驶几分 钟, 让车内热空气散发出去之后 再关闭车窗 确认前挡风玻璃前方的进气格栅 没有被堵塞（例如树叶或积雪 在潮湿的天气里, 冷气不要吹 wwwcarobookcom 向前挡风玻璃, 以免因玻璃内外温 度差引起前挡风玻璃起雾 保持前座椅下方通畅, 以使车 内空气充分循环 寒冷天气, 将风扇转速切换至 高转速几分钟清除进气通道的积雪 或湿气, 并可减少车窗起雾 在多灰尘路段行驶时, 关闭所 有的车窗 车窗关闭后仍有灰尘被 吸入车内, 则建议您保持使用内 LC0054 循环模式, 然后把风速控制键设 在OFF以外的其他位置 51",
+      "length": 316,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 59,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 如果跟随其他车辆行驶于多灰尘路段时, 建议您可暂 冷气 时将进气控制键设至内循环模式, 防止外部空气和 为得到最佳效果, 请将控制开关设定如下 灰尘进入车内 风速除OFF以外的任意设定 温度调至较低温度 暖气 进气外循环（外界空气 为得到最佳效果, 请将控制开关设定如下 气流吹面模式 风速除OFF以外的任意设定 空调ACON 温度调至较高温度 为快速降温时, 可选择室内循环数分钟 进气外循环（外界空气 wwwcarobookcom 气流吹脚模式 通风 空调ACOFF 为得到最佳效果, 请将控制开关设定如下 为快速加温, 可选择内循环模式数分钟, 待车室内温 风速除OFF以外的任意设定 暖后, 请选择外气循环, 以免车窗起雾 温度调至较低温度 按AC键至ON, 进行除湿升温 进气外循环（外界空气 在前挡风玻璃除霜或除雾的同时, 选择吹脚除霜除 气流吹面模式 雾模式, 使车厢升温 空调ACOFF 在冬天时将连接暖风机的水阀开关打开, 反季节时关 闭 52",
+      "length": 437,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 60,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 除雾 除霜 前挡风玻璃内侧 前挡风玻璃外侧 为得到最佳效果, 请将控制开关设定如下 为得到最佳效果, 请将控制开关设定如下 风速除OFF以外的任意设定 风速除OFF以外的任意设定 温度指向温暖（红色区 来升温 温度指向温暖（红色区 指向寒冷（蓝色区 来降温 进气外循环（外界空气 进气外循环（外界空气 气流除雾除霜模式 气流除雾除霜模式 空调（AC OFF 空调（AC ON 将空气流向选择键调至吹脚除雾除霜时, 可兼具前 wwwcarobookcom 在潮湿的气候, 冷气不要吹向前挡风玻璃, 室内外的 挡风玻璃除霜与室内加温的效果 温差可能会使车窗表面起雾, 从而妨碍您的视线 53",
+      "length": 299,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 61,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 仪表台出风口 如果气流控制不满意, 请调整侧出风口 侧出风口可被打开或关闭 wwwcarobookcom LC0055 中部出风口 LC0056 侧出风口 54",
+      "length": 86,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 62,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 检查和更换空调空气过滤器 空调空气过滤器位于杂物箱的后面 经过长时间的使用, 空调空气过滤器将被堵塞 如果感到空调或暖风的气 流工作效率极端减弱, 或车窗很容易起雾, 则须更换空气过滤器 1从副驾驶位置的仪表台下部缺口处取出空气过滤器总成 2从滤清网支架中取出空气过滤网 3检查空气过滤网的表面 如果不是非常脏, 可以用压缩空气从背面吹干净 不要对空气过滤网清洗 或上油 wwwcarobookcom 如果肮脏, 则须更换 LC0057 注 意 在把空气过滤网装回到滤清网支架中时, 需保证空气过滤网平的一面 向下而有纹路的一面向上 空气过滤器须正确安装在其位置上 在取下空气过滤器的状态下使用 空调, 将降低防尘作用并影响空调性能 55",
+      "length": 325,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 63,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 当您感到眼睛刺痛时 空调器工作时, 您若抽烟, 就可能会感到眼睛刺痛 这一症状是由于眼膜 在车内干燥的空气中变干, 因此变得对外界刺激非常敏感 在这种情况下, 应设置为外循环排出烟雾 LC0058 wwwcarobookcom 合适的空调温度 空调器可以降低温度, 使人精神爽快 一般从健康角度来说, 当您进入冷 的汽车内时温度使您感到稍微有点凉（与外界相差56 最好 汽车内 过凉, 会从各方面影响身体健康 所以, 一定要注意温度的调节 LC0059 56",
+      "length": 235,
+      "sentence_count": 9,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 64,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 怠速提高装置 发动机上装有怠速提高装置, 它可以稍微地提高发动机的怠速, 以改善停 车时制冷效能 该装置作用时, 发动机的空转速度比平时要高, 所以汽车 起步或停车时, 要特别小心 LC0060wwwcarobookcom 在烈日下停放车辆时 如果在烈日下较长时间地停放车辆, 则车内的温度会升得很高 在这种情 况下, 应首先打开所有的窗户让热空气排到车外, 然后再打开空调 当车内温度变凉时, 关闭窗户, 然后按需要调节车内温度 在雨天, 车窗上容易蒙上一层雾气, 使清晰度下降 遇到这种天气, 应将 空调置于制冷方式或除雾方式, 则雾气很容易被除去 LC0061 57",
+      "length": 292,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 65,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 音响系统 基础部分 本章节将说明音响系统的一些基础知识 其中一些说明可能和本系统无 关 将点火钥匙旋转至ACC或ON位置, 则音响系统就可以工作 系统的打开和关闭 按 钮来打开和关闭音响系统 音调和平衡 ww有关w音响c系a统r的o音b调o和o平k衡控c制o器m的细节, 可参看有关本系统的说明 LC0062 收音机CD 音调 音响节目效果的优劣, 很大程度上取决于高音音平和低音音平的混合, 事 实上, 不同种类的音乐和声乐节目, 通常是根据高音与低音的不同混合来 取得较好的音响效果 LC0063 收音机CDMP3 58",
+      "length": 268,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 66,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 平衡 保持左、右立体声通道和前、后音平的良好平衡, 也是十分重要的 CD机MP3 当插入一张唱片时, 须将标签朝上轻轻地将其按入 CD机将从曲目1开始播 RESET 放直至唱片的末尾, 然后重新从曲目1开始播放 当外接音源时, CD机将播放MP3模式歌曲, 支持MP3目录选择播放, 同时显 示曲目名称、标题等 wwwcarobookcom LC0064 警 告 绝对不要拆卸或加油润滑CD机的任何部件 不要向槽中插入除小型唱 片以外的任何东西 不要插入两张叠在一起的唱片, 否则将损坏小型唱片转换器, 一次只 能插入一张小型唱片 注意不要让饮料溢在小型唱片上 除盒式磁带和小型唱片以外, 盒式磁带槽或CD槽中不得插入任何其它 物体 在车内或车辆近旁使用蜂窝式电话将会造成正在收听的音响系统的扬 声器发出噪音, 但是, 这并不表示功能失常 59",
+      "length": 378,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 67,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 收音机收音 如果CD机受潮, 那么即使CD机在工作中, 也不能听到任 调频广播的收音范围约40km公里 当驾车离开这个范 何声音, 须将唱片取出, 直至干燥为止 围时, 由于信号变弱, 因此须微调收音机提高音量, 因 CD机使用了一种看不见的激光光线, 这种激光光线如果 为调频广播使用瞄准线信号, 因此高大的建筑物或小山 照射到装置之外, 将引起危险的辐射能泄露, 确认正确 将会阻挡收放机的接收, 这些都是调频收音的正常情 操作CD机 况, 并非收音机本身的问题 CD机可能不能播放以下产品 细心使用CD机和唱片 限制特制的唱片 CD机只能使用12cm的唱片 CDR（单写式唱片 wwwcarobookcom 极端的高温将会防碍CD机的工作, 在热天, 收听唱片之 CDRW（复写式唱片 前, 须用空调降低车内温度 颠簸的路面上或其它有震动之处, 可能使CD机播放跳 跃 60",
+      "length": 396,
+      "sentence_count": 10,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 68,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 计算机光盘 标签的唱片 注 意 为了防止CD机或转换器受 损, 不要使用具有如图所示的 特殊形状、低质量或有标签的 唱片 小心拿取唱片, 特别是将其 wwwcarobookcom 插入箱盒时, 须拿住唱片的边缘 LC0065 LC0066 并不得将其扭曲 避免在唱片上 沾上指纹, 特别是有光泽的一 面 污垢、擦伤、弯曲、针孔或 唱片的其它损伤, 将引起CD机跳 越或重复曲目 （要检查唱片上的针孔时, 可将 唱片对着亮光查看 不听唱片时, 须从CD机中取 出唱片 将唱片存放在塑料容器 中并远离湿气、温热以及阳光直 LC0067 LC0068 接照射的地方 61",
+      "length": 288,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 69,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 播放U盘 倒车雷达系统 按提示打开USB盖板, 插入专用U盘, 显示屏显示USB 倒车雷达系统由倒车雷达主机、探头、探头卡板和线束 PLAY开始检测U盘和搜索文件夹 当搜索到MP3或WMA格 四部分组成 倒车时, 通过装在车尾部的超声波探头探 式的文件时开始播放, 同时显示 文件格式、正在播放 测障碍物距离, 通过组合仪表内蜂鸣器的警示声音变化 的曲目号、歌曲信息等 U盘播放时的常规操作和播放 报警, 可判断倒车时的安全距离, 对碰撞事故防患于未 MP3光盘时的操作相同 然 注 1目前由于U盘品牌种类繁多, 控制参数也有区分, 倒车雷达测试 所以本机对有些U盘可能无法识别播放 遇到此种情况请 当汽车挂入倒档后, 倒车系统开始工作 障碍物从15m 更换U盘 进入10m的探测区, 蜂鸣器发BIBIBI声 障 wwwcarobookcom 2在插入U盘之前请注意USB插头的方向, 以免损坏USB插口 碍物进入10m至04m的探测区, 蜂鸣器随距离的缩短发 3支持MP3和WMA两种格式的歌曲文件 支持USB20接口 出递进式BIBIBIBI声",
+      "length": 480,
+      "sentence_count": 16,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 70,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "支持USB20接口 出递进式BIBIBIBI声 进入04m以内, 处于连 标准, 同时向下兼容USB 11接口标准 续报警状态, 蜂鸣器发BIBIBI报警声, 02m以内 4最高支持512M容量的U盘 是盲区不作检测 5由于目前网络下载歌曲文件制作有差异, 并且存在歌 警 告 曲文件损坏的现象, 遇到不能正常读取的歌曲请等待45 秒或按键跳过, 或者用户也可以将不能正常播放 为避免意外事故和人身伤害, 请认真遵守下列说 的歌曲从U盘中删除 明 在施加制动的情况下慢速行驶, 同时目视确定车辆 周围的安全距离 本车可选装单碟CD、单碟CD带MP3等配置, 具体使用法详 见随车音响系统单行本的使用说明书 62",
+      "length": 305,
+      "sentence_count": 9,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 70,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 设置 传感器检测范围限于后保险杠周围 一定要目视确定 另一配备有超声波传感器的车辆靠近自己的车辆 传感器的检测范围以外的安全状态 车辆被大雨淋湿或溅上水 传感器检测障碍物需要一段时间 车辆上安装有收音机天线或防护柱 蜂鸣器的声音提示也许不能正确提示, 且检测范围可 车辆上安装有牵引金属圈 能会缩小, 这取决于障碍物的形状 正向一高的路肩或有直角的路肩石方向行驶 由于音响的音量或空调的气流噪音, 可能不易听到提 对于某些物体的检测范围可能会缩小 示音 不能检测到位于保险杠下方的物体, 尽管有时能检测 到低于传感器位置的物体, 但是当车辆靠近该物体时检 在下列情况下倒车雷达系统也许不能正常工作 测可能会停止 wwwcarobookcom 后保险杠已损坏 障碍物距离传感器非常近 传感器附近零件受到强烈碰撞 在传感器检测范围内安装有附件 倒车雷达也许不能检测到下列物体",
+      "length": 388,
+      "sentence_count": 14,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 71,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "传感器表面覆盖有雪花或泥浆 细的物体如电线或绳索 传感器表面有因高压洗车溅上的水滴或水汽 吸收声波的物体 传感器被手盖住 带锐边的物体 车辆倾斜 上部凸出的高大物体 在特别炎热或寒冷的天气时 较短的物体 在崎岖不平的道路、斜坡、碎石路或草地上行驶 在车辆周围有发出超声波的设备, 例如其它车辆上的 喇叭、摩托车发动机、重型车辆上的气闸声 63",
+      "length": 171,
+      "sentence_count": 2,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 71,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 安全带 伤患 座位安全带注意事项 建议使用安全带 根据伤势的轻重, 先向医生询问有关 在汽车行驶时, 请务必系好安全带, 正确使用安全带能明 的注意事项 显降低伤害危险 车辆配备的座位安全带是为成人而设计 警 告 的, 要正确佩带座位安全带需要达到一定的身高 请遵照下列指示来使用安全带 儿童 汽车在行驶中, 车中乘员必须坐在座椅上, 正确系 需使用适用儿童的儿童安全装置, 直到儿童可以正确佩 好安全带, 否则, 在紧急制动或发生碰撞事故时, 车中 带安全带为止 若儿童身材过大而不能使用儿童安全装 人员将更容易受到严重的伤害或死亡 置时, 应让儿童坐于后座并且必须系好安全带 儿童不 每条安全带限一人使用, 即使是儿童也不可两人以 wwwcarobookcom 得坐在前排座椅, 否则在意外事件中, 前排乘员安全气 上共用一条安全带 囊瞬间展开的冲击力将造成儿童严重受伤或死亡 不可 避免座椅靠背过度倾斜, 座椅靠背在直立位置时, 让儿童站立于后座或前座 安全带才能达到最好的保护效果 小心不要损伤安全带的带面或金属部分, 并小心不 在紧急制动或发生碰撞时, 未被保护的儿童将受到严重 要被座椅或车门夹到",
+      "length": 512,
+      "sentence_count": 15,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 72,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "伤害或死亡 同样, 也不要让儿童坐在大人的腿上, 这 定期检查安全带系统 检查有无切痕、磨损和松驰的 样不能得到充分的保护 部件 须更换已经损坏的部件, 不得拆下或改装系统 孕妇 保持安全带的清洁和干燥, 若需要清洁时, 使用温 必须佩戴安全带, 使用时应该依照医生的指示 腰部安 肥皂水或温水清洗 绝对不可使用漂白剂、染料液或研 全带应该扣紧跨带部分, 应尽可能靠下佩带在隆起的腹 磨清洗剂（这类物质将使安全带损坏 部下方, 不可置于腰部 若发生碰撞事故后须至全球鹰品牌服务站更换安全 带装置包含螺栓即使安全带的损坏不明显仍须更换 这个装置 64",
+      "length": 274,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 72,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 三点式安全带 按需要调整座椅（仅前座椅 , 坐直并背靠椅背, 将安全带从卷收器拉 出, 并将带头插入带扣内, 带头插入带扣时, 会听到咔哒声 安全带长度 可依乘员体型和座椅位置自动调整 缓慢或平缓的动作可使安全带向外伸长, 拉动肩带速度过快时, 肩带会锁 住, 让肩带稍稍回缩, 即可将肩带解锁 警 告 将带头插入后, 请确认固定是否良好和安全带是否没有扭曲 wwwcarobookcom 带扣中不要插入硬币, 回形针等物件, 以免影响带头和带扣的正确插 LC0069 配 如果安全带功能不正常立刻通知全球鹰品牌服务站, 安全带未修复前 不要使用该座位, 它不能对成人和儿童起到保护作用 65",
+      "length": 304,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 73,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 调整腰部和肩部的安全带 腰部安全带尽可能低到胯骨位置不可放在腰部 然后把肩部安全带向 上拉, 将安全带调节至舒适的位置 警 告 腰部安全带系得太高和肩部安全带系得太松, 在意外事件时, 因为安 全带滑动而增加受伤的机会 因此腰部安全带应尽可能低至胯骨位置 肩部安全带穿过肩膀的中心 安全带须离开颈部远一些, 但不得让安 全带从肩膀上脱落 否则, 在发生不测事故时, 将减低安全带所起的保护 ww作w用, 并c在a碰ro撞b事故o中o导k致c人员o严m重受伤 LC0070 为了您的安全, 不可将肩部安全带置于手臂底下 解开安全带只要按下红色解扣按钮, 安全带即可自动回缩 如果安全带无法完全回缩, 则应将安全带拉出, 检查是否有纠结或扭曲, 确保安全带在收回时保存平缓 LC0071 66",
+      "length": 352,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 74,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 两点式安全带 坐直、背靠座椅, 要系上安全带时, 将安全带带头插入带扣内 带头插入 带扣时会听到一声咔哒声 如果安全带不够长, 可将带头与安全带成直角的拉出即可延长 缩短过长的安全带, 并调整至适当位置 要缩短安全带, 只要拉安全带自 由端即可 将腰部安全带尽量低至臀部位置不可放在腰部然后调整至 适当位置 警 告 wwwcarobookcom 将带头插入后, 确认带头和带扣固定是否良好和安全带是否扭曲 LC0072 不可将硬币、夹子等插入带扣中, 以避免带头和带扣固定不良 如果安全带的功能不正常, 在修复前不可再使用此座椅, 它不能保护 乘员的安全 按下带扣上的红色解扣按钮, 安全带可自然解开 LC0073 67",
+      "length": 318,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 75,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 前座位安全带预紧装置 驾驶员和前方乘员的座位安全带预拉紧装置, 将在发生中度至重度正面碰 撞或接近正面的碰撞时起作用 安全气囊电子控制单元探测到前方发生中度至重度正面碰撞或接近正面的 碰撞时, 预紧装置通过传感器触发, 并将安全带反向收紧, 阻止乘员向前 运动, 从而更加可靠地提高驾驶员及乘员的安全性 该预紧装置只能使用 一次 轻微的正面碰撞、侧面碰撞、后面碰撞、侧翻以及无显著正面作用 力的事故时, 安全带预紧装置不工作 所以为了您的安全, 当车辆发生轻 微碰撞后, 请到全球鹰品牌服务站检查安全带系统 前座位安全带预紧装置与安全气囊共用一个控制器 wwwcarobookcom 前座位安全带预紧装置系统包括以下组件, 位置如图所示 LC0074 安全气囊系统警告灯 前排安全带总成（安全带卷收器上的预紧器 安全气囊控制单元 当前座位安全带预紧装置工作时, 可以听到操作噪音并放出少量类似气体 的烟气 这种气体是无害的, 也不表示发生火灾 一旦前座位安全带预拉 紧装置工作, 则座位安全带卷收器保持在锁定状态 警 告 不得改装、取下、敲击或打开前座位安全带预紧装置组件、气囊传感 器或其四周接线",
+      "length": 507,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 76,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "警 告 不得改装、取下、敲击或打开前座位安全带预紧装置组件、气囊传感 器或其四周接线 否则都将造成前方座位安全带预拉紧装置突然工作, 使 LC0075 系统失去作用, 从而导致死亡或严重受伤 68",
+      "length": 98,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 76,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 警 告 前座位安全带预紧装置在安全气囊工作后必须同步更换前座椅带预紧 式安全带, 要求在指定维修站进行更换, 否则不通过测量诊断, 使系统失 去作用, 从而导致死亡或严重受损 安全带的清洗 警 告 安全带织带可以用中性肥皂水或微温的 不能采用染色剂或漂白剂清洗安全带, 这会使安全带的强度减弱 水来清洗 使用海绵或软布在清洗中 安全带未干之前不得使用 须检查安全带有无过度磨损、磨破或切 wwwcarobookcom 痕 儿童安全装置 全球鹰事业部强烈建议 凡儿童须使用合适的儿童保护系统 请您选配与 儿童年龄、身高和体重相匹配的儿童安全座椅 警 告 即使家长在系上安全带之后再抱住儿童也是不安全的, 更不要与儿童 共用一个安全带 在前乘员座椅上不得安装面向后方的儿童保护系统 如果这样做, 那 么在发生事故时, 前排乘员安全气囊快速膨胀的力量, 将会导致儿童死亡 或受到重伤 LC0076 69",
+      "length": 406,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 77,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 如果儿童的身材过大, 无法使用儿童安全装置, 则可将 5须确认遵守儿童安全装置制造厂提供的一切安装说 儿童安排在后方座位, 并系好安全带 有关细节, 可参 明, 以及正确将装置牢牢安装 看安全带 在使用儿童安全装置时须注意以下事 6如果不使用儿童安全装置时, 需要正确固定儿童保护 项 装置, 或把它放置在乘员车厢以外的位置 这样, 可以 1在发生事故或紧急制动时, 为了对儿童起有效的保护 在紧急制动或发生事故时防止乘员受伤 作用, 须按儿童的年龄和身材尺寸, 正确使用安全带或 儿童安全装置 将儿童抱在手臂中不能代替儿童安全装 儿童安全装置的选用 置所起的保护作用 在发生不测事故时, 儿童可能被携 根据《机动车辆儿童乘员安全装置 的规定儿童安全装 至挡风玻璃或挤压在乘员和车厢之间 置分为 wwwcarobookcom 2全球鹰事业部极力主张正确使用适合儿童身材尺寸的 0组 用于体重小于10kg的儿童 安全装置, 并将其安装在后座位 根据事故统计, 在后 0组 用于体重小于13kg的儿童 座位上受到正确保护的儿童比在前座位上要安全 I组 用于体重9kg到18kg的儿童",
+      "length": 497,
+      "sentence_count": 19,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 78,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "座位上受到正确保护的儿童比在前座位上要安全 I组 用于体重9kg到18kg的儿童 3不准将面向后方的儿童安全装置安装在前方座位上, II组 用于体重15kg到25kg的儿童 在发生意外事故时, 如果将面向后方的儿童安全装置安 III组 用于体重22kg到36kg的儿童 装在前方座位上, 安全气囊迅速展开时的力量, 将导致 在本手册中, 阐述了婴儿、幼童、较大儿童3种类型的儿 严重受伤或死亡 童安全装置 4在具有侧安全气囊和帘式气囊的车辆上, 即使儿童坐 在儿童安全装置中, 也不要让儿童倚靠在侧车门上或侧 车门的周围 因为侧气囊或帘式气囊展开时是很危险 的, 撞击将造成儿童严重受伤或死亡 70",
+      "length": 299,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 78,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 婴儿安全装置 相当于《机动车辆儿童乘员安全装置 规定中的0组和0组 这一阶段的儿 童应使用朝向后面且倾斜的儿童安全装置, 只有朝后的儿童安全装置才可 以起到支撑婴儿的作用, 以保护他们的头、颈和背 LC0077wwwcarobookcom LC0078 71",
+      "length": 137,
+      "sentence_count": 4,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 79,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 幼童安全装置 相当于《机动车辆儿童乘员安全装置 规定中的0组和组和组 如果 儿童因长大不适用朝后的儿童安全座椅, 而且不需要支持物即可坐稳的 话, 应使用朝向前面的儿童座椅 LC0079 wwwcarobookcom 较大儿童安全装置 相当于《机动车辆儿童乘员安全装置 规定中的组 随着年龄的增长, 当儿童达到朝前的儿童安全装置所规定的重量或高度使用极限, 但又不能 正确使用车座安全带时, 应该用儿童安全坐垫, 以达到正确使用车座安全 带 LC0080 72",
+      "length": 238,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 80,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 婴儿安全装置的安装 警 告 禁止在有前方气囊提供保护的座位上安装面向后方的儿童安全装置 因为气囊迅速充气时的作用力, 将导致幼儿的严重受伤或死亡 全球鹰事业部郑重提醒, 不论在任何情况下, 都不可以在前排乘员座 椅上安装面向后方的儿童安全装置 前排乘员的安全带不是带儿童保护功能的安全带, 您没有办法将面向 后方的儿童安全装置固定牢固 wwwcarobookcom LC0081 使用两点式安全带安装 本车中您可以选择在后排中间座椅上使用两点式安全带固定的儿童安全装 置, 但只能是面向后方的儿童系统 警 告 如果婴儿安全装置的安装会干扰到前座椅的锁定机构时, 则不可将它 安装在这个位置, 因为这种情形可能会使婴儿和前乘员在紧急制动或撞车 时受到严重伤害 LC0082 如果驾驶座后方的位置不适时, 则可将婴儿防护座椅安装至另外一侧 73",
+      "length": 378,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 81,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 按照制造厂商提供的说明, 正确固定儿童保护装置 警 告 将带头插入后, 须确认带头和带扣牢固锁定, 安全带织带没有扭曲 带扣中不要插入硬币, 回形针等物件, 以防止阻碍带头和带扣的正确 锁定 如果带扣的功能不正常, 立刻通知全球鹰品牌服务站, 带扣未修复之 前, 不要使用该座位, 它不能对乘员或幼儿起保护作用 LC0083 wwwcarobookcom 紧紧将婴儿安全装置向坐垫和座位靠背按压的同时, 拉安全带的自由端来 扣紧腰部安全带, 将婴儿安全装置紧紧固定 LC0084 74",
+      "length": 250,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 82,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 在不同方向, 将婴儿安全装置推按和拉引, 确认紧紧固定 LC0085wwwcarobookcom 需将幼童安全装置取下时, 按下带扣红色按钮即可 LC0085 75",
+      "length": 90,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 83,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 幼童安全装置的安装 使用两点式安全带安装 按照制造厂商提供的说明, 将腰部安全带穿过或围绕幼童安全装置, 将带 头插入带扣, 注意腰部安全带不要扭曲, 并保证腰部部分束紧 警 告 将带头插入后, 须确认带头和带扣牢固锁定, 安全带织带没有扭曲 带扣中不要插入硬币, 回形针等物件, 以防止阻碍带头和带扣的正确 锁定 wwwcarobookcom 如果带扣的功能不正常, 立刻通知全球鹰品牌服务站, 带扣未修复之 LC0086 前, 不要使用该座位, 它不能对乘员或幼儿起保护作用 紧紧将幼童安全装置向坐垫和座位靠背按压的同时, 拉安全带的自由端来 扣紧腰部安全带, 将幼童安全装置紧紧固定 LC0087 76",
+      "length": 312,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 84,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 在不同方向, 将幼童安全装置推按和拉引, 确认紧紧固定, 须按照制造厂 提供的安装说明进行安装 LC0088wwwcarobookcom 需将幼童安全装置取下时, 按下带扣红色按钮即可 警 告 只有在不可避免的情况下, 才可在前排乘员座位上安装面向前方的儿 童安全装置 由于前座乘员安全气囊展开时的作用力能导致儿童严重受伤 或死亡, 因此需尽可能将座位向后移 LC0089 77",
+      "length": 197,
+      "sentence_count": 5,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 85,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 使用3点式安全带的安装（ALRELR安全带 婴儿座椅以面向后方的方式安装 按照制造厂商提供的说明, 将中心腰部安全扣带穿过或围绕婴儿座位 将 带头插入带扣, 注意腰部安全带不要扭曲 警 告 如果婴儿安全装置的安装会干扰到前座椅的锁定机构时, 则不可将它 安装在这个位置, 因为这种情形可能会使婴儿和前乘员在紧急制动或撞车 时受到严重伤害 wwwcarobookcom 如果驾驶座后方的位置不适时, 则可将婴儿防护座椅安装至另外一侧 LC0090 警 告 将带头插入后, 须确认带头和带扣牢固锁定, 安全带织带没有扭曲 带扣中不要插入硬币, 回形针等物件, 以防止阻碍带头和带扣的正确 锁定 如果带扣的功能不正常, 立刻通知全球鹰品牌服务站, 带扣未修复之 前, 不要使用该座位, 它不能对乘员或幼儿起保护作用 LC0091 78",
+      "length": 372,
+      "sentence_count": 10,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 86,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 在不同方向, 将幼童安全装置推按和拉引, 确认紧紧固定 LC0092wwwcarobookcom 需将婴儿安全装置取下时, 按下带扣红色按钮即可 让安全带缩回, 则安 全带将恢复至一般作用功能 LC0093 79",
+      "length": 114,
+      "sentence_count": 4,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 87,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 幼童座椅的安装 按照制造厂商提供的说明, 将腰部安全带穿过或围绕幼童安全装置, 将带 头插入带扣, 注意腰部安全带不要扭曲, 并保证腰部部分束紧 警 告 将带头插入后, 须确认带头和带扣牢固锁定, 安全带织带没有扭曲 带扣中不要插入硬币, 回形针等物件, 以防止阻碍带头和带扣的正确 锁定 如果带扣的功能不正常, 立刻通知全球鹰品牌服务站, 带扣未修复之 LC0094 wwwcarobookcom 前, 不要使用该座位, 它不能对乘员或幼儿起保护作用 将肩带全部拉出至锁定状态, 当肩带稍微回缩后即无法再拉出 在让安全带回缩之前, 务必确定安全带已进入锁定模态, 以便幼儿座椅固 定好 LC0095 80",
+      "length": 311,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 88,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 紧紧将儿童安全装置向坐垫和座位靠背按压的同时, 让肩部安全带完全收 缩, 将儿童座位紧紧固定 在不同方向, 将儿童安全装置推按和拉引, 确认紧紧固定, 须按照制造厂 提供的安装说明进行安装 LC0096wwwcarobookcom 需将幼童安全装置取下时, 按下带扣红色按钮即可 让安全带缩回, 则安 全带将恢复至一般作用功能 LC0097 81",
+      "length": 181,
+      "sentence_count": 5,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 89,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 较大儿童安全装置的安装 将儿童安排坐在儿童安全装置上, 根据制造厂提供的说明, 将腰部安全带 和肩部安全带穿过或绕过儿童, 将带头插入带扣, 注意安全带不要扭曲 确认将肩部安全带正确穿过儿童的肩部、腰部安全带尽可能保持在低至儿 童的臀部位置 有关细节, 可参看安全带 警 告 须确认肩部安全带位于儿童肩部中心的位置上 须将安全带离儿童的 颈部远一些, 但不能落至儿童的肩部下方 如果不这样做, 则可能减低肩 LC0098 wwwcarobookcom 部安全带在发生事故时所起的保护作用而导致严重受伤 高位置的腰部安全带和装配松弛的安全带, 在发生碰撞或其它意外事 故时, 由于腰部安全带下滑而将导致严重受伤, 须尽可能将腰部安全带保 持在低至儿童的胯骨位置 为了儿童的安全, 不要将肩部安全带放置在儿童手臂的下方 LC0099 82",
+      "length": 375,
+      "sentence_count": 9,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 90,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 使用ISOFIX固定点安装 按照以下的程序安装需要顶部拉带的儿童安全装置 使用位于后座位靠背 后面的固定挂扣来固定顶部拉带 wwwcarobookcom LC0100 固定挂扣被安装在两个外侧后座位位置 用座位安全带固定儿童安全装置 将挂钩扣在固定支座上并系紧顶部拉 带 警 告 确认顶部拉带被紧紧扣住, 并按不同方向推拉儿童安全装置来检查是 否被固定, 须按照制造厂商提供的所有安装说明进行安装 LC0101 83",
+      "length": 216,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 91,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 儿童安全装置利用ISO规范的专用固定杆被安装在后座位上 固定杆安装在 两个外侧后座位的坐垫和座位靠背之间的空隙处 准ISO规格的儿童安全装置可以由这些专用固定杆来固定 这种情况下, 不 需要用座位安全带来固定儿童安全装置 警 告 需向儿童安全装置的制造厂商确认儿童安全装置是否可以用于这种类 型 LC0102 wwwcarobookcom 取下头部保护装置 LC0103 将头部保护装置复位 84",
+      "length": 206,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 92,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 将坐垫和座位靠背之间的空隙弄宽一些并将饰边下的专用固定杆固定在坐 垫上 如果儿童安全装置具有顶部拉带, 则须将它固定 如果儿童安全装置具有 支撑腿, 则须确认支撑腿安装完好 有关安装的细节, 可参看各种产品所提供的说明手册 警 告 当使用儿童安全装置的专用固定杆时, 须确认在杆的周围没有不规则 的物体或没有夹住座位安全带 LC0104wwwcarobookcom 从不同的方向推拉儿童安全装置以确认被紧紧固定 遵守由制造厂提 供的所有安装说明 当使用儿童安全装置的专用固定杆时, 在座位靠背接近儿童安全装置 的同时确保座位被移动到最后的位置 固定了儿童安全装置之后, 不要滑动或倾斜座位 如果妨碍前座位的锁定机构, 则不得在后座位上安装儿童安全装置 否则在紧急制动或发生碰撞时, 将导致儿童和前座乘员的严重受伤或死 亡 LC0105 85",
+      "length": 378,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 93,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 SRS辅助防护系统 安全气囊系统的设计是提供驾驶员和前座乘员在安全带保护作用之后再进 一步的安全保护 其中一种配置配备正面气囊, 即驾驶员气囊和前排乘员气囊 当车辆受到 中度至重度正面碰撞或接近正面的碰撞时, 驾驶员气囊和前排乘员气囊利 用充气产生的作用力减小乘员受伤的危险 另一种配置除配备正面气囊外, 还配有侧气帘和侧气囊 侧气帘, 用于保 护驾驶员和其后面的乘员, 以及右前乘员和后面的乘员 侧气囊用于保护 驾驶员和右前乘员 当车辆受到中度至重度侧面碰撞时, 侧气帘和侧气囊 wwwcarobookcom 利用充气产生的作用力减小乘员受伤的危险 LC0106 所有气囊的保护必须在系安全带的前提下才能够达到设计的安全性能, 才 能起到对乘员的保护作用 警 告 安全气囊是轿车被动安全系统中的一个组成部分, 绝不能取代安全 带, 否则, 发生事故时安全气囊将不能有效发挥其保护作用 如果不佩戴 安全带, 安全气囊的快速充气和爆出将会导致更为严重的伤害 因此, 车 辆行驶时车内所有乘员必须系好安全带",
+      "length": 459,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 94,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "因此, 车 辆行驶时车内所有乘员必须系好安全带 气囊在设计上并不是发生所有的 碰撞都会充气展开, 即使安全带和气囊同时作用也并不能完全避免乘员在 碰撞事故中受到伤害 86",
+      "length": 85,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 94,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 正面（驾驶员和前排乘员 前安全气囊系统 试验证明车辆在发生中度至重度正面碰撞或接近正面的碰撞中, 单独使用 座椅安全带不能避免头部与转向盘和仪表板的强有力撞击, 正面安全气囊 系统可作为缓冲器来保护前排人员头部和胸部以减轻其与转向盘和仪表板 的撞击程度, 它与车内安装的座椅安全带一起作用才能提供更好的安全保 护 为了您的幸福和安全, 请您在使用该车前务必详细阅知本使用说明书中的 内容 wwwcarobookcom LC0107 如果出现以下任何一种情况, 则表示安全气囊系统故障 须尽快通知全球 鹰品牌服务站维修您的爱车 当点火开关转至ON的位置, 指示灯不亮或持续亮着 行驶中指示灯亮起 LC0109 87",
+      "length": 314,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 95,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 正面安全气囊系统主要由下列零件所组成, 而它们的位置则如图所示 1安全气囊ACU内置碰撞传感器 2驾驶座气囊组件（气囊和充气装置 3安全气囊指示灯 4前乘员座气囊组件（气囊和充气装置 当车辆受到中度至重度正面碰撞或接近正面的碰撞时, 达到系统触发条 件, 使气囊充满气体, 以缓冲前排驾驶员和前排乘员向前冲击的速度, 阻 止驾驶员和前排乘员直接撞到转向盘和仪表板上 LC0110 wwwcarobookcom 气囊充气只需几十毫秒, 气囊模块的有些零部件在短时间内会很烫 这些 部件包括驾驶员正面气囊所在的方向盘毂、以及右前乘员正面气囊所在的 仪表板 与身体相接触的某些气囊零部件可能会处于高温状态, 但气囊本 身并不烫 放气后的气囊会释放出一些烟雾和粉尘, 这些气体是无毒的 气囊充气不会妨碍驾驶员视野或妨碍驾驶员操纵车辆转向, 也不会妨碍乘 员离开车辆 气囊在设计上只能充气膨胀一次, 起保护作用时间为几十毫 秒 88",
+      "length": 419,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 96,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 当车辆发生中度至重度正面碰撞或接近正面的碰撞时, 并且当碰撞严重程 度超过设计的作用值时, 气囊才会充气 在任何具体碰撞过程中, 任何人 都不应仅仅根据车辆损坏程度或车辆修理费用就断定安全气囊本应该充 气 正面安全气囊是否充气并不取决于车辆行驶速度, 主要取决于碰撞的 物体、碰撞的方向及车辆减速的快慢等因素为了所有乘员的安全, 行车时 要系好安全带 如果车辆遇到如下碰撞形式前排安全气囊不会张开 侧面碰撞或接近侧面碰撞 后面碰撞 LC0111wwwcarobookcom 车身翻滚 轻微正面碰撞（轻微是对于车辆的安全气囊电子控制单元或碰撞传 感器感受而言的, 与车辆损坏程度无关 其他特殊情况 89",
+      "length": 308,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 97,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 警 告 婴儿或儿童若未受到适当的束缚和保护, 可能会被充气中的气囊严重 打伤或死亡 如果婴儿或儿童因太小而无法使用安全带时, 必须使用幼童 防护座椅 全球鹰事业部强烈建议 婴儿和儿童都应坐于后座并使用适当 防护系统 对于婴儿和儿童而言, 后座是最安全的 在车辆使用过程中, 不要坐在座椅边上或斜靠在仪表板上, 因为前座 乘员气囊会以相当大的速度和力膨胀 在气囊膨胀时, 任何直立依靠或非 常靠近气囊的人员将可能会死亡或受到严重伤害 因此请遵守下列指示 LC0186 www 驾驶c员a的r位o置b, o应o该k在可c控o制m车辆的范围内, 尽量远离转向盘 坐直并靠座椅上 前座乘员应尽量远离仪表板 驾驶员和乘员皆应始终系好安全带 LC0114 90",
+      "length": 332,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 98,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 警 告 由于前方充气囊展开时具有相当大的速度和力量, 禁止幼儿站起或跪 在前方乘员座位上, 否则会导致幼儿死亡或严重受伤 全球鹰品牌事业部郑重提醒前排乘员禁止抱着儿童坐在前排乘员的位 置, 因为急刹车或发生碰撞时, 儿童可能会被挤压在乘员和仪表板之间造 成严重伤害 如果碰撞严重, 气囊打开, 将可能带来儿童的严重伤害甚至 死亡 LC0115wwwcarobookcom 警 告 禁止在仪表板前方或杂物箱前方及安全气囊系统的转向盘衬垫上放置 物体或宠物, 它们会妨碍安全气囊展开或由于安全气囊展开时较大喷射力 而导致乘员严重受伤或死亡 同样, 驾驶员和前排乘员的手臂中或膝盖上 不要放置物体 禁止改装、拆卸、敲击或打开任何组件或线路, 例如, 转向柱盖、驾驶 员气囊盖、前乘员座气囊、安全气囊电子控制单元 上述任何行为都可能 会使安全气囊突然充气或使系统无法作用, 结果可能导致人员严重受伤或 LC0116 死亡 91",
+      "length": 417,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 99,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 如果有下列情形, 请尽快与全球鹰品牌服务站联系 安全气囊充气过后 车辆的前面部位（如图阴影部分所示 受到撞击, 但是未达到使安全气 囊充气的程度 驾驶员侧及乘员侧安全气囊总成的护盖（如图阴影部分所示 有裂痕、 刮伤或其他形式的损坏时 注 意 在未向全球鹰品牌服务站咨询前, 禁止擅自作下述的变更, 因为这样的变 wwwcarobookcom LC0117 更会干扰安全气囊系统的正常作用 安装电器附属设备, 例如 移动电话系统、卡式放音机或CD音响组等 改装悬架系统 改装前端结构 安装格栅保护装置（推杆、防护杆等 , 雪车、绞盘或其他任何设备 禁止用万用表检测安全气囊点火装置的电阻, 否则有可能导致气囊误 爆 禁止改变、拆卸、敲击或打开任何组件, 例如转向盘、驾驶员气囊盖、 前排乘员气囊盖、前排乘员气囊或安全电子控制单元及传感器组件, 否则 将造成正面气囊突然充气或系统失去作用 不遵守以上说明, 则将导致死 亡或严重受伤 92",
+      "length": 425,
+      "sentence_count": 17,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 100,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 侧面（侧和帘式 安全气囊系统 侧气囊和侧气帘是以安全带所提供的安全保护为基础, 对驾驶员、前座乘 员和后座位外侧乘员提供更进一步的保护作用 在受到中度至重度侧向碰撞时, 侧面安全气囊通过充气和安全带同时起作 用来减少人员受伤 侧气囊主要能帮助减少驾驶员或前座乘员的胸部受 伤, 而侧气帘则主要能帮助减少驾驶员、前座乘员和后座位外侧乘员的头 部受伤 即使前座位或后座位上没有乘员, 侧气囊和乘员侧的侧气帘仍将 工作 即使侧气囊不起作用, 侧气帘仍可以工作 wwwcarobookcom LC0118 警 告 务必正确系好安全带 侧气囊和侧气帘展开时具有相当大的力量 可能对乘员造成轻微的灼伤、 擦伤和肿胀, 驾驶员、前座乘员后座位外侧乘员必须 正确佩带安全带 任何时候都要背靠座椅靠背, 保持正确的坐姿 93",
+      "length": 361,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 101,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 侧气囊和侧气帘系统主要包括以下组件, 位置如图所示 1气囊系统警告灯（同正面安全气囊和预紧安全带共用 2侧气帘组件充气用气袋和充气装置 3侧气囊组件充气用气袋和充气装置 4碰撞传感器 5安全气囊电子控制单元（ACU 侧气囊和侧气帘系统是ACU控制, 发生中度至重度侧向碰撞时, 侧面碰撞传 感器触发, 并将碰撞信号传给ACU, ACU通过计算分析, 向充气装置发出点 火信号 此时, 充气装置中所起的化学反应应使充气囊中迅速充满气体, LC0119 ww用于w缓冲c车a中ro乘员b向o侧o面k的c冲o撞, m阻止乘员的胸部和头部直接撞到车内刚 性结构上 侧气囊和侧气帘在充气时, 将产生相当大的噪音, 并随着无毒气体同时释 放出残存的一些烟雾 这并非表示发生火灾, 这种气体是正常无害的, 只 是对于某些皮肤过敏者, 也许会引起轻微的皮肤疼痛, 须尽快洗去残留 物, 以防止任何可能发生的皮肤发炎 侧气囊和侧气帘将在几十毫秒内展开, 因此气囊充气时力量是相当大的 该系统的设计是为了减少乘员严重受伤, 但可能会引起轻微的皮肤灼伤或 擦伤和肿胀",
+      "length": 480,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 102,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "该系统的设计是为了减少乘员严重受伤, 但可能会引起轻微的皮肤灼伤或 擦伤和肿胀 前座位和前后支柱的部分, 前、中央和后部装饰件以及车顶内部一样会发 热几分钟, 但充气囊本身并不热, 侧气囊和侧气帘在设计上只能充气膨胀 一次, 起保护作用时间为几十毫秒 94",
+      "length": 128,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 102,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 当车辆发生中度至重度侧面碰撞或接近侧面的碰撞时, 并且当碰撞严重程 度超过设计的作用值时, 侧气囊及侧气帘才会充气 在任何具体碰撞过程 中, 任何人都不应仅仅根据车辆损坏程度或车辆修理费用就断定安全气囊 本应该充气 侧面安全气囊是否充气并不取决于车辆行驶速度, 主要取决 于碰撞的物体、碰撞的方向及车辆减速的快慢等因素 在中度至重度侧面碰撞中, 侧气囊和侧气帘是对安全带的保护起到补充作 用, 将冲击力更均匀地分散到乘员身体, 使乘员身体较缓慢地停止移动 为了所有乘员的安全, 请务必正确系好安全带 LC0120wwwcarobookcom 如果车辆遇到如下碰撞形式侧面安全气囊不会张开 正面碰撞或接近正面的碰撞 车身翻转 后面碰撞 轻微侧面碰撞（轻微是对于车辆的安全气囊电子控制单元或碰撞传 感器感受而言的, 与车辆损坏程度无关 其他特殊情况 LC0121 95",
+      "length": 390,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 103,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 警 告 由于侧气囊和侧气帘展开时具有相当大的速度和力量, 因此当车辆在 行驶时, 禁止乘员倚靠在侧车门上, 否则, 可能导致乘员死亡或严重受 伤, 特别是有儿童在车中时更需加倍小心 笔直坐正并背靠座位, 平衡分配座位上的身体重量, 在具有侧气囊的 车辆上, 不要在前座位的外侧施加过度的重量, 而在具有侧气帘的车辆 上, 不要在前支柱、后支柱和车顶侧施加过度的重量 LC0122 wwwcarobookcom 警 告 禁止将头部靠近侧气囊、侧气帘展开的区域 因为这些气囊展开时具 有相当大的速度和力量 否则, 可能会导致人员死亡或严重受伤, 特别是 有儿童在车中时更需加倍小心 禁止让儿童跪在乘员座位上并面向车门, 因为侧气囊和侧气帘展开时 具有相当大的速度和力量, 可能导致儿童死亡或严重受伤 禁止把头、手放在窗外, 侧气囊和侧气帘展开时具有相当大的速度和 力量, 可能导致乘员造成死亡或严重受伤 LC0123 96",
+      "length": 417,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 104,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 警 告 禁止在车门或其周围安装杯架或其他装置或物体 当侧气囊充气时, 杯架或其他装置或物体将被强大的力量甩出, 或者侧气囊不能正常工作, 而导致严重受伤或死亡 禁止驾驶员和前座乘员用手臂抱着物体或把物体 放在膝上 LC0124wwwcarobookcom 警 告 禁止让任何人将头部或者手伸出窗外, 因为侧气帘展开时具有相当大 的速度和力量, 可能会导致人员死亡或严重受伤, 特别是有儿童在车中时 更要特别注意 LC0187 97",
+      "length": 223,
+      "sentence_count": 5,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 105,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 警 告 禁止在侧气帘周围, 比如挡风玻璃、车门玻璃、侧面立柱、车顶侧安 装任何装饰件或在车顶内部和辅助拉手上粘贴麦克风或任何其它设备 当 侧气帘展开时, 这些物品将在强大的气帘展开力的作用下被甩出可能导致 人员受伤或影响侧气帘正常动作 禁止改装或更换座椅, 否则会使系统失效或导致侧气囊突然展开 禁止在装有侧气囊的座椅上安装座椅外罩, 座椅外罩会影响侧气囊正 常动作 LC0125 www 禁止c拆a卸r或o修b理o装o备k有安c全o气m帘的前支柱、后支柱和车顶侧梁 这些 改变会使系统失效或导致侧气帘突然展开 警 告 在未询问全球鹰品牌服务站人员之前, 禁止进行以下任何改变, 这样 的改变, 可能在某些情况下, 妨碍侧气囊和侧气帘的正确工作 1安装诸如移动式双向无线电通讯装置, 盒式磁带电唱机或小型唱片电 唱机等电子设备 2改装悬架系统 3改装乘员车厢的旁侧结构 4在托架或其附近进行修理 98",
+      "length": 408,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 106,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 安全信息 侧面安全气囊系统同正面安全气囊系统一样由安全气囊电子控制单元监 控, 并由安全气囊系统警告灯指示其工作状态 正常状态下, 打开点火开 关后, 安全气囊系统警告灯将亮大约6秒钟, 系统完成自检后自动熄灭 若警告灯不熄灭或行驶中点亮, 则表明系统存在故障 若系统发生故障, 应立即到帝豪品牌服务站检查系统, 不要私自拆卸维修, 否则在发生事故 时, 安全气囊系统不能正常工作 LC0188wwwcarobookcom 警 告 出现下列情况, 须立刻与全球鹰品牌服务站联系 侧气囊和侧气帘已经展开 车门的一部分图示指明部分遇到事故但未引起侧气囊和侧气帘展开 内部含有侧气帘的前支柱、后支柱和车顶侧梁装饰物或顶棚已经刮破、 裂开或有其它损坏 前排座椅外侧表面发生裂缝尚未询问全球鹰品牌服务站之前, 不要解开 蓄电池电缆 LC0126 99",
+      "length": 373,
+      "sentence_count": 10,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 107,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 车内其他装备 点烟器 点烟器 使用点烟器时, 只要按下点烟器即可当它红热后会自动弹至原来位置 如果发动机没有运转, 钥匙必须转至ACC位置 不可将点烟器按入不放 更换点烟器时, 请使用原厂零件 wwwcarobookcom LC0127 车门杂物盒 可以将手套、毛巾等物放入车门杂物盒中 LC0128 100",
+      "length": 157,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 108,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 车内其他装备 脚垫 须使用正确尺寸的脚垫 为了防止脚垫滑动, 随车设计了2个防滑挂钩 请使用带防滑挂钩孔的合适脚垫 警 告 确定地板脚垫被正确的放置在地毯上, 在驾驶中如果地板脚垫滑移, 可能影响踏板的动作从而导致不测事故 司机侧配备的脚垫不得影响各踏板的正常使用 wwwcarobookcom LC0129 LC0130 101",
+      "length": 168,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 109,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 车内其他装备 三角警告牌 摆放三角警告牌 1取出三角警告牌 2将三角警告牌支撑杆分别沿A、B方向展开 3分别沿C、D方向拉动三角警告牌左右发光板, 将左侧发光板的扣子对准 右侧发光板对应的孔, 扣上 折合三角警告牌 1分开左右侧发光板的扣子, 沿C、D反方向收起发光板 wwwcarobookcom 2沿A、B反方向折起支撑杆, 扣牢 LC0131 警 告 三角警告牌应放置在车后离车至少100米远的地方, 且放置稳固 102",
+      "length": 216,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 110,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "操纵 车内其他装备 千斤顶的定位 千斤顶放置在行李舱内, 打开行李舱左侧装饰板小门, 旋转千斤顶螺杆, 使之完全闭合, 方能从支架上取下千斤顶, 然后将千斤顶支撑在正确的位 置 警 告 车辆顶起时, 须遵守以下规定来减少人员受伤的可能性 不要让身体的任何部分置于由千斤顶顶起的车辆下面 否则可能造成 人员受伤 wwwcarobookcom 当车辆由千斤顶顶起时, 不要起动或运转发动机 LC0132 当车辆停在平坦的地面, 确实设定驻车制动器并将变速器设定至 P自动 或倒档（手动 如有必要, 挡住要更换车轮的对角线方向 上的车轮 确认将千斤顶放在正确的顶起位置上 利用不正确的千斤顶位置顶起 车辆, 将损坏车辆或使车辆从千斤顶上翻落而造成人员受伤 车中有人时不要顶起车辆 在提升车辆时, 不要在千斤顶的上面或下面放置任何物体 103",
+      "length": 367,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 111,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 驾驶要领 燃油加注 1加注燃油时, 请关闭发动机 警 告 燃油属于易燃易爆品, 因此加注燃油时须远离明火 严禁吸烟 2使用加油口盖开启机构（驾驶员座椅下 打开加油口盖 3将加注口盖按逆时针方向旋转并缓慢取出, 以防止油箱内部压力燃油喷 wwwcarobookcom 出 LC0133 4加注燃油须尽可能的将油枪伸入到加注口深处 5当油枪停止时, 不要继续加油, 否则易造成其他部件失效 6盖上加注口盖并按顺时针方向旋转到听到三次咔哒声 警 告 为了防止在不测事故时燃油的溢出, 须确认拧紧加注口盖 本车只能加注93号及以上无铅汽油, 否则易引起三元催化系统催化剂 中毒及发动机爆震 更换加注口盖时, 只能使用原厂配件 104",
+      "length": 315,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 112,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 驾驶要领 点火开关 START起动机运转 释放时钥匙会返回ON位置, 转速表、燃油 表或发动机水温表的指针可能会回到底部, 这并非故障 ON发动机及全车附属配备线路均接通 这是正常行驶时的位置 当点火开关转至ON位置时, 转速表的指针可能会移动, 这并非故障 ACC附属配备如收音机接通, 但发动机电路不通 wwwcarobookcom LOCK发动机停熄, 转向盘被锁住 钥匙须在此位置方能取出 LC0134 起动发动机时, 当钥匙好像被卡在LOCK位置时, 应先确认钥匙是否已 完全插入锁内, 然后轻轻转动转向盘并慢慢扭转钥匙方能解除 注 意 发动机不在运转中时, 不得将钥匙保持在ON位置, 以防止蓄电池 的放电和点火器的损坏 汽车一次起动时间在35秒, 再次起动时间要大于15秒 车辆起动后 注意钥匙是否回到ON档 105",
+      "length": 368,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 113,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 驾驶要领 手动变速器 换档形式如图所示 换档时, 将离合器全部踩下, 然后将其慢慢释放 在行驶时, 不要把脚放 在离合器踏板上, 否则将引起离合器故障 并且在坡道停车时不要用离合 器, 必须利用驻车制动器 换高档太快或换低档太慢都将造成发动机加载减速, 并可能发出爆震声 经常使发动机以每个档位的最高速度转动, 将造成发动机过度磨损并浪费 燃油 wwwcarobookcom 良好的驾驶习惯 LC0135 汽车停稳, 发动机怠速运转时将离合器踏板踩到底, 应稍待片刻后（3s左 右 , 再换入倒档 警 告 在容易打滑的地面上低档时须注意急剧的换档容易导致车轮自旋或打 滑 106",
+      "length": 292,
+      "sentence_count": 10,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 114,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 驾驶要领 自动变速器 自动变速器具有一个换档锁定系 统以减少错误的操作, 配有自动 变速器的车型没有离合器踏板 锁止按钮 自动换档器有P档锁 止结构, 有效防止换档误操作 行车时, 踩下制动踏板, 自动解 除对P档的锁止 或者按下锁止 按钮, 解除对P档的锁止 wwwcarobookcom （a 档位显示在仪表盘上 P 停车档 R 倒档 N 空档 D 正常行驶 2 较强发动机制动 L 最强发动机制动 LC0136 107",
+      "length": 215,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 115,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 驾驶要领 b正常起动 e使用2位和L位 1应拉紧驻车制动或踩住制动踏板, 将自动变速器的操 1选择手柄在2位或L位时, 可以和选择手柄在 纵手柄置于P位, 此时将点火开关转至起动位置 D位时一样, 起动移动中的车辆 2汽车中途熄火后, 必须踩制动踏板, 直至车停止, 再 2选择杆在2位时, 车辆将在第一档起动, 然后自动 将选择手柄置于P位后, 才能起动发动机, 在起动 换档至第二档 时, 应踩住制动踏板或拉紧驻车制动, 以防止汽车在起 3选择杆在L位时, 变速器啮合在第一档 动过程中溜车 c起步时操纵 注 意 1起动后必须停留3秒后才能挂档起步 在下长坡或陡坡时, 先降车速, 再把档位挂到2 wwwcarobookcom 2起步时应踩住制动踏板, 再进行挂档, 最后松开驻车 位（坡度大时, 挂L位 , 配合踩制动器踏板, 保证 制动, 缓慢踏下油门加速起步 车能够安全匀速行驶 尽量减少连续使用制动踏板, 否 d使用D位 则制动容易失效 1用脚踩住制动踏板的同时, 把选择手柄换档至D 行车时, 不要长期使汽车处于2位或L状态, 位",
+      "length": 475,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 116,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "1用脚踩住制动踏板的同时, 把选择手柄换档至D 行车时, 不要长期使汽车处于2位或L状态, 位 当选择杆在D位时, 自动变速器系统将根据运行 否则将由于过热造成变速箱损坏, 如可以, 尽量使汽车 状况选择最适当的档位, 例如普通行驶、爬坡、拖重物 处于D位 等等 在光滑路面上进行换低档时, 须小心, 突然换档将导 致车辆自旋或打滑 注 意 雪地或泥泞路面行驶时, 档位在D位, 如果驱动 必须先挂档后踩油门踏板, 不允许边踩油门踏板边 轮打滑, 此时可将操纵手柄置于2位或L位 挂档, 或者先踩油门踏板后挂档 进行换档时, 不要把脚放在油门踏板上 108",
+      "length": 278,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 116,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 驾驶要领 f倒车 h临时停车 1使车辆完全停止 1停车时间短时, 可让操纵手柄保持在D位, 只用 2用脚踩住制动踏板的同时, 将选择手柄换档至R 行车制动停车, 这样一松制动踏板, 汽车就可以重新起 位 步 2停车时间长时, 可把操纵手柄换到N档, 并拉紧驻 警 告 车制动器和踩制动踏板以免造成自动变速器液压油温度 车辆在移动中, 不得换档至倒车档, 且车必须停稳 过高 后, 拨至倒档 注 意 车辆在移动中时, 无论在任何情况下都不准将选择 wwwcarobookcom 杆移至P位 否则, 将引起严重的机械损坏及对车 只能使用制动踏板或停车制动器来保持车辆停止在 辆失去控制 上坡处, 不要利用踩油门踏板的方法来保持车辆不后 退 否则将造成变速器过热 g停车 发动机运转中停车时 须将脚放在制动踏板上, 这 1踩下制动踏板, 使车辆完全停止, 将变速杆换档至 样, 可以防止车辆滑动 P位 2向上全部拉起驻车制动杆 109",
+      "length": 417,
+      "sentence_count": 14,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 117,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 驾驶要领 i 拖车 j自动变速器专用润滑油ATF加注规范 自动变速箱挂在P档时其内部会被锁止, 如果此时拖 1、牌号 DEXRON III 行驱动轮的话, 会对与驱动轮相连的变速箱内部的锁止 2、ATF加注量为47L 机构造成严重的损坏 因此, 如遇故障拖车, 就必须放 3、加注后起动发动机, 将档位选择杆分别置于各个档 在N档 如果违章停车被拖, 就必须抬起驱动轮 位, 并在每个档位上停留几秒种, 使液力变矩器和所有 换档执行元件中都充满液压油, 最后将档位选择杆置于 注 意 停车档位置（P , 当变速器温度为6575时, 检 当驱动轮未被抬起时, 牵引速度不能超过50kmh, 查油面高度, 应在量油尺的第34孔之间 牵引距离不超过50km wwwcarobookcom 注 意 在驾驶时, 如无特殊要求, 不要将操纵手柄在D 位, 2位, L位之间来回拨动, 特别要禁止在行 驶中将操纵手柄拨入N位（空转 或下长坡时用空 档滑行 挂上档行驶后, 不应立即猛踩油门踏板, 在行驶 中, 当自动变速器自动升档或降档的瞬间, 也不应猛踩 油门踏板 一般道路行驶, 尽量让油门开度保持在小于12开度 的范围内",
+      "length": 509,
+      "sentence_count": 14,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 118,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "一般道路行驶, 尽量让油门开度保持在小于12开度 的范围内 110",
+      "length": 33,
+      "sentence_count": 2,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 118,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 驾驶要领 起动发动机 4仅对于自动变速器 踩住制动踏板至地板直至驶离 起动发动机前 正常起动程序 1进入车辆以前先检查一下车辆周围的情况 发动机中的多点式燃油喷射系统程序多点式燃油喷射系 2调整座椅位置、座位靠背角度、头枕高度和转向盘角 统, 将自动控制用于起动的正确的空气燃油混合 可按 度等 以下程序进行冷发动机或热发动机的起动 3调整车内、车外后视镜 1在脚离开加速踏板的同时, 将钥匙转至START来起 4锁定所有的车门 动发动机 发动机起动后, 将钥匙释放 5扣好座位安全带 2发动机运转约10秒钟之后, 准备驾驶 如果气温在零 度以下, 则在驾驶之前, 须将发动机预热数分钟 wwwcarobookcom 发动机起动方法 如果发动机熄火 a起动前 按正常的起动程序, 再进行一次起动 1拉紧驻车制动器 如果发动机不能起动 2关掉不必要的灯光和附属设备 可参看如果车辆无法起动 3手动变速器 将离合踏板踩至地板并把变速器设定在 警 告 空档 踩住离合踏板至地板, 直至发动机起动 发动机的起动操作, 每次不要超过30秒钟, 这可能会 自动变速器 将选择杆设定在P",
+      "length": 489,
+      "sentence_count": 22,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 119,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "发动机的起动操作, 每次不要超过30秒钟, 这可能会 自动变速器 将选择杆设定在P 汽车中途熄火 后, 必须踩制动踏板, 直至车停止, 再将选择手柄置于 造成起动机和线路系统过热 P位后, 才能起动发动机, 在起动时, 应踩住制动踏 不要高速空转冷发动机 板或拉紧驻车制动, 以防止汽车在起动过程中溜车 如 如果发动机起动困难或时常熄火, 则须立即检查发动机 果选择杆在任何的其它位置上时, 起动安全装置将阻止 在起动发动机时, 不可踩加速踏板, 因为这样会导致 起动机的运转 三元催化系统的损坏 111",
+      "length": 252,
+      "sentence_count": 9,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 119,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 驾驶要领 开车前的安全检查 车辆内部 在出发之前, 最好对车辆进行一次安全检查 数分钟的 备胎、车轮螺帽扳手和千斤顶 检查备胎胎压, 且一定 检查, 将有助于行驶安全和享受驾驶的乐趣 检查时, 要备有千斤顶及车轮螺母扳手 只要基本熟悉车辆的各部分, 同时眼光锐利即可 或 安全带 检查带扣是否能扣牢, 安全带是否有磨损或松 者, 如果愿意的话, 可以请全球鹰品牌服务站以低廉的 开的现象 价格代为检查 仪表或控制装置 特别要注意指示灯、仪表灯和除霜器 是否工作正常 警 告 制动器 确认踏板应有足够的自由间隙 如果是在密闭的车库进行该项检查, 则应确保车库的 wwwcarobookcom 通风良好 发动机排出的废气是有毒的 发动机舱检查 备用保险丝 确定车上备有备用保险丝, 且其安培数涵 发动机起动前的检查 盖所有规格 车辆外部 发动机油液位 检查发动机油液位是否在标尺PL的23 轮胎 用胎压计检查胎压, 并检查是否有割伤、损坏或 刻度以上 过度磨损 发动机冷却液液位 检查发动机冷却液液位是否在上、 车轮螺帽 确认螺帽是否遗失或松动 下限刻度之间 渗漏 车停下来一段时间之后, 检查车底下是否有漏 制动液液位",
+      "length": 511,
+      "sentence_count": 26,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 120,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "确认螺帽是否遗失或松动 下限刻度之间 渗漏 车停下来一段时间之后, 检查车底下是否有漏 制动液液位 检查制动液液位是否在上、下限刻度以上 油、漏水或其他液体（使用空调系统后之滴水现象, 则 蓄电池和电缆 检查接头有无腐蚀或松脱, 蓄电池盒有 是正常的 无裂痕 检查电缆连接是否良好 各部灯光 检查前组合灯、制动灯、尾灯、转向灯和其他 电线 检查是否存在损坏、松脱或连接脱开的电线 各部灯光是否工作正常, 并检查前组合灯的光束高度 燃油管路 检查管路是否有漏油或连接松脱 112",
+      "length": 238,
+      "sentence_count": 16,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 120,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 驾驶要领 发动机起动后的检查 各种情况下的驾驶要领 排气系统 听听是否有漏气, 若有任何漏气, 则应立刻 在逆风中应缓慢行驶, 这样便于控制车辆 修理 在路边上应缓慢行驶, 并尽可能保持正确的角度 发动机油量 将车停在平坦地面上, 停熄发动机, 5分钟 避免在具有高而尖锐边缘的物体上或其它道路障碍物上 以后, 用机油尺量取油位 行驶 否则将使轮胎严重损坏而导致轮胎炸裂 在经过 颠簸路面或在坎坷不平的道路上行驶时要减慢车速 否 在行驶中检查 则, 冲击将严重损坏轮胎和车轮 仪表板 确认车速表和各种仪表皆能正常作用 车辆如果停在山坡上, 应转动前轮使之与路边相接 制动器在安全的地方确认制动是否有拖曳的现象 触, 使车辆不能滑动 使用驻车制动器, 并将变速器设 wwwcarobookcom 其他不正常现象检查是否有零件松脱或渗漏的地方, 听 定在P（自动 或设定在第一档或倒档手动 如 听是否有不正常的声音 有必要, 应将车轮挡住 如果一切正常, 则可放心的去享受您的旅程 清洗车辆或驶经深水将弄湿制动器 检查它们是否被 弄湿, 先要确认周围是否安全, 然后轻踩制动踏板",
+      "length": 490,
+      "sentence_count": 21,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 121,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "清洗车辆或驶经深水将弄湿制动器 检查它们是否被 弄湿, 先要确认周围是否安全, 然后轻踩制动踏板 如 果没有感到正常的制动力, 则制动器可能被弄湿了 要 使其干燥, 可以在使用驻车制动器的情况下, 小心驾驶 的同时轻踩制动踏板 如果它们仍不能安全工作, 那么 就将车停在路边, 通知全球鹰品牌服务站要求帮助 113",
+      "length": 157,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 121,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 驾驶要领 冬天驾驶要领 警 告 须确认发动机冷却液具有正确的防冻保护 开车之前, 须确认驻车制动器被充分释放, 驻车制 使用符合石油化工行业标准SH0521《汽车及轻负荷发动 动提示灯熄灭 机用乙二醇型冷却液 , 冰点40, 具有醒目颜色的 发动机运转时, 不要离开车辆 发动机冷却液 行驶途中, 不能将脚放在制动踏板上, 因这样可能 会造成过热、磨损和燃油的浪费 注 意 进行长距离陡坡行驶时, 应减速并换入低速档 记 不要单独使用清水, 不同牌号的冷却液禁止混用 住, 如果踩制动器次数过多, 就会产生过热的现象而无 法正常工作 wwwcarob检o查o蓄k电池c和o电m缆状况 加速、换高档、换低档或是在光滑的路面制动时, 寒冷的天气会使任何蓄电池的能量降低, 因此, 蓄电池 都应小心 急剧的加速或发动机制动, 都将导致车辆自 应保持有充分的电量以用于冬季起动 全球鹰品牌服务 旋或打滑 站可代为检查蓄电池的充电能力 制动器潮湿时, 不要继续正常行驶 如果制动器潮 湿, 则需要一段较长的制动距离, 并且在使用制动器 确认发动机油、汽车齿轮油的粘度适合冬季驾驶 时, 车辆可能被牵引到一边",
+      "length": 501,
+      "sentence_count": 14,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 122,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "同样驻车制动器也不能紧 在冬季应使用符合环境气候的发动机油、汽车齿轮油, 紧制动车辆 如果使用不当, 将造成发动机启动困难及换挡困难 如 注 意 果不能确定应该使用什么牌号的发动机油、汽车齿轮 油, 可向全球鹰品牌服务站询求帮助 车辆在潮湿的路面上行驶时, 避免驶经积水过多的 路面 大量的水进入发动机舱将导致发动机或电气部件 避免车门锁被冰雪冻结 受到损坏 在车门锁孔内, 喷入一些除冰剂或甘油, 以防结冰 114",
+      "length": 208,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 122,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 驾驶要领 使用符合环境气候要求的玻璃清洗剂 如何节省燃油并延长车辆使用寿命 这类产品在全球鹰品牌服务站和所有的汽车零件店均有 节省燃油是简单的也是轻松的 这也有助于延长车 供应, 请使用符合要求的玻璃清洗剂 辆的使用寿命 以下是一些节省燃油费和修理费的要 领 注 意 保持正确的轮胎气压 轮胎气压的不足将导致轮胎磨 不要将发动机抗冻剂或其他代用品当作玻璃清洗剂使 损和浪费燃油 用, 因为这可能会损坏车辆的油漆 不要在车辆上装载不需要的重物 过多的重量, 将增 加发动机的负荷, 导致油耗增加 当驻车制动器有可能被冰住了就不要使用 避免长时间的预热空转 一旦发动机运转平稳后, 就 wwwcarobookcom 停车时, 将变速杆设定在一档或倒档并挡住后车轮 不 开始驾驶, 但要平稳 须注意, 在寒冷天气发动机的预 要使用驻车制动器, 否则驻车制动装置的四周将被积水 热时间要长一些 或积雪冰住, 而导致驻车制动器难于释放 缓慢而稳定的加速 避免急速起动, 应尽快地使用高 速档进行驾驶 避免挡泥板的下方积有冰雪 避免发动机长时间空转",
+      "length": 471,
+      "sentence_count": 18,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 123,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "避免急速起动, 应尽快地使用高 速档进行驾驶 避免挡泥板的下方积有冰雪 避免发动机长时间空转 如果停车时间较长, 最好关 挡泥板的下方积有冰雪, 会造成转向困难, 在严寒的冬 闭发动机 季驾驶时, 应时常停车, 检查挡泥板是否积有冰雪 避免发动机加载减速或超速运转 应根据行车的路面 根据驾驶地点的不同建议携带若干必要的紧急用具 轮 条件来选择适当的速度档位 胎链、车窗刮刀、一袋沙或盐、信号闪光装置、小铲、 避免连续不断的加速和减速 停停走走的驾驶方式将 连接电缆等物最好能放在车中 浪费燃油 115",
+      "length": 251,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 123,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 驾驶要领 避免不必要的停车或制动 保持平稳的车速 配合交 调整车辆并保持在最佳的工作状态 肮脏的空气滤清 通信号灯进行驾驶, 既可将停车的次数减到最少程度, 器、不恰当的气门间隙、肮脏的火花塞、肮脏的机油和 或利用无交通灯的通行大道行驶 与前车应保持适当的 润滑油、未调整好的制动器等等, 均会影响发动机的性 行驶距离来避免紧急制动 这也将减少制动器的磨损 能并浪费燃油 为了使所有的部件都保持较长的使用寿 在高速公路上应保持适当车速 车速愈高, 油耗也愈 命, 减低运行费用, 则须进行定期保养 如果经常在恶 大 以中等车速行驶, 可节省燃油 劣的条件下行驶, 则应对车辆进行更频繁的保养 前轮应保持正确的定位 应尽可能避免碰撞路边侧 脚不要放在离合踏板或制动踏板上 这将引起过早的 石, 在崎岖路面上要慢速行驶 前轮定位不准, 不仅会 磨损、过热和消耗大量燃油 引起轮胎的过快磨损, 还会使发动机增加负荷, 浪费燃 wwwcarobookcom 油 警 告 底盘应保持洁净 这样可以减轻车身的重量, 也可防 下坡时, 绝对不能关闭发动机 发动机关闭, 则动 止零部件的腐蚀 力转向和制动助力器将不发挥作用",
+      "length": 507,
+      "sentence_count": 21,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 124,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "发动机关闭, 则动 止零部件的腐蚀 力转向和制动助力器将不发挥作用 同样, 只有发动机 在运转中, 排气污染控制装置才能正确工作 116",
+      "length": 68,
+      "sentence_count": 4,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 124,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 注意事项 磨合期 三元催化净化器 新发动机的磨合, 主要是为了改善运动部件的表面质量 本车已安装三元催化净化器及氧传感器以降低尾气中有 及磨擦磨损状态, 延长使用寿命并可节省燃油 购买新 害气体HC、CO、NO 的排出, 绝对不能使用含铅汽油, 否 X 车后, 用户应按下列要求进行走合 磨合期为3000km 则会使三元催化净化器中毒失效 （JL3G10A发动机 初期使用应遵守以下简单要领 氧传感器向ECU电控单元提供信号以保证向发动机供给最 对全车外部紧固件、蓄电池、润滑油、发动机冷却 佳比例的可燃混合气 液、汽油等全部检查一遍 在起动和行车时避免油门全开, 发动机转速不超过 警 告 3000rmin, 最高车速应小于80kmh wwwcaroboo k发动c机o运m转中, 人员和易燃物质必须远离排气管, 磨合期, 车辆应选择平坦路面上行驶, 避免在泥泞路 排气管排气是高热的气体 或沙土路上行驶 不可在易燃物品上面行驶、怠速运转或停车, 例如 避免空转发动机 草地、树叶、纸张或碎布 在最初的300km之内, 避免紧急制动 手动变速器在高档位时不得进行快慢速驾驶, 要以适 当速度行驶",
+      "length": 501,
+      "sentence_count": 14,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 125,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "手动变速器在高档位时不得进行快慢速驾驶, 要以适 当速度行驶 新车走合后应检查水泵皮带, 正时齿带, 气门间隙, 拧紧缸盖及进、排气歧管螺栓, 更换机油滤清器滤芯及 润滑油 检查空气滤清器的滤芯, 进行清洁及干燥处理, 必要 时进行更换 117",
+      "length": 122,
+      "sentence_count": 4,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 125,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 注意事项 注 意 注 意 大量未经燃烧的气体流入三元催化净化器, 将造成三元 不要在车辆移动中关闭点火开关 催化净化器过热并发生火灾, 为了防止这种情况以及其 须保持发动机的良好运转状态 发动机的电器系 它危险, 遵守以下预防措施 统、电子点火系统或燃油系统的功能失常, 将造成三元 只能使用无铅汽油 催化净化器异常高温 不要在燃油位极低的状态下驾驶车辆 缺少燃油的 如果发动机难于启动或经常停止转动, 须立刻检查 运转将造成发动机缺火, 增加三元催化净化器的过度负 车辆 请联系全球鹰品牌服务站, 服务站人员充分熟悉 荷 车辆和它的三元催化净化器系统 不要让发动机刚起动后怠速运转超过w10w分钟w或正c常arobo o为k保证c三o元m催化净化器和整个排气污染控制装置的 怠速运转超过20分钟 作用正常, 必须按车辆保养计划表, 进行车辆的定期保 避免超速运转发动机 养作业 118",
+      "length": 396,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 126,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 注意事项 发动机排气警告 警 告 废气排放控制装置 避免吸入发动机排出的废气 废气中含有一氧化碳, 应按规定使用无铅汽油和符合规定的发动机油 汽 这是一种无色、无味的气体, 它将导致失去知觉甚至死 油中的铅和发动机油中的杂质可能会损害三元催化净化 亡 器 须确认排气系统没有漏气孔或者连接部分没有松弛 靠拖动汽车起动不能超过50米, 否则未燃油气进入 须经常检查排气系统 如果驾车与某物发生了碰撞, 或 后, 处理装置会导致催化净化器过热烧毁 发现排气音有变化, 须立刻检查 除了车辆进入车库或从车库出来以外, 不要在车库内 发动机排出的气体 wwwcarobo或o封k闭c的o地m点运转发动机 排气无法逸散将造成严重的 当汽车在车库停放, 且发动机未熄火时, 不要关闭车 库门, 以防一氧化碳中毒甚至死亡 危险 如果您感觉排出的烟气可能进入汽车内部, 一定要查 不要在发动机运转的状态下, 长时间停车 但是, 如 找原因, 并立即设法排除 果不得不如此, 须将车辆停在敞开的地方, 并调节暖气 如果您暂时不能停车, 则要打开所有的车窗 系统或冷气系统, 使外界空气流入车辆",
+      "length": 490,
+      "sentence_count": 15,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 127,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "系统或冷气系统, 使外界空气流入车辆 驾驶中, 须保护行李舱门的关闭, 打开的或是未紧闭 的行李舱门将导致排气进入车内 发动机运行状况不良, 可能损坏三元催化净化器 因此 为了使车辆的通风系统工作正常, 须保持风挡玻璃前 注意以下事项 面的进气栅格中没有积雪、树叶或其它障碍物 当发现发动机运转不平稳和发动机冷起动困难时, 请 到全球鹰品牌服务站进行检查 如果在车中闻到了废气味, 须打开窗并关闭行李舱门 三元催化净化器工作时, 其温度很高, 请不要让易燃 进行驾驶 同时立即查明位置, 加以改正 物粘附或靠近三元催化净化器壳体 119",
+      "length": 268,
+      "sentence_count": 10,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 127,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 注意事项 制动系统 警 告 串联双缸式液压制动系统是一种具有二个独立的液压回 在车辆行驶过程中, 如果发动机熄火, 连续踩制动 路系统 如果其中的一个液压回路系统失效, 则另一个 踏板, 每踩一次踏板就会消耗一部分真空压力, 但是可 仍然能起制动作用 不过踩制动踏板将比平时费力, 而 以制动, 会影响制动距离 且停车距离也将增加 即使完全丧失真空压力, 真空助力器仍然有效, 但踩 警 告 制动踏板的力度较正常情况要大得多, 制动停车距离也 将增加 因此须尽快修复或更换真空助力器 不要在只有一个辅助制动系统工作的情况下驾驶车 辆, 须立刻将失效的制动系统尽快修复 wwwcarob防o抱o死k制动c系o统m 具有ABS警告灯 真空助力器 车辆在行驶过程中, 特别是在紧急制动或打滑的路面上 1真空助力器带制动主缸总成是利用发动机来提供真空 制动时, 防抱死制动系统能防止车轮产生抱死, 并使其 源, 在踩制动踏板时产生助力",
+      "length": 416,
+      "sentence_count": 9,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 128,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "处于理想的滑移率工作范围内, 从而既保证了车辆具有 2如果在车辆行驶过程中发动机停止工作, 在踩制动踏 足够的方向稳定性和转向能力, 同时也能够获得最佳的 板时真空助力器后备真空压力足够提供一、两次助力, 地面制动力 但会影响制动距离 踩制动踏板的有效方法 当制动防抱死系统发挥作用时, 将会感到制动踏板的脉 动并能听到噪音, 在这种情况下, 只要更用力地踩住制 动踏板就可以使防抱死制动系统工作, 在紧急制动时不 120",
+      "length": 211,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 128,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 注意事项 要连续踩制动器, 这将会造成停车距离增加 1在崎岖不平的、铺满石子或积雪覆盖的道路上行 车辆加速至10kmh公里小时以上时, 制动防抱死系统 驶 进入工作状态 车辆减速至5kmh公里小时以下时, 2安装了车轮防滑链的行驶 制动防抱死系统停止工作, 下雨天在诸如井盖、施工现 3在有凹洞或不平路面上行驶 场的钢板、桥的连接处等光滑路面上踩制动踏板将激活 4在凹凸路面或有连续接缝的路面上行驶 制动防抱死系统 在所有4个车轮上安装具有适当压力的指定尺寸的轮 胎制动防抱死系统, 利用速度传感器来测定车辆的速度 当发动机起动时或车辆刚开始移动后, 可以听到数秒钟 以得到每个车轮的转动速度 使用了其他非指定的轮胎 来自发动机室的咔嗒声或马达的声音 这表示制动防抱 将不能测定准确的转动速度, 而造成增加停车距离 wwwcarobookcom 死器系统在自行校验的状态中, 并非表示功能反常 警 告 当防抱死制动系统在工作时, 可能发生下列情况但不 表示系统有故障 不可过度依赖防抱死制动系统",
+      "length": 450,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 129,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "不可过度依赖防抱死制动系统 虽然防抱死制动有 会听到防抱死制动系统的操作并感到制动踏板的跳动 助于保持车辆的控制, 但驾驶时保持适当的车速和前车 和车身以及方向盘的振动 即使将车辆停止以后仍会听 之间的安全距离仍是重要的, 因为即使制动防抱死系统 到发动机舱内的马达声 起作用, 对于车辆的稳定和方向盘的操作也是有限的 在制动防抱死系统工作的最后, 制动踏板可能会向前 在雨天高速驾驶时, 如果轮胎防滑性能超过了容许 移动一点 能力或发生车轮空转, 制动防抱死系统不能保持车辆的 控制 制动防抱死系统不是用于缩短停车距离的 时常保持 在下列的情况下, 和未配备防抱死制动系统的车辆比 适当的车速以及和前车之间的安全距离进行驾驶 较, 车辆可能需较长的停车距离 121",
+      "length": 333,
+      "sentence_count": 10,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 129,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 注意事项 驻车制动 停车时, 应将驻车制动拉杆拉起, 以防止车辆移动 驻车 将驻车制动拉杆拉起 为使驻车制动作用确实, 请先踩住制动踏板 后再拉起驻车制动拉杆 释放 1拉杆微向上提, 2并以大拇指压下按钮, 3然后再放松拉杆 为提醒您驻车制动已作用, 在仪表板上的制动故障指示灯会亮着, 直到您 将驻车制动释放为止, 指示灯才会熄灭 警 告 在车辆起步之前, 驻车制动拉杆必须完全放松, 且制动故障指示灯已 wwwcarobookcom 熄灭 LC0136 摩擦片磨损指示器 盘式制动器上的摩擦片磨损指示器将在摩擦片磨损至需要更换时发出警告 声响 如果在驾驶中听到振鸣声或摩擦噪音时, 需检查摩擦片, 并立刻委托就近 的全球鹰品牌服务站进行更换 不要在发生警告声响的状态下持续驾驶车 辆 在没有更换摩擦片的状态下持续驾驶车辆, 将导致制动盘受到损坏, 并且 为了得到和平时相同的停止距离, 需要更用力地踩制动踏板 LC0137 122",
+      "length": 420,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 130,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 注意事项 车辆的识别（VIN码 车辆识别（VIN 代码号是车辆的法定识别标志 打印在副驾驶座椅下方的底盘横梁上 wwwcarobookcom LC0138 出厂铭牌在右侧围B柱外板下部 LC0139 123",
+      "length": 106,
+      "sentence_count": 5,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 131,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "驾驶 注意事项 VIN标牌在仪表板左前方 LC0140 wwwcarobookcom 发动机编码 发动机编码打刻在发动机本体上, 如图所示 LC0141 124",
+      "length": 80,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 132,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 车辆不能起动 如果发动机以正常的转速转动, 但不能起动 简易检查 1、反复起动将造成发动机溢油, 可参考起动溢油发动 在进行检查之前, 必须按照起动发动机的正确起动 机的说明 程序起动, 并确认是否有足够的燃油 2、如果发动机仍不能起动, 就需要进行调整或修理, 请 如果发动机不能转动或转速太慢 联系全球鹰品牌服务站 1检查蓄电池接线柱是否拧紧和清洁 2如果蓄电池的接线柱没有问题, 则打开室内灯 在起 起动溢油发动机 动发动机时, 如果室内灯不亮、变暗或熄灭, 则表明蓄 如果发动机不能起动, 则可能由于反复起动而导致发动 电池电量已用完, 可尝试用跨接的方式起动, 具体详见 机溢油 wwwcarobookcom 跨接起动 此时, 需全力踩住加速踏板同时将钥匙转到START 如果灯光正常, 但是又不能起动, 就需要调整或修理 将钥匙和加速踏板保持这种位置15秒钟后释放, 然后脚 请与全球鹰品牌服务站联络, 以便检修 离开加速踏板, 再次起动发动机 如果起动了15秒钟, 发动机仍不能起动时, 则将钥匙释 注 意 放, 等数分钟后, 再试一次",
+      "length": 488,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 133,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "如果起动了15秒钟, 发动机仍不能起动时, 则将钥匙释 注 意 放, 等数分钟后, 再试一次 不要用拖车或推车方式起动, 否则当发动机起动时可 如果发动机仍不能起动, 就需要进行调整或修理 请联 能会损坏车辆或引起碰撞, 同时会导致三元催化净化器 系全球鹰品牌服务站 过热而引起火灾 警 告 每次起动不要超过30秒, 否则将造成起动机和线路系 统过热 125",
+      "length": 179,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 133,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 跨接起动 警 告 为避免严重的人员受伤以及因蓄电池爆炸、硫酸液的腐 蓄电池中含有带腐蚀性和毒性的硫酸液, 因此, 在跨 蚀、电气的燃烧而造成车辆损坏或电器配件等的损坏, 接起动时, 须戴上安全护目镜, 避免硫酸溅在皮肤、衣 必须严格遵守以下说明 服或车身上 如果没有把握如何依此程序连接蓄电池跨接线, 推荐寻 如果身体和眼睛不小心沾到稀硫酸则应脱下任何污染 找能胜任的技术员帮忙 的衣服, 并用清水冲洗患处, 然后立刻送医诊治 如果 可能, 在赴医院途中, 继续用浸有清水的海绵或净布清 注 意 洗患部 充电用蓄电池必须是12V伏的蓄电池, 在确认充电 wwwcarobo o如果k附c近o有m明火或火花, 蓄电池放出的气体, 将发生 蓄电池正确之前, 不要进行跨接起动 爆炸 在进行跨接起动时, 必须使用标准型的跨接线, 严禁烟火 126",
+      "length": 383,
+      "sentence_count": 9,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 134,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 跨接起动程序 1如果充电用蓄电池安装在另一辆车上时, 须确认车辆没有接触, 关闭所 有不需要的灯光和附属设备 充电时, 需使用标准的蓄电池或者更高的蓄电池 任何其他的蓄电池都有 可能造成起动困难 如果跨接启动困难, 将蓄电池充电几分钟 2如果充电用蓄电池的车辆发动机没有运转, 可将它起动并运转数分钟 在跨接起动中, 发动机转速应保持在2000rmin转分钟 3将跨接线按a、b、c、d的顺序连接 a将跨接线正极固定夹（红色 连接至已放电蓄电池的正极端（ wwwcarobookcom b将跨接线正极（红色 的另一端连接至充电用蓄电池正极端（ LC0142 c连接跨接线负极固定夹（黑色 至充电用蓄电池负极（ 端 d连接跨接线负极（黑色 的另一端至已放电蓄电池车上的一个固定金属 或未油漆的固定物 LC0143 127",
+      "length": 372,
+      "sentence_count": 17,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 135,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 连接点 在发动机起动中, 不要将跨接线连接或靠近任何运动的部件 警 告 进行连接时, 跨接线除与正确的蓄电池或夹子连接外, 不能碰触其他 任何物体, 以免造成人员受伤 4按正常方式, 起动发动机, 起动之后, 轻踩加速踏板, 使发动机以 2000rmin（转分钟 的转速运转数分钟 LC0144 wwwcarobookcom 5按连接时完全相反的顺序小心拆开跨接线, 先拆除负极跨接线再拆除正 极跨接线 如果蓄电池放电原因不明确, 则应联系由全球鹰品牌服务站检查 128",
+      "length": 248,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 136,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 发动机熄火 车辆过热 1须慢慢减低车速, 保持直线行驶 小心地将车驶离道 车辆过热实际指的是发动机水温过高, 如果发动机水温 路至安全的地点 警告灯闪烁, 表示发动机过热, 应按以下程序处理 2打开危险报警灯 3重新起动发动机 1将车安全地驶离道路至安全的地方, 然后停车并点亮 危险报警灯 将变速器设定在空档（手动 或P（自 如果发动机不能起动, 可参看车辆不能起动 动 并挂上停车制动器 如果在使用空调, 则把它关闭 警 告 2如果发动机冷却液或蒸汽从散热器或膨胀罐中喷出, 如果发动机不运转, 则制动器和转向器的助力装置 wwwcarobo则o停k止c发o动m机 等蒸汽消退后打开发动机罩 如果没有 不工作, 因此, 转向和制动将比平时困难 发动机冷却液或蒸汽喷出, 则保持发动机在运转状态并 确认冷却风扇处于工作状态 如果没有, 则关闭点火开 关 3目视检查发动机的传动皮带（水泵皮带 是否断裂或 松弛 检查散热器、软管和车辆下面有无明显的发动机 冷却液泄漏 但是, 如果有水滴来自使用中的空调, 则 是正常现象 4如果发动机传动皮带破裂或发动机冷却液泄漏, 立刻 停止发动机",
+      "length": 505,
+      "sentence_count": 21,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 137,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "4如果发动机传动皮带破裂或发动机冷却液泄漏, 立刻 停止发动机 通知全球鹰品牌服务站或合格的修理店请 求帮助 129",
+      "length": 58,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 137,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 5如果发动机的传动皮带没有问题以及没有明显的漏 警 告 水, 则检查发动机冷却液膨胀罐 如果已经干枯, 则在 为了避免人员受伤, 须保持发动机罩关闭的状态, 发动机运转的状态下, 往膨胀罐中加发动机冷却液, 加 直至没有蒸汽为止, 蒸汽或发动机冷却液的流出表示具 至上下刻度之间 有很高压力 发动机在运转中, 手和衣服要远离转动中的风扇和 6发动机冷却液温度下降到正常温度后, 再次检查膨胀 发动机传动皮带 罐中的发动机冷却液液位 必要时, 再加到一半 严重 发动机和散热器在高温状态下, 不得取下散热器 的发动机冷却液流失表明系统中有泄漏的地方 须由全 盖 受压力而喷出的高温蒸气和液体会造成严重伤害 球鹰品牌服务站或合格的修理店尽快检查 wwwcarobookcom 7夏季停车后, 冷却风扇往往自动开放, 甚至长时间不 停, 发生此情况时, 可重新起动发动机踩几下油门, 风 扇会很快停止 130",
+      "length": 414,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 138,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 轮胎泄气 1逐渐降低车速, 保持直线行驶 将车开到道路旁边, 警 告 停在坚实平坦的地面上 顶车时, 务必遵守下列各项, 以降低人员伤害的可能 2将发动机熄火并打开危险报警灯 性 3拉紧驻车制动并把变速器设定在倒档（手动 或 遵照千斤顶顶车的说明 P（自动 上 车辆被顶起时, 不可将身体的任何部分置于车辆下 4车上的所有人员都须下车 面, 否则可能造成人员受伤 车辆被顶起时, 不得起动或运转发动机 wwwcaroboo k将车c辆o停m在平坦、坚实的地面上, 拉起驻车制动并将 变速器设定在倒档 必要时, 须在被更换轮胎的对角线 方向的轮胎下面放置挡块 确认将千斤顶设置在正确的顶起点上 千斤顶的位置 不正确而顶起车辆将损坏车辆或导致车辆从千斤顶上落 下并造成人员受伤 只有在更换轮胎时, 才能使用千斤顶将车辆顶起 车内有人时不可顶起车辆 顶起车辆时, 不要在千斤顶上面或下面放置物体 只能将车辆顶起至能够取下和更换轮胎的高度为止 131",
+      "length": 434,
+      "sentence_count": 20,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 139,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 需要的工具和备用轮胎 取出需要的工具和备胎 千斤顶、车辆螺母扳手、备胎、螺母保护罩拆装 夹 在紧急状态下, 需要自己修车时, 必须熟悉每一件工具和千斤顶的使用方 法以及它们的放置位置 用手转动千斤顶接头 取下 将千斤顶按1的方向转动接头, 直到千斤顶松动为止 收藏 将千斤顶按2的方向转动接头, 直到千斤顶牢固的固定住为止, 以免 wwwcarobookcom 因碰撞或紧急制动时千斤顶飞出 LC0145 要取下备用轮胎 取下备用轮胎罩 拧松螺母并取下 然后从车中取出备用轮胎 收藏备用轮胎时, 将外侧车轮向上放在其位置上, 安装时将车轮总成气门 嘴对准后地板排水孔 然后按上述步骤的相反顺序固定轮胎, 以防止在碰 撞事故或紧急制动时轮胎飞向前方 LC0146 132",
+      "length": 347,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 140,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 挡住车轮 在用千斤顶顶起时, 在泄气轮胎的对角方向的轮胎下面放置挡块, 以防止 车辆滑动 在挡住车轮时, 将车轮挡块放在前车轮的前面或后车轮的后面 LC0147wwwcarobookcom 取下车轮装饰件 使用如图所示车轮螺母扳手的斜面端, 撬开车轮装饰件 警 告 不要用手去拉扯装饰件, 取下装饰件时需特别注意, 避免造成意外的 人员受伤 LC0148 （铁轮车型 133",
+      "length": 200,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 141,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 用螺母装饰罩拆装夹依次拆下四个螺母装饰罩 注 意 用力应均匀, 轻轻将螺母装饰罩沿垂直车轮平面方向夹出, 避免用力过 大, 造成的意外的人员伤害 LC0174 wwwcarobookcom （铝轮车型 拧松所有车轮螺母 顶起车轮之前, 先放松车轮螺母 朝逆时针方向拧松螺母 将扳手套入螺 母之后, 使扳手握柄朝向右方, 可使螺母较为容易拧松 握住扳手握柄的 端部, 然后朝上放松, 小心扳手滑出螺母 先不要拆下螺母只要把它们放松大约半圈即可 LC0149 （铁轮车型 134",
+      "length": 250,
+      "sentence_count": 10,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 142,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 警 告 不要在螺栓或螺母上使用润滑油 螺母会因此而松动造成车轮脱落从 而引起严重事故 LC0175wwwcarobookcom （铝轮车型 将千斤顶放在如图所示正确的顶起点, 确认千斤顶放在平坦而稳固的地面 上 LC0150 135",
+      "length": 129,
+      "sentence_count": 5,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 143,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 顶起车辆 确认车内没有人之后, 将车辆顶起到可以安装备用轮胎的高度为止 须记住, 安装备用轮胎要比取下泄气轮胎需要更大的离地距离 顶起车辆时, 将千斤顶手柄插入千斤顶（松开接合 , 然后顺时针方向旋 转, 当千斤顶接触到车辆并开始上升时, 再次检查千斤顶是否在正确的位 置 警 告 只用千斤顶顶起车辆时, 任何人不得进入车身底下 LC0151 wwwcarobookcom 更换车轮 拆下车轮螺母并更换轮胎, 立刻换下泄气轮胎并放在一边 将备用轮胎滚 到安装位置, 螺栓对准轮辋孔 然后举起车轮, 直至最上面的螺栓穿过轮 辋孔 转动轮胎并向内推至其它螺栓都穿过轮辋孔为止 LC0152 （铁轮车型 136",
+      "length": 315,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 144,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 LC0178wwwcarobookcom （铝轮车型 安装车轮之前, 须用钢丝刷等刷去安装表面的所有腐蚀物 安装车轮时, 如果不能使安装表面的金属面很好地接触, 则将导致车轮螺母的松动而造 成在驾驶中车轮脱落 LC0153 137",
+      "length": 128,
+      "sentence_count": 4,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 145,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 重新安装车轮螺母 重新安装车轮螺母（锲形端朝内 时, 先用手将车轮螺母尽量拧紧 向内 推一下车轮, 看能否再拧紧一些 警 告 不要在螺栓或螺母上使用润滑油, 这样做会造成螺母被过度拧紧并损 坏螺栓 螺母会因此而松动造成车轮脱落, 从而引起严重事故 如果在螺 栓或螺母上有润滑油, 须将它们清除干净 wwwcarobookcom LC0154 （铁轮车型 LC0176 （铝轮车型 138",
+      "length": 206,
+      "sentence_count": 9,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 146,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 下降车辆 将车辆完全下降, 并拧紧车轮螺母, 逆时针旋转千斤顶手柄来下降车辆 只能使用车轮螺母扳手并顺时针拧紧螺母 不要用其它工具或除手以外的 任何杠杆工具, 例如锤、管子或脚 确认扳手紧套在螺母上 按所示的顺序, 依次拧紧螺母, 每次拧紧一点 重复这样的过程直至将全 1 部螺母都拧紧 4 3 2 警 告 将车辆下降时, 须确认身体的所有部分和周围的所有人员不会由于车 LC0155wwwcarobookcom 辆降至地面而受伤 （铁轮车型 更换车轮之后必须立即使用1038Nm的力矩扳手拧紧车轮螺母 否 则, 螺母会因此而松动造成车轮脱落, 从而引起严重事故 重新安装螺母装饰罩 对准螺母六角形状, 用手均匀施力按压, 将四个螺母装饰罩依次按压装 上, 直至压不动为止, 以防止车辆行驶过程中装饰罩脱落丢失 重新安装车轮装饰件 用手按住车轮装饰件的一边, 然后用手的根部沿着车轮装饰件的边缘轻轻 敲打, 将其确实扣紧 LC0177 （铝轮车型 139",
+      "length": 440,
+      "sentence_count": 14,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 147,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 摆脱陷车状况 如果车辆陷在雪地、泥地、砂地等地方时, 需要试着在 注 意 前进档和倒档之间进行切换, 前后晃动车辆使之脱离 如果要摇动车辆, 为了防止损坏变速器和其它部件须遵 警 告 守以下注意事项 用选择杆换档时或在变速器换档至前进档或后退档之 如果在车辆的附近有人或物体, 不要用前后摇动车辆 前, 不要踩加速踏板 的方法使之移动 在摇动车辆时, 车辆会因此脱离困境 不要空转发动机并且避免车轮空转 而突然向前或向后移动, 从而造成周围的人受伤或物受 摇动一段时间后如果仍然不能使车辆脱离则需要利 损 wwwcarob用o牵o引k之类c的o其m它方法 140",
+      "length": 294,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 148,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 车辆需要牵引 如果需要牵引车辆, 全球鹰事业部建议委托全球鹰品牌服务站或商业拖车 公司代为处理 和他们联系时, 须告知利用（a 或（b 将车辆牵引 只有在无法找到全球鹰品牌服务站或商业拖车公司时, 才可按照本章节 紧急牵引的说明, 小心牵引车辆 牵引车辆时使用适当的牵引设备则可保证车辆不受损坏 商业拖车公司 人员一般都熟悉国家省市和当地的拖车法律 如果牵引方法不当, 则将损坏车辆 虽然大多数的拖车人员都熟悉正确的 wwwcarobookcom 牵引方法但都有可能出错 为了避免车辆受到损坏确认遵守下列预防措 施 必要时将各项预防措施交给拖车驾驶员参考 LC0156 141",
+      "length": 301,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 149,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 牵引的预防措施 手动变速器 所有的牵引都要使用安全链系统, 并遵守国家省市和当 我们建议在前轮下面使用牵引台车 如果没有用牵引台 地的法律 与地面接触的车轮和车轴必须具有良好的状 车则须将点火钥匙设定在ACC位置, 将变速器设定 态 如果已经损坏, 则须使用牵引台车 在空档 a使用车轮提起式载货汽车牵引 从前方牵引释放驻车制动 注 意 在没有使用台车而从后方牵引时, 则不得在取钥匙或 注 意 钥匙在LOCK位置上牵引车辆, 转向锁定机构不能保 将车轮提起时, 须注意确认, 在被提起w的w相反w端保c持arob 持 o 前 o 车 k 轮 直 c 向 o m 有适当的离地间距, 否则, 在牵引中, 被牵引车辆的保 自动变速器 险杠和或车身底板将受到损坏 在前轮下面使用牵引台车 从后方牵引 注 意 绝对不要从后方牵引前轮着地的具有自动变速器的车 辆, 否则会导致变速器严重损坏 b使用平板式载货汽车牵引, 提起驻车制动 142",
+      "length": 429,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 150,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 注 意 不得从前方或后方使用吊提式载货汽车牵引, 否则将损坏车身 LC0157wwwcarobookcom 紧急牵引 后方 如果需要牵引车辆, 全球鹰事业部建议委托全球鹰品牌服务站或商业拖车 公司代为处理 如果在发生紧急故障时无法找到拖车公司, 则可将拖车缆或链套在车尾下 面的紧急拖车挂钩上, 将车辆临时牵引 牵引时须非常小心 注 意 只能使用规定的拖车挂钩, 否则将损坏车辆 LC0158 143",
+      "length": 213,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 151,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "故障处理 重要信息及措施 驾驶员必须坐在车中驾驶车辆和操作制动器 牵引之前, 释放驻车制动器并将变速器设定在空档（手 用这样的牵引方法也许只有在硬路面上才能低速牵引一 动 或N（自动 , 钥匙必须在ACC（发动机关 小段距离 同时, 车轮、车轴、传动系统、转向盘和制 闭 或ON（发动机运转 位置 动器都必须处于良好状态 注 意 注 意 如果发动机不运转, 则制动器和方向盘的助力装置 牵引车辆时须极度注意, 避免急剧起动或不稳定的 不工作, 因此, 转向和制动将比平时更困难 驾驶操作, 这些都将对紧急拖车挂钩和拖车缆或链作用 极大的应力, 挂钩和拖车缆或链可能会断裂, 而造成人 wwwcarobookcom 员严重受伤或车辆损坏 144",
+      "length": 321,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 152,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 车辆清洁 车身防腐 高压力或蒸气对清洗车辆底盘是十分有效的 由于那 防止车辆腐蚀 些地方的泥浆和脏物很难全部看清, 因此须特别注意 公司通过不断的研究和设计采用最先进的科学技术以防 简单地将泥浆和碎屑弄湿而不清除将造成更大的危害 止各零部件的腐蚀, 并提供品质最佳的车辆结构 正确 车门、车门槛板和车身各部分的下边缘都具有泄水孔, 保养车辆可使车辆长期防止腐蚀 由于这些地方的积水将引起腐蚀, 因此不要让灰尘堵塞 引起车辆腐蚀最常见的原因是 这些孔 在车辆下面难以够到的部位积满盐碱、灰尘和湿气 冬季过后, 将车辆底盘彻底清洗 因轻微碰撞或由于石块和砂砾而划破油漆层或底层 检查车身的油漆和装饰件 如果发现油漆层有任何碎片或 道路上的盐碱或含化学物质的灰尘将加速腐蚀, 在沿 裂纹, 应立刻修补, 以防止由此开始腐蚀 如果碎片或裂 海一带或工业污染区, 空气中也同样含w有盐w分w carobo纹o从k金属c面o上m剥落, 则应请专业的车身修理店修补 高湿度会加速腐蚀特别是温度刚刚高于零度的场合 检查车厢内部 水分和灰尘将堆积在地板垫的下面并导 车辆的某些部位处于长期潮湿的环境, 即使其它部分 致腐蚀",
+      "length": 505,
+      "sentence_count": 17,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 153,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "水分和灰尘将堆积在地板垫的下面并导 车辆的某些部位处于长期潮湿的环境, 即使其它部分 致腐蚀 应经常检查垫席的下面, 确认这些部位是干燥 保持干燥, 也会腐蚀 的 运输化学物品、清洁剂、化肥、盐等物品时, 更应 高室温将造成那些在通风不良而没能快速干燥的车辆 小心, 须采用适当的容器进行运输 如果发现有溢出或 组成部件处腐蚀 渗漏, 须立刻清洗干净并保持干燥 以上各项表明了尽可能保持车辆洁净, 尤其是车身底 车轮上使用挡泥板 如在盐碱地区或砾石路面行驶, 挡 部, 以及尽快修复被损坏的油漆层和保护层的重要性 泥板能保护车辆 挡泥板尺寸越大, 越接近地面越好 要防止车辆锈蚀应遵守以下准则 公司建议挡泥板的零件和安装的位置也应进行防腐蚀处 勤于洗车 当然, 定期洗车可以保持车身洁净, 但是为 理 如果被推荐使用, 全球鹰品牌服务站乐意为用户提 了防止腐蚀, 应遵守以下各点 供安装挡泥板的服务 如果冬季在含有盐碱的道路上行驶, 或住在海边, 则 将车辆停在充分通风的车库或有屋顶的地方 不要将车 至少每月将车辆的行走部分冲洗一次, 以减少腐蚀 辆停在潮湿、密不透风的车库内 145",
+      "length": 493,
+      "sentence_count": 18,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 153,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 车辆清洁 洗车和打蜡 2用中性洗车剂清洗车辆, 洗车剂的混合应根据制造厂 的说明进行 用软布浸上清洁液, 不要用力擦用肥 车辆的清洗 皂水和清水去除脏物 按照正常的洗车方法, 清洗车辆 塑料车轮装饰件很容易被有机物弄伤 如果有任何有机 在以下的情况下将引起油漆层的剥落或导致车身和零件 物溅到装饰件上, 一定要用水将其洗去并检查装饰件是 的腐蚀须立刻清洗车辆 否被弄伤 在沿海一带行驶时 在撒有防冻剂的路面上行驶时 警 告 在粘有煤焦油、树脂、鸟粪和死昆虫时 不要施加重力损坏塑料车轮装饰件, 否则当车辆在移 在含有大量烟尘、煤灰、灰尘、铁屑以及化学物质的 wwwcarobookcom 动中车轮装饰件可能会飞离车轮而造成事故 区域内行驶时 车辆被尘埃和泥浆显著弄脏时 铝质车轮 只能使用中性肥皂或中性洗涤剂 塑料保险杠 清洗时必须小心, 不得使用含有磨料的清 车辆的手工清洗 洗剂擦洗, 保险杠正面是软的 在阴凉处, 等到车身摸上去不热了, 再清洗车辆 路面沥青 用松节油或标有不会损坏油漆面的清洁剂进 行清洗 警 告 清洁地板下面或底盘时, 须注意不要让手受伤",
+      "length": 485,
+      "sentence_count": 15,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 154,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "用松节油或标有不会损坏油漆面的清洁剂进 行清洗 警 告 清洁地板下面或底盘时, 须注意不要让手受伤 注 意 不要使用有机物（汽油、煤油、挥发油或强力溶 1用水管将松动的脏物冲掉 将车辆底部和车轮凹陷部 剂 , 否则将中毒或造成损坏 分的所有泥浆或道路盐碱全部冲掉 146",
+      "length": 135,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 154,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 车辆清洁 3充分冲洗肥皂水干了会形成斑纹 在热水洗车 2采用优质的抛光剂和车蜡 如果车身的抛光已严重风 后, 必须正确地用清水将各部分冲洗干净 化, 使用和车蜡分开的汽车清洁抛光剂 仔细遵守 4为了防止留有水迹, 须用干净的软毛巾将车身抹干 制造厂的说明以及预防措施 镀铬面和油漆面一样要抛 不能用力擦或按压否则会擦伤油漆面 光和打蜡 3在大范围的接触面上, 当水不但不形成水珠还余留在 自动洗车站 表面时, 要重新将车打蜡 可以在自动洗车站洗车, 但须注意, 某些类型的刷子, 未经过滤的冲洗或机器自定的冲洗程序, 将擦伤油漆 注 意 面 油漆面的擦伤, 将降低油漆面的耐久性和它的光 如果车辆被重新油漆并且被停放在高温的油漆上蜡 wwwcarobookcom 泽, 尤其是对深色的车辆 工作间中, 须取下车辆的塑料保险杠, 高热将损坏保险 杠 注 意 为了防止天线受到损坏, 将车辆驾驶至自动洗车站 快干漆 之前, 须确认天线被缩回 快干漆用于覆盖小斑和小缝 发现受到损伤或开始腐蚀之前, 尽快使用快干漆 要想 车辆的打蜡 干得好, 须使用小画笔将油漆搅匀",
+      "length": 483,
+      "sentence_count": 16,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 155,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "发现受到损伤或开始腐蚀之前, 尽快使用快干漆 要想 车辆的打蜡 干得好, 须使用小画笔将油漆搅匀 尽可能减少用量, 为了保持车辆的抛光光洁如新, 建议将车身抛光和打蜡 并且不要在小斑或小缝的周围表面也涂上快干漆 每月一次或如果车身表面不能很好地抗水时, 须进行打蜡 1进行打蜡之前一定要先洗车和擦干车身即使是使用 清洁剂和车蜡的合成物也须如此 147",
+      "length": 175,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 155,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 车辆清洁 车辆内部清洁 地毯 警 告 使用高品质的起泡清洁剂, 清洗地毯 不可使用水清洗车内地毯, 或在清洗车身内外时, 让 先用吸尘器尽可能地除去灰尘 市面上有多种起泡清洁 水溅到地毯上 如果水不小心溅湿了地毯上、下的音响 剂可供使用, 有的是罐装的喷雾剂, 有的是与水混合使 或其他电器零件, 将导致故障且可能会造成车身生锈 用的粉末或液体 清洗地毯时, 用海绵或刷子沾上清洁 剂后刷洗 以重复画圆圈的方式擦洗 乙烯系列树脂内饰 在刷洗时不可用水, 地毯尽可能地保持干燥 清洗时, 用乙烯系列树脂制成的饰板, 用中性肥皂水或清洁剂, 请参照清洁剂的使用说明及有关事项 即可容易地清洗干净 wwwcarobookcom 首先用吸尘器将车内灰尘吸干净 然后用海绵或软布沾 安全带 上肥皂水后进行清洗 车内部擦过一遍, 等几分钟后再 可用中性肥皂水或温水清洗安全带 用干净的湿布将肥皂水擦拭干净 如果需要的话, 可按 用海绵或软布 在清洗过程中, 顺便检查安全带是否有 上述方法再清洗一次 市面上销售的起泡清洁剂使用容 过度磨损或破损 易, 且效果很好 遵照厂商的指示使用",
+      "length": 488,
+      "sentence_count": 19,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 156,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "市面上销售的起泡清洁剂使用容 过度磨损或破损 易, 且效果很好 遵照厂商的指示使用 注 意 注 意 绝不可用溶剂、稀释剂、汽油或车窗清洁剂来清洗 不可使用染色剂或漂白剂清洗安全带, 因其可能会减 内部 低安全带的强度 安全带未干之前, 不可使用 148",
+      "length": 126,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 156,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 车辆清洁 车窗 皮革内饰 车窗可用一般家庭用的清洁剂清洗 皮革制品可以用清洁羊毛制品的中性清洁剂来擦拭 先将软布浸在含有5用于清洗毛制品的中性清洁剂的清 注 意 洗液中, 再用它将脏污擦去, 然后用干净的湿布彻底将 当清洁车窗内部时, 小心不要刮伤或损坏后车窗上的 清洁剂擦掉 除雾线或接头 皮革擦拭后或者沾湿后, 即应使用干净的软布擦干, 并 让皮革在阴凉的通风区吹干 空调控制面板、汽车音响、仪表板、中央扶手座面板和 开关 注 意 使用一块浸湿的软布来清洁 wwwcaroboo k若使c用o中m性清洁剂无法使污点去除, 则使用不含有 将干净的布浸在水中或温水中, 然后轻轻将脏污的地方 机溶剂的清洁剂 擦拭掉 不可以使用有机物质清洗皮革, 因为这些有机物质 注 意 会使皮革褪色 使用尼龙刷或合成纤维布等材质, 可能刮伤细致的 绝不可使用有机物质（溶剂、煤油、酒精、汽油等 皮革表面 或碱性或酸性溶液 这些化学物质可以造成上述面板、 沾有尘土的皮革可能会发霉, 应特别小心不可沾到 开关的表面褪色、脏污或脱落 油垢, 及尽量保持皮革干净",
+      "length": 474,
+      "sentence_count": 14,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 157,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "油垢, 及尽量保持皮革干净 如果您使用清洁剂或亮光剂, 必须确认其成分没有包 车辆不应长时间直接暴露在阳光下 请将其停放在 含上述所列的物质 阴凉处, 尤其是夏天 如果您使用水蜡来清洗车辆, 不可将水蜡泼溅到车辆 请勿将乙烯系列树脂、塑料制品或蜡质物品放置在皮革 内饰表面 因为其可能包含上述的成分, 因此应马上以 饰件上, 因为车内温度升高物品可能会粘在皮革表面 上述所提之方法清洁 皮制饰套清洁不适当时, 会导致褪色或脏 149",
+      "length": 216,
+      "sentence_count": 9,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 157,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 保养须知 保养基本内容 首次保养 何处可以得到保养 当您的爱车行驶了5000公里或3个月以先到者为限后, 由当地全球鹰品牌服务站进行保养是最理想的 请您及时将您的车辆送到附近的全球鹰品牌服务站去进 全球鹰品牌服务站的技术人员均为训练良好的专门人 行首次保养 员, 他们会收到有关技术的信息、保养要领和服务站内 部训练计划等最新的服务情报 他们实际工作之前, 都 定期保养是必要的 已经过专业训练, 并非边工作边学习 我们建议您依照保养周期表的规定, 至全球鹰品牌服务 全球鹰品牌服务站花了大量的资金配备了各种汽车专用 站实施保养, 以保护您的爱车 的工具和维修设备 这有助于更好地完成工作而又减少 wwwcarobookcom 定期保养将有助于 费用 节省燃油 全球鹰品牌服务站的保养部门, 可以对车辆进行所有的 延长车辆寿命 保养计划可靠而又经济 驾驶乐趣 安全 驾驶员本人可以做哪些保养项目 可靠性 只要懂一点机械常识和备有一些基本的汽车工具, 许多 符合保证规章 日常保养项目都可以由驾驶员本人简单地完成 符合法规要求 注意 部分保养作业需要专用工具和专用技术 这些项 您的爱车在设计上已兼顾了驾驶与保养的经济性",
+      "length": 512,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 158,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "部分保养作业需要专用工具和专用技术 这些项 您的爱车在设计上已兼顾了驾驶与保养的经济性 许多 目最好由合格的技术人员进行 即使驾驶员本人是一位 以往需要保养的项目, 现在已不再需要那么频繁的保养 经验丰富地技术员, 全球鹰事业部还是建议由全球鹰品 了 为了确保您的爱车在最佳状况, 请依保养周期表实 牌服务站进行修理和保养, 他们能对车辆的保养进行记 施保养 录 这个记录对于需要保养服务时是很有用的 150",
+      "length": 204,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 158,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 保养须知 需要修理的一些特征 常规保养 注意车辆的性能、声音的变化以及用于指示需要检修的 全球鹰汽车保养计划 直观预兆 一些重要情况如下 发动机缺火、不稳定或发出砰砰声响 全球鹰事业部建议根据全球鹰汽车保养计划进行保养 动力显著丧失 计划保养的间隔, 可按里程表的读数或时间间隔而定 异常的发动机噪音 以先到者为准, 可参看计划表 车辆下部漏水（但是, 使用后的空调滴水, 是正常 对于已经超过最后期间的保养项目, 也应在同样的时间 的 间隔里进行保养 每个项目的保养间隔, 均记载在保养 排气音有变化（这可能是表示危险的一氧化碳泄漏 计划中 wwwcarobookcom 须开窗驾驶并立刻检查排气系统 轮胎泄气, 转弯时, 过度的轮胎噪音, 不均匀的轮胎 橡胶软管 磨损 用于冷气和暖气系统、制动系统和燃油系统, 应按全球 在平坦地面上直线行驶中, 车辆偏向一侧 鹰保养计划, 请合格的技术人员进行检查 和悬架装置移动有关的异常噪音 这些都是特别重要的保养项目 软管只要有任何的劣化 制动效果丧失 制动踏板或离合器踏板有海绵感觉 或损坏就应该立刻更换 踏板几乎接触到地板",
+      "length": 489,
+      "sentence_count": 16,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 159,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "制动踏板或离合器踏板有海绵感觉 或损坏就应该立刻更换 踏板几乎接触到地板 制动时, 车辆偏向一侧 发动机冷却液温度持续偏高 注意 橡胶软管将随着岁月而劣化, 因而将造成膨胀、 如果发现以上这些情况, 尽快将车辆开到全球鹰品牌服 磨损或破裂 务站, 车辆可能需要调整或修理 151",
+      "length": 139,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 159,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 保养须知 喇叭的调整 定期检查 喇叭故障, 可以对喇叭进行调整 对于不发声、声音小 1每周检查一次 或音质不纯的喇叭先将电流调节螺钉处的胶块挑出然 检查发动机油液面和清洁度 后使用十字头起子顺时针旋转电流调节螺钉12圈到34 检查发动机冷却液液面 圈边调整边听声音至发音正常为止 在调整时如声音由 检查制动液液面 正常变为不正常, 说明调整过量, 需反向调整至发音正 检查玻璃清洗剂液面 常为止 检查自动传动液液面及清洁度 检查助力转向油液面 2每月检查一次 特别提示 wwwcarobo 检o查k水c泵o皮带m 如果在下列一种或一种以上的特殊条件下操作车辆, 则某 检查蓄电池电解液液面 些保养计划项目需要更频繁的进行, 见后附加保养计划 检查轮胎气压及磨损 A路面状况 检查方向盘 1在崎岖、泥泞或融雪路面上行驶 检查制动 2在多尘路面上行驶 检查加速踏板 3行车检查（低速行驶 B行驶状况 检查速度表和水温表 1在8km（公里",
+      "length": 419,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 160,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "B行驶状况 检查速度表和水温表 1在8km（公里 以内, 进行反复短距离的行驶以及外界 检查方向盘转动力、并检查汽车是否跑偏 气温在零度以下 检查前轮是否侧滑或摆动 2长期空转和低速长途行驶, 诸如警车, 出租车或送货 检查制动效能是否正常或车辆制动时是否跑偏 上门的汽车等 4其它检查项 3持续高速行驶超过2小时（最大车速的80或以上 发现异常应及时排除 152",
+      "length": 182,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 160,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 保养须知 定期更换零件表 部 位 定期更换零件 更换期 1 制动总泵皮碗阀和防尘罩 每2年（或按情况需要 2 制动总泵皮碗 每2年（或按情况需要 3 制动软管 每2年（或按情况需要 制动系统 4 制动分泵阀 每4年（或按情况需要 wwwcarobookcom 5 制动助力器橡胶件 每2年（或按情况需要 6 制动助力器真空软管 每2年（或按情况需要 7 制动液 每2年或30000km（或按情况需要 8 手动变速器油 每2年或40000km（或按情况需要 传动系统 9 自动变速器油 首次5000km更换, 以后每40000km或2年更换（或按情况需要 转向系统 10 动力转向液 每40000km或2年（或按情况需要 空调系统 11 空调滤清器 每10000km或6个月（或按情况需要 定期更换零件表中表示的是汽车在正常行驶条件下零件定期更换的时间, 如果行驶环境特殊, 可根据实际情况比表上规 定的时间提前更换零件 153",
+      "length": 416,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 161,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 保养须知 定期更换零件表 12 空气滤清器 每10000km或12个月（或按情况需要 首次5000公里或3个月进行更换, 以后每5000公里或6个月进 13 发动机油 行更换（或按情况需要 首次5000公里或3个月进行更换, 以后每5000公里或6个月进 14 机油滤清器 行更换（或按情况需要 15 燃油滤清器 每30000km（或按情况需要 wwwcar每o1b年或o3o00k00kmc om应经常检查液面高度 应使用《产品 16 发动机冷却液（防冻液 发动机 说明书 中规定的型号规格 17 全部软管 每2年（或按情况需要 18 碳罐 每60000km（或按情况需要 19 正时皮带 每行驶120000km（或按情况需要 20 楔型皮带包括空调压缩机、水泵皮带 每50000km（或按情况需要 21 PCV系统 每20000km或12个月（或按情况需要 22 火花塞 每20000km（或按情况需要 154",
+      "length": 410,
+      "sentence_count": 15,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 162,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 保养须知 维护保养时间表 里程与时间以先到者计算, 用户应依照维护保养至10000km以上 由于特殊环境条件影响可根据时间情况提前检查和维 修 必要时进行检查、调整或更换 更换 1000km 10 15 20 25 30 35 40 45 50 55 部位 检查内容 月 6 10 14 18 22 26 30 34 38 42 转向节与转向拉杆连接处异响 制动 自由行程和储备工作行程 效能 wwwcarobookcom 工作行程 驻车制动器 效能 驻车制动拉索紧固、异响和损坏 制动系 储液罐液面 制动助力器 功能 制动总泵、分 漏液 泵、制动钳 功能、磨损和损坏 制动鼓与磨擦片间隙 制动鼓和制动 制动鼓的损坏和磨损 蹄 制动蹄滑动部分和磨擦片的磨损 155",
+      "length": 335,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 163,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 保养须知 维护保养时间表 必要时进行检查、调整或更换 更换 1000km 10 15 20 25 30 35 40 45 50 55 部位 检查内容 月 6 10 14 18 22 26 30 34 38 42 制动盘和磨擦 磨擦片的磨损 制动系 片 制动盘的磨损和损坏 自由行程、紧固和异响 转向盘 动作 wwwcarobookcom 转向器 紧固 紧固、异响或损坏 转向系 拉杆和接头 转向拉杆球头、转向齿条接头、 防尘套的开裂或损坏 转向节 连接处异响 车轮调整 前轮 左轮和右轮的转动角度 轮胎气压 行驶系 车轮 轮胎开裂和损坏 轮胎花纹和不均匀磨损 156",
+      "length": 286,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 164,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 保养须知 维护保养时间表 必要时进行检查、调整或更换 更换 1000km 10 15 20 25 30 35 40 45 50 55 部位 检查内容 月 6 10 14 18 22 26 30 34 38 42 金属屑、小石块或其它异物 轮毂螺母和螺栓松动 行驶系 车轮 前轮轴异响 后轮轴异响 wwwcarobookcom 自由行程 离合器 动作 漏油和油面 手动变速器 操纵机构异响 传动系 自动变速器 漏油和油面 连接部位紧固 万向节、防尘套开裂和损坏 驱动器 花键部位异响 万向节异响 157",
+      "length": 253,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 165,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 保养须知 维护保养时间表 必要时进行检查、调整或更换 更换 1000km 10 15 20 25 30 35 40 45 50 55 部位 检查内容 月 6 10 14 18 22 26 30 34 38 42 弹簧 损坏 固定部位的紧固和损坏 固定和连接部位 连接部位异响 悬挂系 悬挂臂 连接部位响w声和w臂w的损c坏arobookcom 漏油和损坏 减震器 固定部位异响 火花塞工作状况 点火器 点火时间 蓄电池 接头状况 电气系 线束及固定夹 连接部件的牢固及损坏 全车灯具 功能 组合仪表 功能 喇叭、刮水器、洗涤器 功能 158",
+      "length": 273,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 166,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 保养须知 维护保养时间表 必要时进行检查、调整或更换 更换 1000km 10 15 20 25 30 35 40 45 50 55 部位 检查内容 月 6 10 14 18 22 26 30 34 38 42 电气系 除霜器、电动门锁 功能 起动状况、异响、怠速和加速 发动机 发动机一般状况 气门间隙 发动机漏油wwwcarobookcom 车门、行李舱门、 门锁功能 车身及 发动机罩 紧固、异响和损坏 附件 座椅 座椅及安全带状况 其它 车身各部位的润滑 159",
+      "length": 238,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 167,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 保养须知 附加保养计划 根据下表进行在特殊操作条件下所需要的更为频繁的保养计划项目 A1 在崎岖、泥泞或融雪路面上行驶 检查制动器摩擦衬片和制动鼓 每行驶5000km或每隔3个月 检查摩擦片和制动盘 每行驶5000km或每隔3个月 检查制动管道和软管 首次行驶1000km然后每行驶5000km或每隔6个月 检查拉杆球头与接头和防尘盖 每行驶5000km或每隔3个月 检查驱动轴护罩 wwwca每r行o驶bl0o00o0kkm或c每o隔6m个月 检查转向盘、连杆和转向齿轮箱油 每行驶5000km或每隔3个月 检查前、后悬架装置 每行驶5000km或每隔3个月 拧紧底盘和车身的螺栓和螺母 每行驶5000km或每隔3个月 A2",
+      "length": 316,
+      "sentence_count": 2,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 168,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "在多尘路面上行驶 更换机油 首次15002500km或两个月内更换, 每行驶3500km或每隔3个月 更换机油滤清器 首次15002500km或两个月内更换, 每行驶3500km或每隔3个月 检查或更换空气滤清器滤芯 每行驶2500km或每隔3个月检查每行驶5000km或每隔3个月更换 检查制动器摩擦衬片和制动鼓 每行驶5000km或每隔3个月 检查摩擦片和制动盘 每行驶5000km或每隔3个月 更换空调滤清器 每行驶l0000km 160",
+      "length": 222,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 168,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 保养须知 B1 在8km公里以内, 进行反复短距离的行驶以及外界气温在零度以下 更换机油 每行驶2500km或每隔3个月 更换机油滤清器 每行驶2500km或每隔3个月 B2 长期空转和低速长途行驶, 例如警车、出租汽车或送货上门的汽车等 检查制动器摩擦衬片和制动鼓 每行驶10000km或每隔6个月 检查磨擦片和制动盘 每行驶5000km或每隔3个月 B3 持续高速行驶超过2小时最大车速的80或以上 更换手动变速驱动桥油 每行驶40000km或每隔24个月 wwwcarobookcom 检查或更换自动变速驱动桥液 首次5000km, 以后每行驶40000km或每隔24个月 161",
+      "length": 296,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 169,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 发动机舱概况 JL3G10A发动机 1机油位量油尺 2机油加注口 3空滤器 4雨刮器 5蓄电池 6继电器盒 7洗涤器储液罐 wwwcarobookcom 8膨胀箱 CVVT 9散热器盖 LC0159 162",
+      "length": 111,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 170,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 MR479QMR479QA发动机 1空滤器 2机油位量油尺 3机油加注口 4散热器盖 5蓄电池 6洗涤器储液罐 7继电器盒 8雨刮器 wwwcarobookcom LC0160 163",
+      "length": 100,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 171,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 自行检查、保养及注意事项 车辆只用千斤顶顶高时, 绝不可爬入车底下, 一定要 如果要自己动手做保养时, 请务必按照下列所介绍的正 用支撑架支撑 确步骤实施 不正确或不完全的保养作业都会造成操作 在您靠近电动冷却风扇或水箱旁边工作时, 一定要确 困难 定点火开关是OFF, 如果点火开关是ON, 当发动 本节所载的各项目, 仅是比较容易由驾驶者本人实施的 机温度升高或空调系统作用时, 电动冷却风扇会自动地 保养项目 其中仍然有很多项目必须由合格的技术员使 转动 用专用工具来进行保养 只要您工作于容易碰到飞散或掉落物体、油类喷溅等 作业时须特别注意, 防止发生偶然的受伤事故 要遵守 地方或车底下时, 则应戴上护目镜 以下这些须特别注意的预防措施 wwwcarobo 用o过k的c发o动m机油含有伤害性的物质, 此物质可能导致 警 告 皮肤伤害, 例如皮肤癌, 因此, 必须小心勿长时间或经 常接触用过的发动机油 要洗掉沾到的发动机油时, 使 发动机运转时, 不能将手、衣服和工具与转动中的风 用肥皂和水彻底地将发动机油洗掉 扇和驱动皮带接触（请取下戒指、手表、领带等物",
+      "length": 493,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 172,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "扇和驱动皮带接触（请取下戒指、手表、领带等物 用过的发动机油不可以放置在儿童拿得到的地方 不要在驾驶后马上触摸发动机、水箱、排气歧管等 用过的发动机油和机油滤清器必须丢弃在安全而合法 发动机油、其他各类液体和火花塞的温度也可能很高 的地方, 不可以丢在一般的垃圾筒、下水道或地上 有关 如果发动机很热, 不可拆下水箱盖或放松放水塞, 以 回收或丢弃的相关资讯, 请咨询全球鹰品牌服务站 免烫伤 要添加制动液至储液罐时须小心, 因为这些液体会对 在燃油和蓄电池附近, 不可抽烟, 也不可产生火花和 您的眼睛和车身烤漆造成伤害 如果您的眼睛不小心沾 其他任何火焰 到这些液体, 则必须用清水冲洗 若仍感觉不舒服, 请 处理蓄电池时, 应特别小心, 因为蓄电池含有具腐蚀 尽速就医 性的硫酸液 164",
+      "length": 347,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 172,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 注 意 变速箱油及助力转向油不可以添加太多, 否则变速 请记得蓄电池线和点火线所流过的是大电流或高电 器及动力转向可能会损坏 压, 必须小心不可无意中导致短路的情况 万一您不小心将制动液洒出时, 应用水冲洗干净, 散热器中添加全球鹰专用的发动机冷却液 如果有发 以免零件或烤漆受损 动机冷却液溢出, 须用水把它冲洗掉, 以防止损坏部件 不要在取去空气滤清器的状态下驾驶车辆, 否则将 或油漆面 导致发动机的过度磨损 同时回火也将造成发动机舱起 不可让尘土或任何的东西经由火花塞孔掉入发动机 火 内 小心不可使雨刷的骨架刮伤玻璃表面 调整火花塞搭铁线电极时, 不可以w中央w电w极为c点a来调roboo k当要c盖o下m发动机罩时, 必须检查是否有任何工具、 整 布等未拿起来 限用规定的火花塞, 若使用其他型式的火花塞将会损 坏发动机, 或使发动机性能降低或使收音机受到干扰 165",
+      "length": 399,
+      "sentence_count": 13,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 173,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 检查发动机油油位 如果油位低于或稍微高于低油位线时, 则须在发动机中 发动机在工作温度时, 关闭发动机, 用机油尺检查油 加注相同类型的发动机油 位 取下机油加油盖, 每次加少量的发动机油, 检查机油 1要得到准确的油位读数, 将车辆停在平坦地面上 关 尺, 我们建议加注发动机油时使用漏斗 闭发动机后数分钟, 让发动机油汇集到发动机底部 需要加注的发动机油量, 即在机油尺的低油位线和高油 2拉出机油尺, 在其端部放一块布并将其擦干净 位线之间的近似发动机油量 3重新插入机油尺尽量把它插到底, 否则读数就不 当油位达到正确范围后, 安装加油盖, 并用手拧紧 准确 注 意 4拉出机油尺, 在其端部放一块布并检查油位 wwwcarobookcom 注意不要将发动机油溅到车辆部件上 警 告 避免加油过多, 否则发动机将受到损坏 注意, 不要碰到高温的排气管 加油完毕之后, 再检查一次机油尺上的油位 如果不定期检查发动机油位, 则将由于发动机油的不 充分而导致发生严重的发动机故障 166",
+      "length": 453,
+      "sentence_count": 16,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 174,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 更换机油 首先将盛废发动机油的容器放到发动机机油盘下, 拧开油塞, 待发动机油 放尽后再用机油滤清器扳手旋松机油滤清器, 然后卸下 在新机油滤清器的橡胶垫上涂少量发动机油, 把新机油滤清器装上旋紧, 直到橡胶垫与底座相接触, 然后再旋紧34圈, 使机油滤清器固定 装回油 塞和新垫, 用扳手旋紧油塞 LC0161wwwcarobookcom 167",
+      "length": 182,
+      "sentence_count": 4,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 175,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 加完发动机油后, 要把加油口盖盖牢, 用机油标尺检查油面 发动机运转时, 在机油滤清器和油塞处不得有任何渗漏, 如果有渗漏说明 安装不当 关掉点火开关, 待3min（分钟 后再检查发动机油面 必要时, 补充发动 机油 注 意 新车在行驶了一定里程之后, 发动机油消耗量方面可达到最低值, 而 在第一个5000公里内, 发动机油消耗量可能略高于标准值 LC0162 wwwcarobookcom JL3G10A发动机 LC0163 MR479Q、MR479QA发动机 168",
+      "length": 244,
+      "sentence_count": 7,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 176,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 检查制动液离合器总泵液 应经常检查制动液离合器总泵液面高度 正常的液面高度应该保持在贮液 罐的上限MAX和下限MIN标记线之间 如果液面低于规定, 应及时向贮 液罐补充制动液至上限MAX线 注 意 补充或更换制动液离合器总泵液时, 应使用规定的牌号 符合 GB12981中的HZY4 禁止不同牌号的制动液混合使用, 否则, 会损坏制动系统, 导致制动 www失效c arobookcom LC0164 制动液是有毒物品, 应妥善保存和处理, 往贮液罐中加注制动液时应 小心, 禁止眼、鼻、口等人体器官接触制动液 禁止使用脏污的制动液 否则, 会引起制动系统过早磨损或降低制动 性能 如车辆油漆表面沾染了制动液, 应及时清除, 否则会腐蚀油漆表面 除定期的维修保养外, 要经常检查制动液液面高度 如果发现制动液非正常损耗, 要及时到维修站或修理部门检查原因, 并维修 制动液是有毒的, 必须妥善保存在原装密封容器中, 尤其防止儿童接 触, 更换制动液必须有专用工具和必要的专业知识, 最好到全球鹰品 牌服务站进行 169",
+      "length": 467,
+      "sentence_count": 14,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 177,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 检查助力转向油 应经常检查助力转向油液面高度 正常的助力转向油液 面高度应该保持在贮液罐的上限MAX和下限MIN标记 线之间 如果助力转向油液面低于规定, 应及时向贮液 罐补充助力转向油至上限MAX线 注 意 补充或更换助力转向油时, 应使用规定的助力转向 油 ATF DEXRON III wwwcarobookcom 禁止不同牌号的助力转向油混合使用, 否则, 会损坏 动力转向系统, 导致动力转向系统失效 助力转向油是有毒物品, 应妥善保存和处理, 往贮液 罐中加注助力转向油时应小心, 禁止眼、鼻、口等人体 器官接触助力转向油 禁止使用脏污的助力转向油 否则, 会引起动力转 向系统过早失效 如车辆油漆表面沾染了助力转向油, 应及时清除, 否 则, 会腐蚀油漆表面 除定期的维修保养外, 要经常检查助力转向油液面高度 如果发现助力转向油非正常损耗, 要及时到全球鹰品 牌服务站检查原因, 并维修 170",
+      "length": 413,
+      "sentence_count": 12,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 178,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 检查发动机冷却液液位 发动机冷却液类型使用SH0521汽车及轻负荷发动机用乙 注 意 二醇型发动机冷却液（防冻液 , 推荐用冰点40冷 过热的发动机, 不得进行持续行驶 却液, 具有醒目的颜色, 使用其它类型发动机冷却液或 不同牌号的发动机冷却液严禁混用, 以免腐蚀发动 水对发动机铝件及散热器有害 机上的铝制件和散热器 推荐使用乙二醇基发动机冷却液50的溶液, 最低 检查发动机冷却液液面 使用温度为35 环境温度非常冷时, 推荐用乙二醇 在发动机冷却的时候检查膨胀罐内冷却液量 如果冷 型发动机冷却液60的溶液, 最低可到50下使用 却液位于F和L记号之间则为正常 如果液位太 wwwcarobookcom 不要使用高于70的发动机冷却液来追求更好的冷却效 低则添加冷却液 （有关冷却液的型式, 请参阅冷却 果 液型式选择的说明 在膨胀罐内的冷却液液位, 将随着发动机温度的变化 放出的冷却液一般不得再使用, 必须按环保规定进行 而改变 如果冷却液位低于L记号, 则添加冷却液至 处理 F记号 如果补充冷却液后, 在短时间内冷却液位又下降, 即 表示有漏水现象",
+      "length": 490,
+      "sentence_count": 15,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 179,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "F记号 如果补充冷却液后, 在短时间内冷却液位又下降, 即 表示有漏水现象 应目视检查散热器、散热器进出水 管、散热器盖、放水阀门和水泵是否有漏水现象 如果没有发现任何渗漏现象, 则请至全球鹰品牌服务 站实施散热器盖压力测试和检查冷却系统是否有泄漏 171",
+      "length": 128,
+      "sentence_count": 5,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 179,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 更换发动机冷却液 检查散热器总成 密封式散热器用的是一种长效发动机冷却液, 经过一定 1若散热器太脏或您无法确定它们的状况时, 请将您的 时间必须更换 爱车开到全球鹰品牌服务站处理 1放掉发动机冷却液 2发动机热时, 请小心不要碰触到散热器, 以免烫伤 （1 打开散热器盖 3不可自行清理散热器, 以免损坏散热器 （2 打开散热器放水阀门, 放掉散热器中的发动机冷却 警 告 液 2加注发动机冷却液 为了防止被灼伤当发动机还热的时候, 注意不要触 （1 装上散热器放水阀门, 并拧紧 摸散热器或冷凝器 wwwcarobookcom （2 将正确型号的发动机冷却液加入散热器和膨胀罐中 检查冷却风扇总成 （3 发动机冷却液要加满散热器及加至膨胀罐上限F 1若风扇叶太脏, 在确认电源断开的情况下, 可用湿毛 （4 加完发动机冷却液后, 启动发动机, 随着冷却系 巾擦拭 当发动机水温过高而风扇不转动时, 请到全球 统内空气的排出, 发动机冷却液液面后有所下降 在将 鹰品牌服务站检查",
+      "length": 448,
+      "sentence_count": 19,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 180,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "在将 鹰品牌服务站检查 发动机冷却液加注到下降前的位置, 等冷却风扇转动, 2当冷却风扇转动时, 请不要把手插进风扇, 以防受 发动机冷却液液面不再下降后, 装好散热器盖及膨胀罐 伤 盖 警 告 为了避免烫伤, 发动机温度较高时不要打开散热器盖 为了避免烫伤, 发动机温度较高时不要旋松放水阀门 172",
+      "length": 151,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 180,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 检查胎压 切口 型号 前轮胎压 后轮胎压 裂纹 轮胎 16560 R14 侧壁凸起 240kPa 240kPa 备胎 16560 R14 备胎使用注意事项 每次加燃油时检查轮胎气压或至少每两周检查一次 轮 定期检查备胎胎压, 有无磨损和裂痕 胎气压不正确将导致 备胎使用寿命不能超过4年 1、增加轮胎磨损 油品不能与备胎放在一起 wwwcarobookcom 2、影响车辆操纵性能和安全操作 备胎不能长时间使用 3、影响乘坐舒适性 4、降低燃油经济性 检查车轮是否损坏 上述缺陷在内的轮胎缺陷会导致车辆失控而造成人员伤 保养轮胎和车轮 害, 如果您的车辆轮胎或车轮损坏或出现异常磨损, 请 碾过锋利的物体会损坏轮胎和车轮 如果迫不得已要碾 联系全球鹰品牌服务站 过锋利的物体时请减速慢行, 尽可能按直角通过 停车 注 意 时避免触到路缘 定期检查轮胎 如果轮胎气压过低, 轮胎会产生过热, 造成内部损 外观损坏 坏, 胎面分层, 在高速下甚至会造成爆胎 异物 必须在冷车时检查轮胎气压 轮胎温度上升时读数 刺破 不准确 173",
+      "length": 471,
+      "sentence_count": 10,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 181,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 如果轮胎需经常打气, 则应到全球鹰品牌服务站检查 警 告 以下是检查轮胎气压的说明, 应该按下述方法实施 保持适当的胎压 否则可能会发生下列情形, 而导致死 胎压应该在冷却状态时检查 检查时要在车辆至少已 亡或严重的伤害 停车3小时以上或行驶不超过15km的状态下实施, 才能 胎压低（充气不足 量出正确的胎压 轮胎过度磨损 须使用胎压表 用经验来判断轮胎气压可能会有失 轮胎不均匀磨损 误 另外, 轮胎气压虽然只差数千帕, 都足以降低乘座 性和驾驶性 车辆不容易控制 车辆行驶之后, 不要将轮胎放气或减少轮胎气压, 行 轮胎过热而导致爆胎 驶之后的轮胎气压较高是正常的 wwwcarobo 轮o胎k沿c口o密m封性减弱 务必安装轮胎气门嘴盖 没有气门嘴盖, 灰尘或湿气 轮胎变形或轮胎分离 将进入气门芯并导致漏气 如果气门嘴盖遗失, 应尽快 胎压高（过高充气 装上新品 车辆不容易控制 胎面的中央部位过度磨损 道路的坚硬部分造成轮胎损坏的可能性较大 过小的轮胎气压会增加油耗 174",
+      "length": 450,
+      "sentence_count": 17,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 182,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 检查和更换轮胎 检查轮胎 当胎面磨损记号出现时, 应更换轮胎 胎纹底部有胎面磨损记号, 可帮助您判断何时应该更换轮胎 当胎面深度 只剩下16mm或更低时, 磨损记号会出现 如果在两个或更多的相邻花纹 槽内均看到磨损记号时, 则应更换该轮胎 胎纹过薄, 打滑的危险便会升 高 如果雪地胎胎面的磨损程度, 只剩4mm以下, 则雪地胎的功能将会丧失 如果发现轮胎被割伤、裂开、龟裂至帘线层或有凸起, 则代表轮胎内部已 wwwcarobookcom 损坏, 必须更换轮胎 LC0165 如果轮胎经常漏气或是因损坏的部位不能修理时, 就应更换轮胎 若不能 确定时, 请咨询全球鹰品牌服务站 如果行驶中轮胎漏气时, 不可用已泄气的轮胎继续行驶, 否则即使是一小 段距离, 也会使轮胎损坏至无法修复 任何轮胎超过六年, 即使损坏不明显, 也应由合格技术人员进行检查 如果轮胎不曾或极少使用, 亦会随时间而退化, 此种情形包含备胎和所储 存的轮胎 以上同样适用于备胎和贮藏的轮胎 175",
+      "length": 443,
+      "sentence_count": 14,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 183,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 更换轮胎 更换轮胎时, 需使用和原来安装的轮胎具有相同尺寸和结构, 并具有相同 或稍大负荷容量的轮胎 使用任何其它尺寸或类型的轮胎, 都将严重影响驾驶、乘坐、速度表里程 表的标定、离地间距以及车身和轮胎或防滑链之间的间距 绝对不要在您的车上使用旧轮胎, 推荐所有车轮或者至少后两轮同时更 换 更换轮胎时, 每次都应做轮胎平衡校正 不平衡的车轮, 将影响车辆的操作和轮胎的使用寿命 在正常使用中, 车 LC0166 wwwcarobookcom 轮也会失去平衡 因此须不定期地检查, 使车轮保持平衡 警 告 请遵守下列事项 否则可能会发生导致死亡或严重伤害的事故 不要混合使用辐射胎、斜层胎、或其他构造型式的轮胎在同一车辆 上 因其会造成危险的控制特性, 而导致失控 不可使用主机厂推荐规格以外的轮胎或轮辋 因其会造成危险的控制 特性而导致失控 176",
+      "length": 383,
+      "sentence_count": 14,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 184,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 轮换轮胎 为了使各轮胎磨损平均和增加轮胎寿命, 推荐您大约每10000km轮胎调位一 次 最佳的轮胎调位时期将依您的驾驶习惯和路况的不同而不同 更换轮胎时, 须检查有无不均匀的磨损和损坏 不正确的轮胎气压、不适当 的四轮定位、失去平衡的车轮或频繁的制动, 都将造成轮胎异常磨损 更换轮辋 如果轮辋有毁损, 例如, 弯曲、断裂或严重腐蚀, 则须更换轮辋 如果不更换已损坏的车轮, 则轮胎可能会脱离轮辋或导致车辆失去控制 LC0167wwwcarobookcom 轮辋的选择 因某些理由而需要更换轮辋, 须注意保证被更换的轮辋具有和以前轮辋相 同的负荷量、直径、宽度和偏置量等 全球鹰品牌服务站可以正确地更换车轮 不同尺寸或类型的轮辋将给操作、轮辋和轴承的寿命、制动器的冷却、速 度表里程表的标定、停止能力、大灯照准、保险杠高度、车辆离地高度 以及轮胎或防滑链与车身和底盘的间隙带来不利的影响 不推荐更换使用过的轮辋, 因为它们可能曾被激烈操纵过或已行驶较高的 里程, 并可能在没有警告的情况下发生故障 同样, 被校直的弯曲轮辋具 有结构上的损坏, 因此也不要使用 177",
+      "length": 492,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 185,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 装用雪地胎和雪链 警 告 在雪地或冰地行驶时, 推荐您此时使用雪地胎或雪链 遵守下列事项否则, 会引发造成死亡或严重受伤的事故 在湿地或干燥路面, 一般轮胎比雪地胎有更佳的附着 不要使用厂商推荐尺寸以外的车轮 力 当车辆更换铁质轮辋的备用轮胎时, 此备用车轮仅供 车辆驶往就近的全球鹰品牌服务站使用, 并且行驶最高 雪地胎的选择 车速不允许超过80kmh 否则会引起典型的操纵危险而 如需使用雪地胎, 要选用和原先轮胎相同的尺寸、构造 导致车辆失去控制 和负载能力 铝合金轮辋注意事项 不要使用上述以外之轮胎 装用镶钉轮胎之前, 请先查 wwwcarobookcom 在驾驶后的最初1000公里, 需要检查车轮螺帽并上 一查交通法令规章是否有所限制 紧 警 告 如果您有做轮胎调位、修理轮胎或换胎工作, 则必须 在行驶1000公里后, 检查车轮螺帽并拧紧 不要使用厂商推荐尺寸以外的雪地轮胎, 否则会引起 当使用车轮防滑链时, 小心不要损坏铝合金轮辋 典型的操纵危险而导致车辆失去控制 必须使用为您的铝合金轮辋所设计的车轮螺帽和扳 手 在做轮胎平衡时, 请使用平衡配重块或同级品并且采 用塑胶或橡皮锤工作",
+      "length": 510,
+      "sentence_count": 14,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 186,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "在做轮胎平衡时, 请使用平衡配重块或同级品并且采 用塑胶或橡皮锤工作 定期检查铝合金轮辋, 若发生损坏现象, 应立刻更 换 178",
+      "length": 65,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 186,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 雪地胎的安装 防滑链的安装 所有的车轮都应该装上雪地胎 在前轮胎安装防滑链时, 应尽量的紧 不可在后轮胎使 仅安装雪地胎在前轮, 将导致前后轮在路面贴地性的程 用防滑链 行驶510公里后应再次系紧防滑链 度不同, 而导致车辆失去控制 安装于轮胎上时, 应依照防滑链制造厂的指示 若使用 当储存拆下的轮胎时, 应储存在凉爽干燥的地方 轮辋饰盖, 其将会被防滑链的箍结刮伤 因此安装防滑 标示调位的方向, 且更换时须确定装在同方向 链前, 应先拆下轮辋饰盖 警 告 警 告 不使用充气不正确的雪地胎 不可超过50kmh或防滑链制造厂推荐的时速限制两者 wwwcarobookcom 不论使用任何型式的雪地胎, 车速不可超过最大允许 中的较低值 车速与法规限制的车速 小心驾驶以避免凸起路面、坑洞、急转弯, 因其可能 造成车辆行驶状况恶化, 出现意外事故 防滑链的选择 避免急转弯或制动锁死 因使用防滑链时, 可能对车 使用正确尺寸和种类的防滑链 辆控制有不利的影响 关于使用防滑链的规定, 是根据道路位置和道路种类的 安装防滑链行驶时, 必须小心驾驶, 行经转弯前应放 不同而不同",
+      "length": 496,
+      "sentence_count": 18,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 187,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "因此, 安装防滑链前, 应先查阅交通法 慢速度以避免车辆失控, 否则可能发生意外 规 179",
+      "length": 46,
+      "sentence_count": 3,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 187,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 检查蓄电池情况 注意事项 如果不幸吞下电解液, 则应饮下大量清水或牛奶, 再 警 告 吞下含有氧化镁的牛奶、打过的生蛋或植物油, 然后, 立刻送医治疗 蓄电池注意事项 蓄电池会产生可燃性且具爆炸性氢气 利用指示器检查 不可用工具使蓄电池冒出火花 不可在蓄电池附近抽烟或点火柴 电解液是含有毒且带腐蚀性的硫酸 wwwcarobookcom 避免使眼睛、皮肤或衣服接触电解液 绝不可吞下电解液 利用指示器的颜色检查蓄电池状况 在蓄电池附近工作时, 应戴上安全眼镜 绿色 良好 不可让儿童接近蓄电池 黑色 需充电 紧急处理措施 白色 更换 如果眼睛沾上电解液, 请立即用清水冲洗, 然后, 立 节约用电, 汽车上的电是由发动机在行驶中发出并供 刻送医治疗 如有可能, 在送医途中, 应不断用湿布或 使用的, 电器设备的开通会增加发动机的负荷, 同时 湿海绵擦洗患处 增加油耗, 电器设备在不需要用的时候应该关掉 如果皮肤沾上电解液, 则应立刻彻底冲洗患部 如果 感到痛苦或灼热, 应立刻送医治疗",
+      "length": 452,
+      "sentence_count": 17,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 188,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "如果皮肤沾上电解液, 则应立刻彻底冲洗患部 如果 感到痛苦或灼热, 应立刻送医治疗 蓄电池含有硫酸和铅, 旧蓄电池的处理最好到全球鹰 如果皮肤沾上电解液, 可能会经衣服而渗透到皮肤, 品牌服务站, 绝不可以当作生活垃圾 故应立刻脱下衣服 如必要, 按上述方法进行处理 180",
+      "length": 137,
+      "sentence_count": 6,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 188,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 检查蓄电池外部 检查蓄电池是否腐蚀或接头松脱, 外壳破裂或固定夹松脱 a如蓄电池已经腐蚀, 则可用温苏打水将其清洗干净 在蓄电池桩头的外 部涂上润滑脂, 以防进一步受到腐蚀 b如果桩头松脱, 则锁紧各固定螺帽, 但不要锁过紧 c锁紧固定夹, 只要能让蓄电池很牢固的固定即可, 不要锁太紧 否则, 可能会损坏蓄电池外壳 蓄电池充电注意事项, 在充电时, 蓄电池会产生氢气 wwwcarobookcom 注 意 LC0168 实施保养之前, 请务必停熄发动机和关掉所有附属设备 检查蓄电池时, 先拆开搭铁线 安装时, 则最后才连接搭铁线 小心, 不要因为工具使用不当而短路 须在宽敞的地点进行充电 不要在车库或密封的室内充电, 这些地方 的通风条件不足 发动机运转时, 绝对不可实施蓄电池充电 且充电时车上所有附属配 备都应关闭 由于本系列车均采用密封型免维护蓄电池, 应采用恒压充电法, 充电 电压为1415V之间 对于完全放电的蓄电池在建立电流之前, 往往需要充 电数小时 181",
+      "length": 448,
+      "sentence_count": 18,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 189,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 检查和更换保险丝 若前组合灯等电器元件功能失效, 请检查相应的保险丝, 如发现保险丝熔 断请更换 把点火开关旋到OFF档, 并关掉所有的电器功能, 对有可能出现问题的 保险丝进行检查 保险丝盒盖内有标签, 上面标明了每路保险丝的规格及 其所保护的电路名称 保险丝盒内有专用的保险丝拨出器, 可以拨出A型保 险丝进行检查 若无法确定保险丝是否已烧毁, 可用好的保险丝代替可能已失效的保险 丝, 然后进行电气功能的确认 wwwcarobookcom 注意 只能安装和保险丝盒标签中指定规格的保险丝 在没有备用保险丝的紧急场合下, 可用不影响正常车辆行驶的诸如AC 保险丝, 并尽可能用与规定安培数一致的保险丝 如果使用了比指定规格 低的保险丝, 则保险丝可能会再次烧毁, 但这并不表示有问题, 须尽快对 其进行更换 最好能在车上备一套备用的保险丝, 在供紧急时使用 如果新更换的保险丝又立刻烧坏, 则可能是电气系统产生了短路等故障, 须尽快到最近的全球鹰品牌服务站进行检修",
+      "length": 442,
+      "sentence_count": 11,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 190,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "警 告 绝对不能使用安培数高于指定规格的保险丝或用其它像铜丝等物体代 LC0169 替烧损的保险丝, 否则, 将可能造成严重的电气系统损坏并有造成火灾的 隐患 182",
+      "length": 83,
+      "sentence_count": 2,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 190,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 保险丝及继电器的分布 发动机舱内 编号 继电器保险丝 规格 编号 继电器保险丝 规格 R1 燃油泵 R15 鼓风机 25A R2 前大灯 R16 小灯 15A R3 电喇叭 R17 起动机 30A R4 压缩机 R18 前雾灯 15A R5 主继电器 R19 压缩机 10A wwwcarobookcom R6 3号水箱风扇 R20 点火开关2 15A R7 1号水箱风扇 R21 喇叭 10A R8 2号水箱风扇 R22 主继电器 20A R9 小灯 R23 右前大灯 10A R10 起动机 R24 左前大灯 10A R11 电动门窗 R25 备用 10A R12 水箱风扇 30A R26 备用 15A R13 点火开关1 30A R27 备用 20A R14 电动门窗 30A LC0170 183",
+      "length": 361,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 191,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 发动机舱内 编号 继电器保险丝 规格 编号 继电器保险丝 规格 R1 喇叭继电器 R15 点火开关 30A R16 R15 R14 R13 R2 小灯继电器 R16 水箱风扇 30A R12 R3 摇窗机继电器 R17 左前大灯 10A R17 R1 R18 R4 前雾灯继电器 R18 右前大灯 10A R19 R5 油泵继电器 R19 EFI 20A R20 R21 R11 R6 主继电器 R20 喇叭 10A R2 R22 wwwcarobookcom 发动机线 R23 束连接器 R7 压缩机继电器 R21 点火开关 15A R24 R10 R8 水箱风扇3 R22 压缩机 10A R25 R3 R26 R9 R9 水箱风扇1 R23 前雾灯 15A R27 R10 起动机2 R24 起动机 30A R28 R4 R5 R6 R7 R8 R11 水箱风扇1 R25 小灯 15A R12 前大灯继电器 R26 起动信号 5A R13 鼓风机 20A R27 氧传感器 10A R14 摇窗机 30A R28 喷油器 15A LC0185 184",
+      "length": 487,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 192,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 发动机舱内 编号 继电器保险丝 规格 编号 继电器保险丝 规格 R1 喇叭继电器 R18 水箱风扇 30A R18R17R16R15 R2 小灯继电器 R19 左前大灯 10A R13 R1 R19 R3 摇窗机继电器 R20 右前大灯 10A R14 保险夹 R20 R4 前雾灯继电器 R21 主继电器 20A R21 R22 R12 R5 油泵继电器 R22 喇叭 10A R23 R2 R6 主继电器 R23 点火开关2 15A R24 R25 R11 R7 压缩机继电器 R24 压缩机 15A R26 R8 3号水箱风扇 R25 前雾灯 15A R27 R3 R28 R9 1号起动机 R26 起动机 30A R9 R10 R29 R10 1号水箱风扇 R27 小灯 15A R30 R11 2号起动机 R28 启动信号 5A R4 R5 R6 R7 R12 2号水箱风扇 R29 氧传感器 10A R13 前大灯继电器 R30 喷油器 15A R14 备用 R31 备用 10A R15 鼓风机 20A R32 备用 15A R16 摇窗机 30A R33 备用 20A R17 点火开关1 30A 185 R31 R32 R33 wwwcarobookcom R8 LC0175",
+      "length": 555,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 193,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 仪表板内 编号 保险丝 规格 编号 保险丝 规格 F1 备用 10A F12 前雨刮洗涤 15A F2 备用 15A F13 发电机 10A F3 备用 20A F14 后雨刮系统 10A F4 制动灯 10A F15 ABS制动系统 10A F5 危险警告灯 15A F16 倒车灯 10A F6 发动机 10A F17 集控器 10A wwwcarobookcom F7 空调开关 75A F18 安全气囊 10A F8 后除霜 20A F19 点火线圈 15A F9 闭锁器 20A F20 点烟器 15A F10 室内灯 10A F21 CD机 10A F11 组合仪表 10A F22 备用 10A LC0171 186",
+      "length": 323,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 194,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 ACC继电器 IG继电器 鼓风机继电器 R1 R2 R3 除霜延时 继电器 中央集控器 R4 保 F9 F8 F7 F6 F5 F4 F3 F2 F1 F10 F11 F12 F13 F14 F15 F16 F17 F18 F19 F20 LC0174 187 险 丝 仪表板内 编号 保险丝 规格 编号 保险丝 规格 F1 备用 F12 前雨刮洗涤 15A F2 备用 F13 发电机 10A F3 制动灯 10A F14 后雨刮系统 10A F4 灯光电源 10A F15 ABS制动系统 10A F5 组合仪表 10A F16 倒车灯 10A F6 空调开关 75A F17 集控器 10A wwwcarobookcom F7 后除霜 20A F18 安全气囊 10A F8 闭锁器 20A F19 发动机ECU 15A 夹 F9 室内灯 10A F20 点烟器 15A F10 组合仪表 10A F21 CD机 10A",
+      "length": 421,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 195,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "保养 自行保养 添加玻璃清洗剂 若有任何喷水器不作用, 雨刷储液筒可能已无玻璃清洗剂, 请添加玻璃清 洗剂 如果雨刷储液筒液面高度低于LOW时, 则请添加玻璃清洗剂 您可以用清水作为玻璃清洗剂 但是, 在气温低于冰点的区域, 必须使用 含有防冻剂的玻璃清洗剂 您的全球鹰品牌服务站和大部分的汽车用品店 都有供应此种产品 根据制造厂所规定的比例混合之 注 意 绝不可使用发动机冷却液或其他代用品, 因其会损坏车身的烤漆表面 LC0172 188 NORMAL LOW wwwcarobookcom LC0173",
+      "length": 254,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 196,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "数据 参数、规格 参数、规格 整车主要参数 车型 单位 HQ7101K02 HQ7131 HQ7131EA4 HQ7151EA4 HQ7101L01 HQ7131L05 项目 长宽高 mm 3598 1630 1465 轴距前轮距后轮距 mm 2340 1420 1410 乘员数 人 5 整备质量 kg 937 985 985 1000 937 990 前轴 kg 560 605 605 620 560 618 wwwcarobookcom 后轴 kg 377 380 380 380 377 372 最大允许总质量 kg 1312 1360 1360 1375 1312 1365 前轴 kg 669 710 710 724 663 721 后轴 kg 643 650 650 651 649 644 前轮最大转角（内外 3892232282 前轮外倾角 04745 后轮外倾角 05630 主销内倾角 93330 主销后倾角 24745 前车轮前束 （112 mm 后车轮前束 （3622 mm 189",
+      "length": 455,
+      "sentence_count": 4,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 197,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "数据 参数、规格 整车主要参数 车型 单位 HQ7101K02 HQ7131 HQ7131EA4 HQ7151EA4 HQ7101L01 HQ7131L05 项目 最高车速 kmh 145 155 155 160 150 160 最大爬坡度 20 20 20 30 20 30 综合燃料消耗量 L100km 51 69 79 794 58 55 加速踏板自由行程 mm 18 26 制动踏板自由行程 mm 16 wwwcarobookcom 车轮内外侧 g 5 动不平衡量 排放水平 国 国 190",
+      "length": 249,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 198,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "数据 参数、规格 发动机主要参数 车型 单位 HQ7131、HQ7131EA4 HQ7101K02、HQ7101L01 HQ7151EA4 HQ7131L05 项目 发动机 MR479Q JL3G10A MR479QA JLB4G13 型式 直列4缸 直列3缸 直列4缸 直列4缸 缸径和行程 mm 78769 712835 78777 75735 额定功率转速 kWrmin 636000 506000 696000 686000 最大净功率 kW 619 48 736 69 wwwcarobookcom 最大扭矩转速 Nmrmin 1105200 883600 1283400 12040004800 怠速稳定转速 rmin 80050 83030 80050 70030 排量 L 1342 0997 1498 1299 191",
+      "length": 368,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 199,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 1,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "数据 参数、规格 油液规格和容量 车型 单位 HQ7101K02 HQ7101L01 HQ7131 HQ7131EA4 HQ7151EA4 HQ7131L05 项目 汽油 93号及以上级别汽油（北京地区使用92号以上级别汽油 油箱容量 L 35 API SL级或以上 SAE API SJ级或以上 SAE 5W30（热带地区API SG级或以上 SAE 5W30、SAE 10W30（热带地区使用SAE 发动机油 5W30（热带地区使用SAE 使用SAE 15W40或SAE 20W50 15W40或SAE 20W50 15W40或SAE 20W50 加注量 L 35 45 API GL4级别, SAE80W85 变速器润滑油 API GL4级别, SAE80W90粘度冬季使用SAE 75W90 DEXRON wwwcarobookcom 粘度冬季使用SAE 75W90 加注量 L 22 45 2124 制动液 DOT4或HZY4 加注量 L 05加注液面位置在刻度线标定范围内 助力转向液 无 ATF DEXRON 加注量 L 无 067 冷却液 乙二醇型发动机冷却液（防冻液",
+      "length": 492,
+      "sentence_count": 8,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 200,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 0,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    },
+    {
+      "text": "冰点40 加注量 L 60 风窗洗涤剂 硬度低于205g1000kg的水或适量商用添加剂的水溶液 加注量 L 21 23 空调制冷剂 R134a 加注量 g 490 49050 192",
+      "length": 92,
+      "sentence_count": 1,
+      "metadata": {
+        "total_pages": 200,
+        "page_width": 595.276,
+        "page_height": 396.85,
+        "rotation": 0,
+        "source": "熊猫用户手册.pdf",
+        "page_number": 200,
+        "chunking_method": "semantic_with_overlap",
+        "section_title": "概述",
+        "section_index": 0,
+        "chunk_index": 1,
+        "total_chunks_in_section": 2,
+        "chunk_strategy": "semantic"
+      }
+    }
+  ],
+  "chunked_at": "f:\\car_cockpit_rag\\data\\chunked"
+}
