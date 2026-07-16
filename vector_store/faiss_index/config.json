@@ -1,7 +1,7 @@
 {
   "model_name": "BAAI/bge-small-zh-v1.5",
   "embedding_dim": 512,
-  "total_vectors": 2040,
+  "total_vectors": 3676,
   "index_type": "IndexIVFFlat",
   "build_time": "F:\\car_cockpit_rag\\vector_store\\built"
 }

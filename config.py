@@ -60,9 +60,9 @@ MODEL_CONFIG = {
     "llm_max_length": 4096,
     "use_backup_llm": False,  # 是否使用备用模型
     
-    # 语音识别模型
-    "asr_model": "openai/whisper-small",
-    "asr_backup_model": "openai/whisper-tiny",  # 更小的备用模型
+    # 语音识别模型（CPU环境用tiny，速度快6倍；GPU环境可改回small）
+    "asr_model": "openai/whisper-tiny",
+    "asr_backup_model": "openai/whisper-tiny",
     
     # 意图分类模型
     "intent_model": "BAAI/bge-small-zh-v1.5",
@@ -87,12 +87,12 @@ MODEL_CONFIG = {
 
 # RAG配置
 RAG_CONFIG = {
-    "chunk_size": 512,
-    "chunk_overlap": 50,
-    "top_k": 3,           # 从5减到3，减少检索量和prompt长度
-    "rerank_top_k": 2,    # 从3减到2，减少重排序开销
+    "chunk_size": 256,      # 从512减到256，更聚焦的段落，提升检索精准度
+    "chunk_overlap": 30,    # 适当减小overlap
+    "top_k": 3,             # 检索3篇足够
+    "rerank_top_k": 2,
     "temperature": 0.7,
-    "max_new_tokens": 150,  # 从512减到150，大幅减少生成时间
+    "max_new_tokens": 150,
 }
 
 # 数据库配置

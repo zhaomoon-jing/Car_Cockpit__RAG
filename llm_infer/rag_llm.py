@@ -490,8 +490,8 @@ class RAGLLM:
         Returns:
             str: 格式化后的prompt
         """
-        # 精简系统提示
-        system_prompt = "你是汽车座舱助手，根据参考文档简要回答用户问题。如果文档中没有相关信息，如实告知。"
+        # 精简系统提示（含领域限制）
+        system_prompt = "你是汽车座舱助手，只回答与车辆使用、维护、故障诊断相关的问题。如果用户问的内容与汽车无关，或参考文档中没有相关信息，请明确告知无法回答。"
         
         # 上下文（精简，只保留关键内容）
         context_text = ""
@@ -507,6 +507,23 @@ class RAGLLM:
         
         return prompt
     
+    def _is_vehicle_related(self, query: str) -> bool:
+        """检查查询是否与汽车/车辆相关"""
+        vehicle_keywords = [
+            "发动机", "轮胎", "刹车", "空调", "座椅", "方向盘", "变速箱", "离合",
+            "电池", "充电", "续航", "电机", "车灯", "雨刷", "后视镜", "安全带",
+            "气囊", "仪表", "导航", "音响", "屏幕", "车窗", "车门", "后备箱",
+            "机油", "水箱", "散热", "排气", "悬挂", "转向", "挡位", "油门",
+            "启动", "熄火", "换挡", "停车", "倒车", "加速", "减速", "巡航",
+            "泊车", "解锁", "锁车", "开灯", "调温", "连接蓝牙",
+            "车", "轿车", "SUV", "电车", "混动", "燃油", "新能源",
+            "保养", "维修", "故障", "警告灯", "故障灯", "异响", "抖动",
+            "胎压", "水温", "油耗", "配置", "型号",
+            "公里", "转速", "扭矩", "马力", "排量",
+        ]
+        query_lower = query.lower()
+        return any(kw in query_lower for kw in vehicle_keywords)
+    
     def generate(self, query: str, context: List[str] = None, intent_info: Dict = None) -> str:
         """
         生成回答
@@ -519,6 +536,10 @@ class RAGLLM:
         Returns:
             str: 生成的回答
         """
+        # 领域过滤：非汽车相关问题直接拒绝
+        if not self._is_vehicle_related(query):
+            logger.info(f"查询与汽车无关，已拒绝: {query}")
+            return "抱歉，我是汽车座舱助手，只能回答与车辆使用、维护、故障诊断等相关的问题。您的问题不在我的服务范围内。"
         # 自动检索上下文
         if context is None:
             retrieved = self.retrieve(query)

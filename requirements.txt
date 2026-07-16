@@ -1,37 +1,42 @@
-# 基础
+# ==========================================
+# 汽车座舱RAG系统 - Python依赖清单
+# 更新时间: 2026-07-16
+# ==========================================
+
+# === 深度学习框架 ===
 torch==2.3.1
-transformers==4.42.4
+transformers==4.44.2
 accelerate==0.31.0
 peft==0.11.1
 bitsandbytes==0.43.1
 datasets==2.19.1
 trl==0.8.6
+evaluate==0.4.6
 
-# 文档解析
-pdfplumber
-python-docx
-markdown
+# === 文档解析 ===
+pdfplumber==0.11.9
+python-docx==1.2.0
+markdown==3.10.2
 
-# 向量检索
-faiss-cpu
-rank_bm25
-sentence-transformers
-FlagEmbedding
-#bge-reranker 包含在 ‌FlagEmbedding‌ 库中
+# === 向量检索 ===
+faiss-cpu==1.14.3
+rank-bm25==0.2.2
+sentence-transformers==5.6.0
+FlagEmbedding==1.2.11
 
-# 语音ASR
-openai-whisper
-librosa
-soundfile
+# === 语音识别 ASR ===
+openai-whisper==20250625
+librosa==0.11.0
+soundfile==0.14.0
 
-# 前端&服务
+# === Web前端与服务 ===
 gradio==4.36.1
-fastapi
-uvicorn
+fastapi==0.111.0
+uvicorn==0.51.0
 
-# 工具
-tqdm
-jsonlines
-numpy
-pandas
-jieba
+# === 工具库 ===
+tqdm==4.68.4
+jsonlines==4.0.0
+numpy==1.26.4
+pandas==2.3.3
+jieba==0.42.1

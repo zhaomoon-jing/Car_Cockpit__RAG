@@ -1,278 +1,268 @@
-# 🚗 汽车座舱RAG系统
+# 🚗 汽车座舱 RAG 系统
 
-基于检索增强生成技术的汽车座舱智能助手系统，支持车辆手册文档处理、语音识别、意图分类和智能问答。
+基于检索增强生成（RAG）技术的汽车座舱智能助手系统，支持车辆手册文档处理、语音识别、意图分类和智能问答。
+
+> **系统定位**：面向车辆手册问答场景，用户可输入车辆使用、维护、故障诊断等问题，系统从车辆手册中检索相关内容并生成回答。非汽车相关问题会被自动拦截。
+
+---
 
 ## 📁 项目结构
 
 ```
 car_cockpit_rag/
-├── config.py                 # 全局配置
-├── requirements.txt          # Python依赖包
-├── main.py                   # 一键启动Gradio
+├── config.py                 # 全局配置（模型、RAG参数）
+├── main.py                   # 一键启动入口
+├── requirements.txt          # Python依赖清单
+│
 ├── data/                     # 数据目录
 │   ├── raw/                  # 原始车辆手册PDF/TXT文件
 │   ├── chunks/               # 分块后的JSON文件
 │   └── qa_train/             # LoRA微调QA数据集
-├── data_process/             # 数据处理模块
-│   ├── parse_pdf.py          # PDF解析脚本
-│   ├── clean_chunk.py        # 文本清洗脚本
-│   └── build_chunk.py        # 文本分块脚本
-├── vector_store/             # 向量存储模块
-│   ├── faiss_index/          # FAISS向量索引文件
-│   └── build_faiss.py        # FAISS索引构建脚本
-├── speech_asr/               # 语音识别模块
-│   └── whisper_asr.py        # Whisper语音识别脚本
-├── intent_cls/               # 意图分类模块
-│   ├── train_intent.py       # 意图分类训练脚本
-│   └── infer_intent.py       # 意图分类推理脚本
-├── retriever/                # 检索器模块
-│   ├── bm25_retriever.py     # BM25检索器
-│   ├── dense_retriever.py    # 稠密检索器
-│   └── rerank.py             # 重排序器
-├── llm_infer/                # LLM推理模块
-│   ├── train_lora.py         # LoRA微调脚本
-│   └── rag_llm.py            # LLM RAG推理脚本
-└── gradio_web/               # Web界面
-    └── app.py                # Gradio可视化页面
+│
+├── data_process/             # 数据处理流水线
+│   ├── parse_pdf.py          # PDF解析（pdfplumber）
+│   ├── clean_chunk.py        # 文本清洗
+│   └── build_chunk.py        # 文本分块（256字符/块）
+│
+├── vector_store/             # 向量存储
+│   ├── build_faiss.py        # FAISS索引构建
+│   └── faiss_index/          # 索引文件（.bin + .pkl）
+│
+├── retriever/                # 检索模块
+│   ├── dense_retriever.py    # 稠密向量检索（bge-small-zh-v1.5）
+│   ├── bm25_retriever.py     # BM25关键词检索
+│   └── rerank.py             # 重排序（CPU环境跳过）
+│
+├── intent_cls/               # 意图分类
+│   ├── train_intent.py       # 训练意图分类器
+│   ├── infer_intent.py       # 推理意图分类
+│   └── models/               # 微调后的模型
+│
+├── llm_infer/                # LLM推理
+│   ├── rag_llm.py            # RAG管道 + LLM生成 + 领域过滤
+│   └── train_lora.py         # LoRA微调脚本
+│
+├── speech_asr/               # 语音识别
+│   └── whisper_asr.py        # Whisper ASR
+│
+├── gradio_web/               # Web界面
+│   └── app.py                # Gradio应用（5个标签页）
+│
+├── local_model_cache.py      # 本地模型缓存管理
+└── models_cache/             # 项目内模型缓存
 ```
+
+---
 
 ## 🚀 快速开始
-
-### ⚠️ 重要提示：HuggingFace连接问题
-
-如果遇到 `Connection to huggingface.co timed out` 错误，请先运行：
-
-```bash
-# 方法1：使用本地缓存（推荐已有模型的用户）
-python use_local_models.py
-
-# 方法2：设置本地缓存环境
-python setup_local_cache.py
-
-# 方法3：使用简化版本（推荐新手）
-python main_simple.py
-
-# 方法4：修复连接问题
-python fix_huggingface.py
-
-# 方法5：下载小模型
-python download_models.py
-```
-
-详细解决方案见：
-- [解决HuggingFace连接问题.md](解决HuggingFace连接问题.md)
-- [本地缓存使用指南.md](本地缓存使用指南.md)
 
 ### 1. 安装依赖
 
 ```bash
 pip install -r requirements.txt
+# 推荐使用清华镜像加速
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-### 2. 准备数据
+### 2. 准备模型
 
-将车辆手册PDF/TXT文件放入 `data/raw/` 目录。
+项目使用本地缓存模型，无需联网下载：
 
-### 3. 数据处理流程
+| 模型 | 用途 | 缓存路径 |
+|------|------|----------|
+| `bge-small-zh-v1.5` | 文本嵌入 | `models_cache/` 或 `F:/ModelCache/` |
+| `Qwen2.5-0.5B-Instruct` | 回答生成 | 同上 |
+| 微调BERT | 意图分类（10类） | `intent_cls/models/` |
+| `whisper-small` | 语音识别 | `models_cache/` |
+
+> 如需下载模型，设置 HF 镜像：`set HF_ENDPOINT=https://hf-mirror.com`
+
+### 3. 数据处理
+
+将车辆手册 PDF/TXT 文件放入 `data/raw/` 目录，然后执行：
 
 ```bash
-# 1. 解析PDF文档
+# 逐步执行
 python data_process/parse_pdf.py
-
-# 2. 清洗文本
 python data_process/clean_chunk.py
-
-# 3. 文本分块
 python data_process/build_chunk.py
-
-# 4. 构建向量索引
 python vector_store/build_faiss.py
 
-# 5. 训练意图分类模型（可选）
-python intent_cls/train_intent.py
-
-# 6. 训练LoRA模型（可选）
-python llm_infer/train_lora.py
+# 或在Web界面"文档处理"标签页一键运行
 ```
 
-### 4. 启动Web界面
+### 4. 启动系统
 
 ```bash
 python main.py
 ```
 
-或直接运行：
+浏览器访问 **http://localhost:7860**
 
-```bash
-python gradio_web/app.py
-```
-
-访问 http://localhost:7860 使用Web界面。
+---
 
 ## 🛠️ 功能模块
 
 ### 📄 文档处理
-- 支持PDF、TXT、DOCX、MD格式
-- 自动解析、清洗、分块
-- 构建FAISS向量索引
+
+- 支持 PDF、TXT、DOCX、MD 格式
+- 自动解析 → 清洗 → 分块（256字符/块，30字符重叠）
+- 使用 `bge-small-zh-v1.5` 向量化，构建 FAISS 索引
 
 ### 🎤 语音识别
-- 基于Whisper的语音转文本
-- 支持多种音频格式
-- 实时转录功能
+
+- 基于 OpenAI Whisper 的语音转文本
+- 支持多种音频格式（wav, mp3, flac 等）
 
 ### 🎯 意图分类
-- 10类车辆相关意图识别
-- 基于BERT的意图分类模型
-- 支持自定义训练
+
+- 10 类车辆相关意图识别（故障诊断、保养维护、电池充电等）
+- 基于 `bge-small-zh-v1.5` 微调的 BERT 分类器
+- 支持自定义训练（`train_intent.py`）
 
 ### 📚 智能检索
-- BM25关键词检索
-- 稠密向量检索（FAISS）
-- 混合检索与重排序
+
+- **稠密检索**：`bge-small-zh-v1.5` + FAISS，擅长语义相似度
+- **BM25检索**：`rank_bm25`，擅长关键词精确匹配
+- 混合检索 + 分数合并去重，CPU 环境跳过重排序（节省30-60秒）
 
 ### 💬 智能问答
-- 基于RAG的问答系统
-- 支持LoRA微调
-- 上下文感知回答
+
+- 基于 RAG 的问答系统
+- **领域过滤**：自动拒绝非汽车相关问题（关键词 + Prompt 双层防护）
+- 精简 Prompt + 截断文档，适配 CPU 环境
+- 支持 LoRA 微调提升领域问答能力
+
+---
 
 ## 🔧 配置说明
 
-### 模型配置 (`config.py`)
+### 模型配置（`config.py` → `MODEL_CONFIG`）
 
 ```python
-MODEL_CONFIG = {
-    "embedding_model": "BAAI/bge-small-zh-v1.5",  # 嵌入模型
-    "llm_model": "Qwen/Qwen2.5-7B-Instruct",      # LLM模型
-    "asr_model": "openai/whisper-small",          # 语音识别模型
-    "intent_model": "bert-base-chinese",          # 意图分类模型
+"embedding_model": "BAAI/bge-small-zh-v1.5"   # 嵌入模型（512维）
+"embedding_dim": 512
+"llm_model": "Qwen/Qwen2.5-0.5B-Instruct"     # LLM模型（CPU环境）
+"asr_model": "openai/whisper-small"             # 语音识别
+"intent_model": "BAAI/bge-small-zh-v1.5"       # 意图分类基座
+```
+
+### RAG 配置（`config.py` → `RAG_CONFIG`）
+
+```python
+"chunk_size": 256        # 分块大小（字符数），适配简短问题检索
+"chunk_overlap": 30      # 分块重叠
+"top_k": 3               # 检索返回数量
+"rerank_top_k": 2        # 重排序后保留数量
+"temperature": 0.7       # 生成温度
+"max_new_tokens": 150    # 最大生成token数（CPU优化）
+```
+
+### 模型缓存配置
+
+```python
+"model_download": {
+    "use_mirror": True,
+    "mirror_url": "https://hf-mirror.com",
+    "use_local_cache": True,
+    "local_cache_path": "F:/ModelCache/huggingface/hub",  # 主缓存
+    "cache_dir": "models_cache",                           # 项目缓存
 }
 ```
 
-### RAG配置 (`config.py`)
+---
 
-```python
-RAG_CONFIG = {
-    "chunk_size": 512,        # 文本分块大小
-    "chunk_overlap": 50,      # 分块重叠大小
-    "top_k": 5,               # 检索结果数
-    "rerank_top_k": 3,        # 重排序结果数
-    "temperature": 0.7,       # 生成温度
-    "max_new_tokens": 512,    # 最大生成长度
-}
-```
+## 🌐 Web 界面
 
-## 📊 数据处理流程
+系统提供 5 个功能标签页：
 
-1. **文档上传** → `data/raw/`
-2. **PDF解析** → 提取文本和元数据
-3. **文本清洗** → 移除噪音和格式化
-4. **文本分块** → 语义分块处理
-5. **向量化** → 构建FAISS索引
-6. **模型训练** → 意图分类和LoRA微调
-7. **检索问答** → 基于RAG的智能问答
+| 标签页 | 功能 |
+|--------|------|
+| 📄 文档处理 | 上传车辆手册，运行数据处理流水线 |
+| 🎤 语音转录 | 上传音频文件，转录为文本 |
+| 🎯 意图分析 | 输入查询，显示意图分类结果和置信度 |
+| 📚 文档检索 | 输入查询，检索相关文档片段 |
+| 💬 智能问答 | 对话界面，支持示例问题 |
+
+---
 
 ## 🎯 意图类别
 
-系统支持10类车辆相关意图：
-1. **车辆信息查询** - 查询车辆基本信息
-2. **操作指南** - 如何操作车辆功能
-3. **故障诊断** - 车辆故障相关问题
-4. **保养维护** - 保养和维护问题
-5. **安全警告** - 安全相关警告和提示
-6. **技术规格** - 技术参数和规格
-7. **电池充电** - 电池和充电问题
-8. **娱乐系统** - 娱乐和信息系统
-9. **驾驶辅助** - 驾驶辅助功能
-10. **其他问题** - 其他类型问题
+| 编号 | 意图 | 示例问题 |
+|------|------|----------|
+| 0 | 车辆信息查询 | "车型号是什么？" |
+| 1 | 操作指南 | "怎么打开空调？" |
+| 2 | 故障诊断 | "车辆启动不了" |
+| 3 | 保养维护 | "多久保养一次？" |
+| 4 | 安全警告 | "安全带提示" |
+| 5 | 技术规格 | "百公里加速时间" |
+| 6 | 电池充电 | "怎么充电？" |
+| 7 | 娱乐系统 | "音响怎么调？" |
+| 8 | 驾驶辅助 | "自适应巡航怎么用？" |
+| 9 | 其他问题 | 不属于以上类别 |
 
-## 🌐 Web界面功能
+---
 
-### 标签页说明
+## 📊 数据流水线
 
-1. **📄 文档处理** - 上传和处理车辆手册
-2. **🎤 语音转录** - 语音转文本功能
-3. **🎯 意图分析** - 分析用户查询意图
-4. **📚 文档检索** - 检索相关文档
-5. **💬 智能问答** - 与车辆手册对话
-6. **⚙️ 系统状态** - 查看系统配置和状态
+```
+原始PDF → PDF解析 → 文本清洗 → 文本分块 → 向量化 → FAISS索引
+  ↓           ↓           ↓           ↓          ↓          ↓
+data/raw/  _parsed.json _cleaned.json _chunked.json  512维向量  faiss_index.bin
+```
 
-## 🔍 高级功能
-
-### 混合检索
-结合BM25关键词检索和稠密向量检索，提供更准确的搜索结果。
-
-### 重排序
-使用重排序模型对检索结果进行优化，提升相关性。
-
-### LoRA微调
-使用LoRA技术对LLM进行微调，提升领域特定问答能力。
-
-### 意图感知
-根据用户意图调整检索策略和回答风格。
+---
 
 ## 🐛 故障排除
 
-### 常见问题
+| 问题 | 原因 | 解决方案 |
+|------|------|----------|
+| 模型加载失败 | 缓存路径不正确 | 检查 `config.py` 中 `local_cache_path` |
+| 检索无结果 | FAISS 索引未构建 | 运行数据处理流水线 |
+| 回答很慢 | CPU 推理 | 已优化：减少token数、精简Prompt、跳过重排序 |
+| 非汽车问题也被回答 | 缺少领域过滤 | 已添加关键词过滤 + Prompt 约束 |
+| `SentenceTransformer.from_pretrained` 报错 | 5.x 版本 API 变更 | 使用 `SentenceTransformer(model_name)` 构造 |
+| 意图分类器加载失败 | config.json 被覆盖 | 从 checkpoint 恢复或重新训练 |
+| 依赖安装失败 | 网络问题 | 使用清华镜像 `-i https://pypi.tuna.tsinghua.edu.cn/simple` |
 
-1. **依赖安装失败**
-   ```bash
-   # 使用国内镜像
-   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
-   ```
-
-2. **模型下载慢**
-   ```bash
-   # 设置HF镜像
-   export HF_ENDPOINT=https://hf-mirror.com
-   ```
-
-3. **内存不足**
-   - 减小 `chunk_size`
-   - 使用更小的嵌入模型
-   - 启用GPU加速
-
-### 日志查看
-
-```bash
-# 查看系统日志
-tail -f logs/car_cockpit_rag.log
-```
+---
 
 ## 📈 性能优化
 
 ### 硬件要求
-- **最低**: 8GB RAM, 4核CPU
-- **推荐**: 16GB RAM, 8核CPU, GPU (用于LLM推理)
 
-### 优化建议
-1. 使用更小的嵌入模型
-2. 减小文本分块大小
-3. 使用量化模型
-4. 启用GPU加速
+- **最低**: 8GB RAM, 4核 CPU
+- **推荐**: 16GB RAM, 8核 CPU, GPU（用于 LLM 推理）
 
-## 🤝 贡献指南
+### 已实施的 CPU 优化
 
-1. Fork项目
-2. 创建特性分支
-3. 提交更改
-4. 推送到分支
-5. 创建Pull Request
+| 优化项 | 修改前 | 修改后 | 效果 |
+|--------|--------|--------|------|
+| 生成 token 数 | 512 | 150 | 生成时间减少 70% |
+| Prompt 长度 | 长系统提示 + 全文档 | 精简 + 截断 200字/篇 | 输入 token 减少 60% |
+| 检索量 | top_k×2=10 | top_k=3 | 检索耗时减半 |
+| 重排序 | 加载 bge-reranker | CPU 环境跳过 | 省 30-60 秒 |
+| 分块大小 | 512 字符 | 256 字符 | 检索更精准 |
+| 领域过滤 | 无 | 关键词 + Prompt 双层 | 拒绝无关问题 |
 
-## 📄 许可证
+---
 
-本项目采用MIT许可证。详见 [LICENSE](LICENSE) 文件。
+## 📚 相关文档
+
+- [学习手册.md](学习手册.md) — 完整系统学习手册（含架构图）
+- [启动说明.md](启动说明.md) — 启动指南
+- [本地缓存使用指南.md](本地缓存使用指南.md) — 模型缓存配置
+
+---
 
 ## 🙏 致谢
 
-- [Hugging Face](https://huggingface.co/) - 提供预训练模型
-- [FAISS](https://github.com/facebookresearch/faiss) - 向量相似度搜索
-- [Gradio](https://www.gradio.app/) - 快速构建Web界面
-- [Whisper](https://github.com/openai/whisper) - 语音识别模型
-
-## 📞 支持
-
-如有问题或建议，请提交 [Issue](https://github.com/your-repo/issues)。
+- [Hugging Face](https://huggingface.co/) — 预训练模型
+- [FAISS](https://github.com/facebookresearch/faiss) — 向量相似度搜索
+- [Gradio](https://www.gradio.app/) — Web 界面框架
+- [Whisper](https://github.com/openai/whisper) — 语音识别
+- [Qwen](https://github.com/QwenLM/Qwen) — 大语言模型
+- [BGE](https://github.com/FlagOpen/FlagEmbedding) — 文本嵌入
 
 ---
 

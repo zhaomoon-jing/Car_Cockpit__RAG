@@ -552,23 +552,7 @@ def create_app():
                     label="点击示例快速提问"
                 )
             
-            # 标签页6: 系统状态
-            with gr.Tab("⚙️ 系统状态"):
-                gr.Markdown("### 系统配置和状态")
-                
-                with gr.Row():
-                    with gr.Column():
-                        gr.Markdown("#### 目录状态")
-                        dir_status = gr.Textbox(label="目录检查", lines=6, interactive=False)
-                        check_dirs_btn = gr.Button("🔄 检查目录", variant="secondary")
-                    
-                    with gr.Column():
-                        gr.Markdown("#### 模型状态")
-                        model_status = gr.Textbox(label="模型检查", lines=6, interactive=False)
-                        check_models_btn = gr.Button("🔄 检查模型", variant="secondary")
-                
-                gr.Markdown("#### 系统信息")
-                sys_info = gr.Textbox(label="系统配置", lines=6, interactive=False)
+
         
         # 事件处理
         # 上传文档
@@ -604,14 +588,18 @@ def create_app():
         
         # 语音转录
         def handle_transcribe(audio_file):
-            if audio_file is None:
-                return "请上传音频文件", ""
-            
-            result = app.transcribe_audio(audio_file)
-            if result["success"]:
-                return result["message"], result["text"]
-            else:
-                return result["message"], ""
+            try:
+                if audio_file is None:
+                    return "请上传音频文件", ""
+                
+                result = app.transcribe_audio(audio_file)
+                if result["success"]:
+                    return result["message"], result["text"]
+                else:
+                    return result["message"], ""
+            except Exception as e:
+                logger.error(f"语音转录异常: {str(e)}", exc_info=True)
+                return f"转录失败: {str(e)}", ""
         
         transcribe_btn.click(
             handle_transcribe,
@@ -621,22 +609,26 @@ def create_app():
         
         # 意图分析
         def handle_analyze(query):
-            if not query.strip():
-                return "未知", "0%", "{}"
-            
-            result = app.analyze_query(query)
-            if result["success"]:
-                intent = result["intent"]
-                confidence = f"{result['confidence']:.2%}"
-                details = json.dumps({
-                    "intent": intent,
-                    "confidence": result["confidence"],
-                    "description": result["description"],
-                    "all_intents": result.get("all_intents", [])
-                }, ensure_ascii=False, indent=2)
-                return intent, confidence, details
-            else:
-                return "未知", "0%", json.dumps({"error": result["message"]}, ensure_ascii=False, indent=2)
+            try:
+                if not query.strip():
+                    return "未知", "0%", "{}"
+                
+                result = app.analyze_query(query)
+                if result["success"]:
+                    intent = result["intent"]
+                    confidence = f"{result['confidence']:.2%}"
+                    details = json.dumps({
+                        "intent": intent,
+                        "confidence": result["confidence"],
+                        "description": result["description"],
+                        "all_intents": result.get("all_intents", [])
+                    }, ensure_ascii=False, indent=2)
+                    return intent, confidence, details
+                else:
+                    return "未知", "0%", json.dumps({"error": result["message"]}, ensure_ascii=False, indent=2)
+            except Exception as e:
+                logger.error(f"意图分析异常: {str(e)}", exc_info=True)
+                return "未知", "0%", json.dumps({"error": f"分析失败: {str(e)}"}, ensure_ascii=False, indent=2)
         
         analyze_btn.click(
             handle_analyze,
@@ -646,14 +638,18 @@ def create_app():
         
         # 文档检索
         def handle_retrieve(query):
-            if not query.strip():
-                return 0, "[]"
-            
-            result = app.retrieve_documents(query, top_k=5)
-            if result["success"]:
-                return len(result["results"]), json.dumps(result["results"], ensure_ascii=False, indent=2)
-            else:
-                return 0, json.dumps([{"error": result["message"]}], ensure_ascii=False, indent=2)
+            try:
+                if not query.strip():
+                    return 0, "[]"
+                
+                result = app.retrieve_documents(query, top_k=5)
+                if result["success"]:
+                    return len(result["results"]), json.dumps(result["results"], ensure_ascii=False, indent=2)
+                else:
+                    return 0, json.dumps([{"error": result["message"]}], ensure_ascii=False, indent=2)
+            except Exception as e:
+                logger.error(f"文档检索异常: {str(e)}", exc_info=True)
+                return 0, json.dumps([{"error": f"检索失败: {str(e)}"}], ensure_ascii=False, indent=2)
         
         retrieve_btn.click(
             handle_retrieve,
@@ -663,21 +659,26 @@ def create_app():
         
         # 智能问答
         def handle_chat(message, history, use_context_flag, show_intent_flag):
-            if not message.strip():
+            try:
+                if not message.strip():
+                    return "", history
+                
+                # 生成回答
+                result = app.generate_answer(message, use_context=use_context_flag)
+                
+                if result["success"]:
+                    answer = result["answer"]
+                    if show_intent_flag and result["intent"] != "未知":
+                        answer = f"**[意图: {result['intent']} ({result['confidence']:.2%})]**\n\n{answer}"
+                else:
+                    answer = result["answer"]
+                
+                history.append([message, answer])
                 return "", history
-            
-            # 生成回答
-            result = app.generate_answer(message, use_context=use_context_flag)
-            
-            if result["success"]:
-                answer = result["answer"]
-                if show_intent_flag and result["intent"] != "未知":
-                    answer = f"**[意图: {result['intent']} ({result['confidence']:.2%})]**\n\n{answer}"
-            else:
-                answer = result["answer"]
-            
-            history.append([message, answer])
-            return "", history
+            except Exception as e:
+                logger.error(f"智能问答异常: {str(e)}", exc_info=True)
+                history.append([message, f"抱歉，生成回答时出错: {str(e)}"])
+                return "", history
         
         submit_btn.click(
             handle_chat,
@@ -692,95 +693,6 @@ def create_app():
             lambda: ([], ""),
             inputs=[],
             outputs=[chatbot, msg]
-        )
-        
-        # 系统状态
-        def check_directories():
-            dirs = {
-                "raw_data": str(RAW_DATA_DIR),
-                "chunks": str(CHUNKS_DIR),
-                "faiss_index": str(FAISS_INDEX_DIR),
-                "qa_train": str(ROOT_DIR / "data" / "qa_train"),
-                "models": str(ROOT_DIR / "intent_cls" / "models")
-            }
-            
-            status = {}
-            for name, path in dirs.items():
-                dir_path = Path(path)
-                exists = dir_path.exists()
-                files = list(dir_path.glob("*")) if exists else []
-                status[name] = {
-                    "path": path,
-                    "exists": exists,
-                    "file_count": len(files)
-                }
-            
-            return json.dumps(status, ensure_ascii=False, indent=2)
-        
-        def check_models():
-            models = {
-                "intent_classifier": str(ROOT_DIR / "intent_cls" / "models"),
-                "faiss_index": str(FAISS_INDEX_DIR / "faiss_index.bin"),
-                "bm25_index": str(ROOT_DIR / "retriever" / "bm25_index" / "bm25_index.pkl"),
-                "lora_model": str(ROOT_DIR / "llm_infer" / "lora_models")
-            }
-            
-            status = {}
-            for name, path in models.items():
-                model_path = Path(path)
-                exists = model_path.exists()
-                status[name] = {
-                    "path": path,
-                    "exists": exists,
-                    "ready": exists and (model_path.is_dir() or model_path.stat().st_size > 0)
-                }
-            
-            return json.dumps(status, ensure_ascii=False, indent=2)
-        
-        def get_system_info():
-            try:
-                import platform
-                info = {
-                    "system": platform.system(),
-                    "python_version": platform.python_version(),
-                    "rag_initialized": app.is_initialized,
-                    "intent_classifier_ready": app.intent_classifier is not None,
-                    "dense_retriever_ready": app.dense_retriever is not None,
-                    "bm25_retriever_ready": app.bm25_retriever is not None
-                }
-                try:
-                    import torch
-                    info["pytorch_version"] = torch.__version__
-                    info["cuda_available"] = torch.cuda.is_available()
-                    info["device"] = str(torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")
-                except Exception:
-                    info["pytorch_version"] = "未知"
-                    info["cuda_available"] = False
-                    info["device"] = "CPU"
-                return json.dumps(info, ensure_ascii=False, indent=2)
-            except Exception as e:
-                return json.dumps({"error": str(e)}, ensure_ascii=False, indent=2)
-        
-        check_dirs_btn.click(
-            check_directories,
-            inputs=[],
-            outputs=[dir_status]
-        )
-        
-        check_models_btn.click(
-            check_models,
-            inputs=[],
-            outputs=[model_status]
-        )
-        
-        # 初始加载 - 合并为单个 demo.load 调用
-        def on_page_load():
-            return [check_directories(), check_models(), get_system_info()]
-        
-        demo.load(
-            on_page_load,
-            inputs=[],
-            outputs=[dir_status, model_status, sys_info]
         )
     
     return demo

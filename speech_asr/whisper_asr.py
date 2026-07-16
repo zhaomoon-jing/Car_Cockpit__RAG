@@ -48,8 +48,15 @@ class WhisperASR:
         try:
             import whisper
             
-            logger.info(f"正在加载Whisper模型: {self.model_name}")
-            self.model = whisper.load_model(self.model_name, device=self.device)
+            # whisper.load_model 接受尺寸名（如 "small"），不支持 HF 格式（如 "openai/whisper-small"）
+            model_size = self.model_name
+            if "/" in model_size:
+                model_size = model_size.split("/")[-1]          # openai/whisper-small -> whisper-small
+                if model_size.startswith("whisper-"):
+                    model_size = model_size[len("whisper-"):]   # whisper-small -> small
+            
+            logger.info(f"正在加载Whisper模型: {self.model_name} (尺寸: {model_size})")
+            self.model = whisper.load_model(model_size, device=self.device)
             logger.info("Whisper模型加载成功")
             
         except ImportError:
@@ -90,8 +97,25 @@ class WhisperASR:
             # 更新用户参数
             transcribe_kwargs.update(kwargs)
             
-            # 执行转录
-            result = self.model.transcribe(str(audio_path), **transcribe_kwargs)
+            # 使用 librosa 加载音频为 numpy 数组，绕过 ffmpeg 依赖
+            # whisper 的 transcribe() 支持直接传入 numpy 数组
+            try:
+                import librosa
+                audio_array, sr = librosa.load(str(audio_path), sr=16000, mono=True)
+                logger.info(f"使用librosa加载音频成功: {audio_path.name} (采样率: {sr}, 时长: {len(audio_array)/sr:.1f}s)")
+            except ImportError:
+                # librosa 不可用时尝试 soundfile
+                import soundfile as sf
+                audio_array, sr = sf.read(str(audio_path), dtype='float32')
+                if len(audio_array.shape) > 1:
+                    audio_array = audio_array.mean(axis=1)  # 多声道转单声道
+                if sr != 16000:
+                    from scipy.signal import resample
+                    audio_array = resample(audio_array, int(len(audio_array) * 16000 / sr))
+                logger.info(f"使用soundfile加载音频成功: {audio_path.name}")
+            
+            # 执行转录（传入 numpy 数组，不需要 ffmpeg）
+            result = self.model.transcribe(audio_array, **transcribe_kwargs)
             
             logger.info(f"音频转录完成: {audio_path.name}")
             return result

@@ -1,0 +1,32 @@
+{
+  "text": "拿一耗油量是多少",
+  "language": "zh",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.58,
+      "text": "拿一耗油量是多少",
+      "tokens": [
+        50364,
+        24351,
+        2257,
+        4450,
+        245,
+        14420,
+        26748,
+        1541,
+        41492,
+        50543
+      ],
+      "temperature": 0.6,
+      "avg_logprob": -0.9565042148936879,
+      "compression_ratio": 0.6857142857142857,
+      "no_speech_prob": 0.01644480600953102
+    }
+  ],
+  "model": "openai/whisper-tiny",
+  "device": "cpu",
+  "transcribed_at": "F:\\car_cockpit_rag\\speech_asr\\transcriptions"
+}
